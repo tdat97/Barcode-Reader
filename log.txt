@@ -1,0 +1,1666 @@
+2022-09-20 17:08:29,475 - root - INFO - RUN GUI mode.
+2022-09-20 17:08:30,183 - root - DEBUG - ExposureTime:10000, AcquisitionMode:SingleFrame
+2022-09-20 17:08:30,183 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:08:30,830 - root - DEBUG - Shot Time : 0.0828
+2022-09-20 17:08:30,880 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:08:30,978 - root - DEBUG - Shot Time : 0.0985
+2022-09-20 17:08:30,979 - root - INFO - Cam Started.
+2022-09-20 17:08:30,980 - root - INFO - Serial Opened.
+2022-09-20 17:09:26,857 - root - INFO - RUN GUI mode.
+2022-09-20 17:09:27,554 - root - DEBUG - ExposureTime:1000, AcquisitionMode:SingleFrame
+2022-09-20 17:09:27,554 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:09:28,219 - root - DEBUG - Shot Time : 0.0753
+2022-09-20 17:09:28,291 - root - DEBUG - Shot Time : 0.0708
+2022-09-20 17:09:28,364 - root - DEBUG - Shot Time : 0.0714
+2022-09-20 17:09:28,365 - root - INFO - Cam Started.
+2022-09-20 17:09:28,366 - root - INFO - Serial Opened.
+2022-09-20 17:09:33,746 - root - INFO - Shotmode button clicked.
+2022-09-20 17:09:38,932 - root - DEBUG - Shot Time : 0.0704
+2022-09-20 17:09:40,331 - root - DEBUG - Shot Time : 0.0710
+2022-09-20 17:09:42,485 - root - DEBUG - Shot Time : 0.0706
+2022-09-20 17:09:43,728 - root - DEBUG - Shot Time : 0.0705
+2022-09-20 17:09:46,848 - root - DEBUG - Shot Time : 0.0703
+2022-09-20 17:09:48,775 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:09:48,776 - root - ERROR - Raw Image is None !!
+2022-09-20 17:09:51,125 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:09:51,125 - root - ERROR - Raw Image is None !!
+2022-09-20 17:09:53,784 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:09:53,785 - root - ERROR - Raw Image is None !!
+2022-09-20 17:09:59,150 - root - DEBUG - Shot Time : 0.0710
+2022-09-20 17:10:01,172 - root - DEBUG - Shot Time : 0.0707
+2022-09-20 17:10:02,624 - root - DEBUG - Shot Time : 0.0711
+2022-09-20 17:10:03,202 - root - DEBUG - Shot Time : 0.0717
+2022-09-20 17:10:03,658 - root - DEBUG - Shot Time : 0.0708
+2022-09-20 17:10:24,042 - root - INFO - RUN GUI mode.
+2022-09-20 17:10:24,755 - root - DEBUG - ExposureTime:2000, AcquisitionMode:SingleFrame
+2022-09-20 17:10:24,755 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:10:25,389 - root - DEBUG - Shot Time : 0.0774
+2022-09-20 17:10:25,463 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:10:25,537 - root - DEBUG - Shot Time : 0.0732
+2022-09-20 17:10:25,538 - root - INFO - Cam Started.
+2022-09-20 17:10:25,540 - root - INFO - Serial Opened.
+2022-09-20 17:10:28,157 - root - INFO - Shotmode button clicked.
+2022-09-20 17:10:30,921 - root - DEBUG - Shot Time : 0.0719
+2022-09-20 17:10:32,733 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:10:35,338 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:10:41,150 - root - DEBUG - Shot Time : 0.0716
+2022-09-20 17:10:49,750 - root - DEBUG - Shot Time : 0.0719
+2022-09-20 17:10:51,428 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:11:03,316 - root - DEBUG - Shot Time : 0.0718
+2022-09-20 17:11:07,189 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:11:08,270 - root - DEBUG - Shot Time : 0.0722
+2022-09-20 17:11:12,168 - root - DEBUG - Shot Time : 0.0719
+2022-09-20 17:11:13,788 - root - DEBUG - Shot Time : 0.0722
+2022-09-20 17:11:15,118 - root - DEBUG - Shot Time : 0.0730
+2022-09-20 17:11:17,452 - root - INFO - Stop button clicked.
+2022-09-20 17:11:19,070 - root - INFO - Start button clicked.
+2022-09-20 17:11:23,049 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:11:23,353 - root - INFO - QRcode is not found.
+2022-09-20 17:11:23,801 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [60 87 31]
+2022-09-20 17:11:23,885 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:23,886 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:23,887 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:11:23,969 - root - INFO - Barcode is not found.
+2022-09-20 17:11:31,018 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:11:31,351 - root - INFO - QRcode is not found.
+2022-09-20 17:11:31,703 - root - DEBUG - kind_idx : [-1  0], kind_counts : [55 96]
+2022-09-20 17:11:31,781 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:31,781 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:11:31,866 - root - INFO - Barcode is not found.
+2022-09-20 17:11:35,172 - root - DEBUG - Shot Time : 0.0717
+2022-09-20 17:11:35,408 - root - INFO - QRcode is not found.
+2022-09-20 17:11:35,763 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 71 125]
+2022-09-20 17:11:35,839 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:35,840 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:11:35,925 - root - INFO - Barcode is not found.
+2022-09-20 17:11:40,837 - root - DEBUG - Shot Time : 0.0715
+2022-09-20 17:11:41,121 - root - INFO - QRcode is not found.
+2022-09-20 17:11:41,477 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 73  37 149]
+2022-09-20 17:11:41,553 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:41,555 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:41,556 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:11:41,640 - root - INFO - Barcode is not found.
+2022-09-20 17:11:42,942 - root - DEBUG - Shot Time : 0.0717
+2022-09-20 17:11:43,175 - root - INFO - QRcode is not found.
+2022-09-20 17:11:43,545 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 93  48 168]
+2022-09-20 17:11:43,622 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:43,624 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:43,626 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:11:43,710 - root - INFO - Barcode is not found.
+2022-09-20 17:11:45,262 - root - DEBUG - Shot Time : 0.0720
+2022-09-20 17:11:45,500 - root - INFO - QRcode is not found.
+2022-09-20 17:11:45,858 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [67 42 94]
+2022-09-20 17:11:45,934 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:45,936 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:45,938 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:11:46,021 - root - INFO - Barcode is not found.
+2022-09-20 17:11:47,841 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:11:48,072 - root - INFO - QRcode is not found.
+2022-09-20 17:11:48,435 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 83  43 169]
+2022-09-20 17:11:48,513 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:48,515 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:48,516 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:11:48,598 - root - INFO - Barcode is not found.
+2022-09-20 17:11:50,899 - root - DEBUG - Shot Time : 0.0718
+2022-09-20 17:11:51,183 - root - INFO - QRcode is not found.
+2022-09-20 17:11:51,544 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 86  38 159]
+2022-09-20 17:11:51,620 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:51,622 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:11:51,624 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:11:51,707 - root - INFO - Barcode is not found.
+2022-09-20 17:11:59,348 - root - DEBUG - Shot Time : 0.0717
+2022-09-20 17:11:59,584 - root - INFO - QRcode is not found.
+2022-09-20 17:11:59,930 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 1 59]
+2022-09-20 17:12:00,005 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:00,007 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:00,138 - root - INFO - Barcode is not found.
+2022-09-20 17:12:03,211 - root - DEBUG - Shot Time : 0.0716
+2022-09-20 17:12:03,442 - root - INFO - QRcode is not found.
+2022-09-20 17:12:03,778 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 1 97]
+2022-09-20 17:12:03,852 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:03,853 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:03,937 - root - INFO - Barcode is not found.
+2022-09-20 17:12:05,716 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:12:05,945 - root - INFO - QRcode is not found.
+2022-09-20 17:12:06,294 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  4 119]
+2022-09-20 17:12:06,369 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:06,369 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:06,503 - root - INFO - Barcode is not found.
+2022-09-20 17:12:07,900 - root - DEBUG - Shot Time : 0.0725
+2022-09-20 17:12:08,129 - root - INFO - QRcode is not found.
+2022-09-20 17:12:08,471 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 1 80]
+2022-09-20 17:12:08,546 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:08,546 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:08,631 - root - INFO - Barcode is not found.
+2022-09-20 17:12:37,856 - root - DEBUG - Shot Time : 0.0719
+2022-09-20 17:12:38,087 - root - INFO - QRcode is not found.
+2022-09-20 17:12:38,441 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 12 151]
+2022-09-20 17:12:38,519 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:38,520 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:38,605 - root - INFO - Barcode is not found.
+2022-09-20 17:12:40,328 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:12:40,562 - root - INFO - QRcode is not found.
+2022-09-20 17:12:40,928 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 19 356]
+2022-09-20 17:12:41,008 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:41,008 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:41,092 - root - INFO - Barcode is not found.
+2022-09-20 17:12:43,097 - root - DEBUG - Shot Time : 0.0720
+2022-09-20 17:12:43,325 - root - INFO - QRcode is not found.
+2022-09-20 17:12:43,691 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 43 296]
+2022-09-20 17:12:43,771 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:43,771 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:43,856 - root - INFO - Barcode is not found.
+2022-09-20 17:12:45,573 - root - DEBUG - Shot Time : 0.0720
+2022-09-20 17:12:45,801 - root - INFO - QRcode is not found.
+2022-09-20 17:12:46,177 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 16 430]
+2022-09-20 17:12:46,258 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:46,258 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:46,343 - root - INFO - Barcode is not found.
+2022-09-20 17:12:52,681 - root - DEBUG - Shot Time : 0.0716
+2022-09-20 17:12:52,915 - root - INFO - QRcode is not found.
+2022-09-20 17:12:53,283 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 16 409]
+2022-09-20 17:12:53,364 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:12:53,364 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:12:53,502 - root - INFO - Barcode is not found.
+2022-09-20 17:13:14,728 - root - DEBUG - Shot Time : 0.0713
+2022-09-20 17:13:15,049 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:15,049 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:24,509 - root - DEBUG - Shot Time : 0.0716
+2022-09-20 17:13:24,766 - root - INFO - code : helloooooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:24,767 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:24,768 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:29,455 - root - DEBUG - Shot Time : 0.0724
+2022-09-20 17:13:29,717 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:29,718 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:13:34,872 - root - DEBUG - Shot Time : 0.0714
+2022-09-20 17:13:35,145 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:14:21,602 - root - DEBUG - Shot Time : 0.0723
+2022-09-20 17:14:21,836 - root - INFO - QRcode is not found.
+2022-09-20 17:14:22,237 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 47 248 399]
+2022-09-20 17:14:22,408 - root - INFO - code : yhujikol
+2022-09-20 17:14:22,409 - root - INFO - code : ecrvtbyn
+2022-09-20 17:14:31,321 - root - DEBUG - Shot Time : 0.0724
+2022-09-20 17:14:31,590 - root - INFO - QRcode is not found.
+2022-09-20 17:14:31,993 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 16 240 123 273 270]
+2022-09-20 17:14:32,081 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:14:32,089 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:14:32,174 - root - INFO - code : ecrvtbyn
+2022-09-20 17:14:32,175 - root - INFO - code : yhujikol
+2022-09-20 17:14:32,176 - root - INFO - code : azsxdcfv
+2022-09-20 17:14:46,142 - root - DEBUG - Shot Time : 0.0720
+2022-09-20 17:14:46,374 - root - INFO - QRcode is not found.
+2022-09-20 17:14:46,743 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 19  82 198  76 200]
+2022-09-20 17:14:46,831 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:14:46,831 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:14:46,943 - root - INFO - code : yhujikol
+2022-09-20 17:14:46,944 - root - INFO - code : azsxdcfv
+2022-09-20 17:14:46,945 - root - INFO - code : 
+2022-09-20 17:14:56,754 - root - DEBUG - Shot Time : 0.0718
+2022-09-20 17:14:57,003 - root - INFO - QRcode is not found.
+2022-09-20 17:14:57,383 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 17  58 193 142 228]
+2022-09-20 17:14:57,470 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:14:57,473 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:14:57,474 - root - WARNING - Candidate : 4, Decodable : 2
+2022-09-20 17:14:57,559 - root - INFO - code : yhujikol
+2022-09-20 17:14:57,559 - root - INFO - code : azsxdcfv
+2022-09-20 17:15:07,582 - root - DEBUG - Shot Time : 0.0723
+2022-09-20 17:15:07,814 - root - INFO - QRcode is not found.
+2022-09-20 17:15:08,177 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 69  71 194  91]
+2022-09-20 17:15:08,263 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:08,265 - root - WARNING - Candidate : 3, Decodable : 2
+2022-09-20 17:15:08,351 - root - INFO - code : azsxdcfv
+2022-09-20 17:15:08,351 - root - INFO - code : 
+2022-09-20 17:15:13,655 - root - DEBUG - Shot Time : 0.0726
+2022-09-20 17:15:13,941 - root - INFO - QRcode is not found.
+2022-09-20 17:15:14,306 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 39 115 105 200]
+2022-09-20 17:15:14,391 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:14,393 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:14,395 - root - WARNING - Candidate : 3, Decodable : 1
+2022-09-20 17:15:14,479 - root - INFO - code : azsxdcfv
+2022-09-20 17:15:16,108 - root - DEBUG - Shot Time : 0.0725
+2022-09-20 17:15:16,344 - root - INFO - QRcode is not found.
+2022-09-20 17:15:16,700 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 29 107 101 200]
+2022-09-20 17:15:16,784 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:16,786 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:16,787 - root - WARNING - Candidate : 3, Decodable : 1
+2022-09-20 17:15:16,910 - root - INFO - code : azsxdcfv
+2022-09-20 17:15:18,730 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:15:18,969 - root - INFO - QRcode is not found.
+2022-09-20 17:15:19,329 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 30 126 103 221]
+2022-09-20 17:15:19,411 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:19,414 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:19,415 - root - WARNING - Candidate : 3, Decodable : 1
+2022-09-20 17:15:19,498 - root - INFO - code : azsxdcfv
+2022-09-20 17:15:27,362 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:15:27,362 - root - ERROR - Raw Image is None !!
+2022-09-20 17:15:36,020 - root - DEBUG - Shot Time : 0.0722
+2022-09-20 17:15:36,257 - root - INFO - QRcode is not found.
+2022-09-20 17:15:36,679 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 69 339 235 354]
+2022-09-20 17:15:36,854 - root - INFO - code : ecrvtbyn
+2022-09-20 17:15:36,854 - root - INFO - code : azsxdcfv
+2022-09-20 17:15:36,855 - root - INFO - code : yhujikol
+2022-09-20 17:15:47,784 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:15:48,021 - root - INFO - QRcode is not found.
+2022-09-20 17:15:48,432 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 57 253  93 275 235]
+2022-09-20 17:15:48,517 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:15:48,524 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:15:48,608 - root - INFO - code : ecrvtbyn
+2022-09-20 17:15:48,609 - root - INFO - code : yhujikol
+2022-09-20 17:15:48,609 - root - INFO - code : azsxdcfv
+2022-09-20 17:16:04,235 - root - DEBUG - Shot Time : 0.0716
+2022-09-20 17:16:04,481 - root - INFO - QRcode is not found.
+2022-09-20 17:16:04,872 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 94 102 123  40]
+2022-09-20 17:16:04,952 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:16:04,956 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:16:04,957 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:16:04,957 - root - WARNING - Candidate : 3, Decodable : 0
+2022-09-20 17:16:05,041 - root - INFO - Barcode is not found.
+2022-09-20 17:16:10,505 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:16:10,736 - root - INFO - QRcode is not found.
+2022-09-20 17:16:11,137 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 68 210 332]
+2022-09-20 17:16:11,307 - root - INFO - code : yhujikol
+2022-09-20 17:16:11,308 - root - INFO - code : ecrvtbyn
+2022-09-20 17:16:18,350 - root - DEBUG - Shot Time : 0.0720
+2022-09-20 17:16:18,583 - root - INFO - QRcode is not found.
+2022-09-20 17:16:18,991 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 50  83 290 377  36]
+2022-09-20 17:16:19,082 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:16:19,083 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:16:19,168 - root - INFO - code : azsxdcfv
+2022-09-20 17:16:19,169 - root - INFO - code : yhujikol
+2022-09-20 17:16:19,169 - root - INFO - code : ecrvtbyn
+2022-09-20 17:16:41,214 - root - DEBUG - Shot Time : 0.0723
+2022-09-20 17:16:41,469 - root - INFO - QRcode is not found.
+2022-09-20 17:16:41,867 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 66 267 144  34 255]
+2022-09-20 17:16:41,954 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:16:41,958 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:16:42,042 - root - INFO - code : ecrvtbyn
+2022-09-20 17:16:42,043 - root - INFO - code : azsxdcfv
+2022-09-20 17:16:42,043 - root - INFO - code : yhujikol
+2022-09-20 17:17:22,251 - root - DEBUG - Shot Time : 0.0720
+2022-09-20 17:17:22,506 - root - INFO - QRcode is not found.
+2022-09-20 17:17:22,863 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 82  32 167]
+2022-09-20 17:17:22,940 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:17:22,942 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:17:22,942 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-20 17:17:23,056 - root - INFO - Barcode is not found.
+2022-09-20 17:17:24,633 - root - DEBUG - Shot Time : 0.0722
+2022-09-20 17:17:24,861 - root - INFO - QRcode is not found.
+2022-09-20 17:17:25,215 - root - DEBUG - kind_idx : [-1  0], kind_counts : [106 160]
+2022-09-20 17:17:25,293 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:17:25,294 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:17:25,379 - root - INFO - Barcode is not found.
+2022-09-20 17:17:29,925 - root - DEBUG - Shot Time : 0.0721
+2022-09-20 17:17:30,162 - root - INFO - QRcode is not found.
+2022-09-20 17:17:30,562 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 70  87 262 234  35]
+2022-09-20 17:17:30,653 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:17:30,654 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:17:30,767 - root - INFO - code : azsxdcfv
+2022-09-20 17:17:30,767 - root - INFO - code : ecrvtbyn
+2022-09-20 17:17:30,768 - root - INFO - code : yhujikol
+2022-09-20 17:17:45,292 - root - INFO - Stop button clicked.
+2022-09-20 17:23:27,866 - root - INFO - RUN GUI mode.
+2022-09-20 17:23:28,554 - root - DEBUG - ExposureTime:2000, AcquisitionMode:SingleFrame
+2022-09-20 17:23:28,554 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:23:29,193 - root - DEBUG - Shot Time : 0.0765
+2022-09-20 17:23:29,267 - root - DEBUG - Shot Time : 0.0729
+2022-09-20 17:23:29,339 - root - DEBUG - Shot Time : 0.0717
+2022-09-20 17:23:29,341 - root - INFO - Cam Started.
+2022-09-20 17:23:29,341 - root - INFO - Serial Opened.
+2022-09-20 17:23:49,266 - root - INFO - RUN GUI mode.
+2022-09-20 17:23:49,943 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-20 17:23:49,943 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:23:50,575 - root - DEBUG - Shot Time : 0.0761
+2022-09-20 17:23:50,649 - root - DEBUG - Shot Time : 0.0723
+2022-09-20 17:23:50,724 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:23:50,725 - root - INFO - Cam Started.
+2022-09-20 17:23:50,727 - root - INFO - Serial Opened.
+2022-09-20 17:23:54,932 - root - INFO - Shotmode button clicked.
+2022-09-20 17:23:57,108 - root - DEBUG - Shot Time : 0.0726
+2022-09-20 17:23:59,303 - root - INFO - Stop button clicked.
+2022-09-20 17:24:01,941 - root - INFO - Start button clicked.
+2022-09-20 17:24:05,478 - root - INFO - Stop button clicked.
+2022-09-20 17:24:07,280 - root - INFO - Start button clicked.
+2022-09-20 17:24:09,439 - root - DEBUG - Shot Time : 0.0729
+2022-09-20 17:24:09,718 - root - INFO - QRcode is not found.
+2022-09-20 17:24:10,218 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 37  49 365 622 589]
+2022-09-20 17:24:10,303 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:24:10,315 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:24:10,457 - root - INFO - code : azsxdcfv
+2022-09-20 17:24:10,457 - root - INFO - code : ecrvtbyn
+2022-09-20 17:24:10,457 - root - INFO - code : yhujikol
+2022-09-20 17:24:16,781 - root - DEBUG - Shot Time : 0.0730
+2022-09-20 17:24:17,021 - root - INFO - QRcode is not found.
+2022-09-20 17:24:17,525 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 37 507 298 543 510]
+2022-09-20 17:24:17,617 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:24:17,625 - root - WARNING - Candidate : 4, Decodable : 3
+2022-09-20 17:24:17,709 - root - INFO - code : ecrvtbyn
+2022-09-20 17:24:17,709 - root - INFO - code : yhujikol
+2022-09-20 17:24:17,709 - root - INFO - code : azsxdcfv
+2022-09-20 17:24:22,678 - root - DEBUG - Shot Time : 0.0725
+2022-09-20 17:24:22,917 - root - INFO - QRcode is not found.
+2022-09-20 17:24:23,406 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 55 214 366 144  52 422 407]
+2022-09-20 17:24:23,502 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:24:23,508 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:24:23,508 - root - WARNING - Candidate : 6, Decodable : 4
+2022-09-20 17:24:23,595 - root - INFO - code : ecrvtbyn
+2022-09-20 17:24:23,596 - root - INFO - code : yhujikol
+2022-09-20 17:24:23,596 - root - INFO - code : 
+2022-09-20 17:24:23,597 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:01,107 - root - INFO - RUN GUI mode.
+2022-09-20 17:26:01,842 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-20 17:26:01,842 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:26:02,478 - root - DEBUG - Shot Time : 0.0767
+2022-09-20 17:26:02,552 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:26:02,627 - root - DEBUG - Shot Time : 0.0732
+2022-09-20 17:26:02,628 - root - INFO - Cam Started.
+2022-09-20 17:26:02,629 - root - INFO - Serial Opened.
+2022-09-20 17:26:03,736 - root - INFO - Start button clicked.
+2022-09-20 17:26:07,225 - root - DEBUG - Shot Time : 0.0734
+2022-09-20 17:26:07,472 - root - INFO - QRcode is not found.
+2022-09-20 17:26:07,962 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 43 233 368  51 168 423 392]
+2022-09-20 17:26:08,053 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:08,055 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:08,057 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:08,059 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:08,060 - root - WARNING - Candidate : 6, Decodable : 2
+2022-09-20 17:26:08,144 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:08,144 - root - INFO - code : yhujikol
+2022-09-20 17:26:10,074 - root - DEBUG - Shot Time : 0.0733
+2022-09-20 17:26:10,320 - root - INFO - QRcode is not found.
+2022-09-20 17:26:10,805 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 46 217 344 173  54 398 410]
+2022-09-20 17:26:10,897 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:10,898 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:10,901 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:10,903 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:10,903 - root - WARNING - Candidate : 6, Decodable : 2
+2022-09-20 17:26:11,037 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:11,037 - root - INFO - code : yhujikol
+2022-09-20 17:26:14,260 - root - DEBUG - Shot Time : 0.0727
+2022-09-20 17:26:14,511 - root - INFO - QRcode is not found.
+2022-09-20 17:26:15,041 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 38 402  87 513  58 389 510]
+2022-09-20 17:26:15,161 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:15,166 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:15,171 - root - WARNING - Candidate : 6, Decodable : 4
+2022-09-20 17:26:15,258 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:15,258 - root - INFO - code : yhujikol
+2022-09-20 17:26:15,259 - root - INFO - code : qawsedrf
+2022-09-20 17:26:15,259 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:17,618 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:26:17,868 - root - INFO - QRcode is not found.
+2022-09-20 17:26:18,399 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 45 380 109 516  58 381 498]
+2022-09-20 17:26:18,491 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:18,496 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:18,499 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:18,502 - root - WARNING - Candidate : 6, Decodable : 3
+2022-09-20 17:26:18,587 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:18,587 - root - INFO - code : yhujikol
+2022-09-20 17:26:18,588 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:22,440 - root - DEBUG - Shot Time : 0.0734
+2022-09-20 17:26:22,708 - root - INFO - QRcode is not found.
+2022-09-20 17:26:23,193 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 39 246 111 396  47 424 395]
+2022-09-20 17:26:23,282 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:23,287 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:23,292 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:23,292 - root - WARNING - Candidate : 6, Decodable : 3
+2022-09-20 17:26:23,379 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:23,380 - root - INFO - code : yhujikol
+2022-09-20 17:26:23,380 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:24,726 - root - DEBUG - Shot Time : 0.0726
+2022-09-20 17:26:24,975 - root - INFO - QRcode is not found.
+2022-09-20 17:26:25,487 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 50 287 173 411  61 501 436]
+2022-09-20 17:26:25,578 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:25,583 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:25,589 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:25,590 - root - WARNING - Candidate : 6, Decodable : 3
+2022-09-20 17:26:25,718 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:25,719 - root - INFO - code : yhujikol
+2022-09-20 17:26:25,719 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:29,248 - root - DEBUG - Shot Time : 0.0728
+2022-09-20 17:26:29,495 - root - INFO - QRcode is not found.
+2022-09-20 17:26:29,907 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 27 125  86 148 186 193]
+2022-09-20 17:26:29,996 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:30,001 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:30,004 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-20 17:26:30,089 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:30,090 - root - INFO - code : yhujikol
+2022-09-20 17:26:30,091 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:35,070 - root - DEBUG - Shot Time : 0.0732
+2022-09-20 17:26:35,310 - root - INFO - QRcode is not found.
+2022-09-20 17:26:35,841 - root - DEBUG - kind_idx : [-1  0  1  2  3  4  5], kind_counts : [ 38 419  70  32 362 524 511]
+2022-09-20 17:26:35,932 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:35,933 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:35,936 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:35,942 - root - WARNING - Candidate : 6, Decodable : 3
+2022-09-20 17:26:36,029 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:36,030 - root - INFO - code : yhujikol
+2022-09-20 17:26:36,030 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:52,733 - root - DEBUG - Shot Time : 0.0727
+2022-09-20 17:26:53,032 - root - INFO - QRcode is not found.
+2022-09-20 17:26:53,523 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 67 331  54 327 498 460]
+2022-09-20 17:26:53,613 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:53,616 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:53,623 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-20 17:26:53,709 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:53,710 - root - INFO - code : yhujikol
+2022-09-20 17:26:53,711 - root - INFO - code : azsxdcfv
+2022-09-20 17:26:58,070 - root - DEBUG - Shot Time : 0.0722
+2022-09-20 17:26:58,312 - root - INFO - QRcode is not found.
+2022-09-20 17:26:58,976 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 12  40 678 518 786 760]
+2022-09-20 17:26:59,067 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:59,080 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:59,085 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:26:59,086 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-20 17:26:59,172 - root - INFO - code : ecrvtbyn
+2022-09-20 17:26:59,173 - root - INFO - code : qawsedrf
+2022-09-20 17:27:19,269 - root - INFO - Stop button clicked.
+2022-09-20 17:27:20,940 - root - INFO - Start button clicked.
+2022-09-20 17:27:22,985 - root - DEBUG - Shot Time : 0.0731
+2022-09-20 17:27:23,261 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:23,261 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:26,953 - root - DEBUG - Shot Time : 0.0731
+2022-09-20 17:27:27,272 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:27,272 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:28,545 - root - DEBUG - Shot Time : 0.0834
+2022-09-20 17:27:28,823 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:28,823 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:29,952 - root - DEBUG - Shot Time : 0.0730
+2022-09-20 17:27:30,257 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:30,257 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:32,504 - root - DEBUG - Shot Time : 0.0731
+2022-09-20 17:27:32,780 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:32,781 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:37,182 - root - DEBUG - Shot Time : 0.0731
+2022-09-20 17:27:37,478 - root - INFO - code : helloooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:37,478 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:37,479 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:39,278 - root - DEBUG - Shot Time : 0.0729
+2022-09-20 17:27:39,555 - root - INFO - code : helloooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:39,555 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:39,556 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:40,830 - root - DEBUG - Shot Time : 0.0743
+2022-09-20 17:27:41,139 - root - INFO - code : hellooooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:41,139 - root - INFO - code : helloooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:41,140 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:41,140 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:44,200 - root - DEBUG - Shot Time : 0.0722
+2022-09-20 17:27:44,474 - root - INFO - QRcode is not found.
+2022-09-20 17:27:44,906 - root - DEBUG - kind_idx : [-1  0], kind_counts : [158  60]
+2022-09-20 17:27:44,982 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:27:44,983 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-20 17:27:45,067 - root - INFO - Barcode is not found.
+2022-09-20 17:27:46,383 - root - DEBUG - Shot Time : 0.0740
+2022-09-20 17:27:46,683 - root - INFO - code : hellooooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:46,683 - root - INFO - code : helloooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:46,684 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:49,026 - root - DEBUG - Shot Time : 0.0732
+2022-09-20 17:27:49,302 - root - INFO - code : hellooooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:49,302 - root - INFO - code : helloooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:49,302 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:50,622 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:27:50,623 - root - ERROR - Raw Image is None !!
+2022-09-20 17:27:53,739 - root - DEBUG - Shot Time : 0.0731
+2022-09-20 17:27:54,014 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:54,014 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-20 17:27:58,359 - root - DEBUG - Shot Time : 0.0729
+2022-09-20 17:27:58,629 - root - INFO - QRcode is not found.
+2022-09-20 17:27:59,111 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  5 316 388 201 446 454]
+2022-09-20 17:27:59,211 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:27:59,220 - root - WARNING - Candidate : 5, Decodable : 4
+2022-09-20 17:27:59,307 - root - INFO - code : ecrvtbyn
+2022-09-20 17:27:59,307 - root - INFO - code : yhujikol
+2022-09-20 17:27:59,308 - root - INFO - code : azsxdcfv
+2022-09-20 17:27:59,308 - root - INFO - code : qawsedrf
+2022-09-20 17:28:10,864 - root - DEBUG - Shot Time : 0.0731
+2022-09-20 17:28:11,173 - root - INFO - QRcode is not found.
+2022-09-20 17:28:11,671 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  4 348 218 405 463 458]
+2022-09-20 17:28:11,764 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:28:11,776 - root - WARNING - Candidate : 5, Decodable : 4
+2022-09-20 17:28:11,916 - root - INFO - code : ecrvtbyn
+2022-09-20 17:28:11,917 - root - INFO - code : yhujikol
+2022-09-20 17:28:11,918 - root - INFO - code : azsxdcfv
+2022-09-20 17:28:11,918 - root - INFO - code : qawsedrf
+2022-09-20 17:28:14,917 - root - DEBUG - Shot Time : 0.0724
+2022-09-20 17:28:15,222 - root - INFO - QRcode is not found.
+2022-09-20 17:28:15,712 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 94 316 225 418 388  56]
+2022-09-20 17:28:15,813 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:28:15,813 - root - WARNING - Candidate : 5, Decodable : 4
+2022-09-20 17:28:15,900 - root - INFO - code : ecrvtbyn
+2022-09-20 17:28:15,901 - root - INFO - code : qawsedrf
+2022-09-20 17:28:15,901 - root - INFO - code : yhujikol
+2022-09-20 17:28:15,902 - root - INFO - code : azsxdcfv
+2022-09-20 17:28:23,568 - root - DEBUG - Shot Time : 0.0736
+2022-09-20 17:28:23,834 - root - INFO - QRcode is not found.
+2022-09-20 17:28:24,325 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 87 322 204 417 391  51]
+2022-09-20 17:28:24,425 - root - DEBUG - Candidate img could not be decode..
+2022-09-20 17:28:24,426 - root - WARNING - Candidate : 5, Decodable : 4
+2022-09-20 17:28:24,567 - root - INFO - code : ecrvtbyn
+2022-09-20 17:28:24,567 - root - INFO - code : qawsedrf
+2022-09-20 17:28:24,569 - root - INFO - code : yhujikol
+2022-09-20 17:28:24,569 - root - INFO - code : azsxdcfv
+2022-09-20 17:28:28,529 - root - INFO - Stop button clicked.
+2022-09-20 17:37:08,544 - root - INFO - RUN GUI mode.
+2022-09-20 17:37:09,251 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-20 17:37:09,251 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-20 17:37:09,902 - root - DEBUG - Shot Time : 0.0770
+2022-09-20 17:37:09,944 - root - ERROR - st_buffer.info.is_image_present : False !!
+2022-09-20 17:37:10,043 - root - DEBUG - Shot Time : 0.0996
+2022-09-20 17:37:10,045 - root - INFO - Cam Started.
+2022-09-20 17:37:10,046 - root - INFO - Serial Opened.
+2022-09-27 11:19:18,210 - root - INFO - RUN GUI mode.
+2022-09-27 11:19:19,000 - root - ERROR - There is no available device.
+2022-09-27 11:19:19,028 - root - INFO - Serial Opened.
+2022-09-27 11:19:45,203 - root - INFO - RUN GUI mode.
+2022-09-27 11:20:17,182 - root - INFO - RUN GUI mode.
+2022-09-27 11:20:17,955 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:20:17,955 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:20:18,658 - root - DEBUG - Shot Time : 0.1465
+2022-09-27 11:20:18,733 - root - DEBUG - Shot Time : 0.0748
+2022-09-27 11:20:18,809 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 11:20:18,811 - root - INFO - Cam Started.
+2022-09-27 11:20:18,811 - root - INFO - Serial Opened.
+2022-09-27 11:20:23,345 - root - INFO - Start button clicked.
+2022-09-27 11:20:26,624 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 11:20:26,906 - root - INFO - QRcode is not found.
+2022-09-27 11:20:27,494 - root - DEBUG - kind_idx : [-1], kind_counts : [1]
+2022-09-27 11:20:27,574 - root - DEBUG - Not found barcode_boxes
+2022-09-27 11:20:27,606 - root - INFO - Barcode is not found.
+2022-09-27 11:20:48,570 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 11:20:48,832 - root - INFO - QRcode is not found.
+2022-09-27 11:20:49,214 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  2 126]
+2022-09-27 11:20:49,298 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:20:49,298 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:20:49,382 - root - INFO - Barcode is not found.
+2022-09-27 11:20:53,209 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 11:20:53,469 - root - INFO - QRcode is not found.
+2022-09-27 11:20:53,832 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  1 101]
+2022-09-27 11:20:53,910 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:20:53,910 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:20:53,994 - root - INFO - Barcode is not found.
+2022-09-27 11:21:04,075 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 11:21:04,317 - root - INFO - QRcode is not found.
+2022-09-27 11:21:04,666 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  3 115]
+2022-09-27 11:21:04,742 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:21:04,742 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:21:04,846 - root - INFO - Barcode is not found.
+2022-09-27 11:21:07,828 - root - DEBUG - Shot Time : 0.0732
+2022-09-27 11:21:08,075 - root - INFO - QRcode is not found.
+2022-09-27 11:21:08,427 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  3 118]
+2022-09-27 11:21:08,501 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:21:08,503 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:21:08,587 - root - INFO - Barcode is not found.
+2022-09-27 11:21:12,383 - root - DEBUG - Shot Time : 0.0715
+2022-09-27 11:21:12,623 - root - INFO - QRcode is not found.
+2022-09-27 11:21:12,969 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 4 96]
+2022-09-27 11:21:13,043 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:21:13,043 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:21:13,129 - root - INFO - Barcode is not found.
+2022-09-27 11:21:15,873 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 11:21:16,111 - root - INFO - QRcode is not found.
+2022-09-27 11:21:16,449 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 1 55]
+2022-09-27 11:21:16,525 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:21:16,525 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:21:16,611 - root - INFO - Barcode is not found.
+2022-09-27 11:21:26,588 - root - DEBUG - Shot Time : 0.0726
+2022-09-27 11:21:26,837 - root - INFO - QRcode is not found.
+2022-09-27 11:21:27,204 - root - DEBUG - kind_idx : [0], kind_counts : [111]
+2022-09-27 11:21:27,257 - root - ERROR - [process]list index out of range
+2022-09-27 11:33:03,224 - root - INFO - RUN GUI mode.
+2022-09-27 11:33:03,966 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:33:03,966 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:33:04,593 - root - DEBUG - Shot Time : 0.0783
+2022-09-27 11:33:04,670 - root - DEBUG - Shot Time : 0.0742
+2022-09-27 11:33:04,745 - root - DEBUG - Shot Time : 0.0754
+2022-09-27 11:33:04,745 - root - INFO - Cam Started.
+2022-09-27 11:33:04,747 - root - INFO - Serial Opened.
+2022-09-27 11:33:08,124 - root - INFO - Start button clicked.
+2022-09-27 11:33:13,527 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 11:33:13,777 - root - INFO - QRcode is not found.
+2022-09-27 11:33:14,137 - root - DEBUG - kind_idx : [0], kind_counts : [100]
+2022-09-27 11:33:14,191 - root - ERROR - [process]list index out of range
+2022-09-27 11:34:27,736 - root - INFO - RUN GUI mode.
+2022-09-27 11:34:28,419 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:34:28,420 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:34:29,049 - root - DEBUG - Shot Time : 0.0763
+2022-09-27 11:34:29,125 - root - DEBUG - Shot Time : 0.0739
+2022-09-27 11:34:29,198 - root - DEBUG - Shot Time : 0.0731
+2022-09-27 11:34:29,200 - root - INFO - Cam Started.
+2022-09-27 11:34:29,202 - root - INFO - Serial Opened.
+2022-09-27 11:34:30,232 - root - INFO - Start button clicked.
+2022-09-27 11:34:34,293 - root - DEBUG - Shot Time : 0.0730
+2022-09-27 11:34:34,532 - root - INFO - QRcode is not found.
+2022-09-27 11:34:34,879 - root - DEBUG - kind_idx : [0], kind_counts : [115]
+2022-09-27 11:34:34,932 - root - ERROR - [process]list index out of range
+2022-09-27 11:38:28,034 - root - INFO - RUN GUI mode.
+2022-09-27 11:38:28,707 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:38:28,707 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:38:29,335 - root - DEBUG - Shot Time : 0.0748
+2022-09-27 11:38:29,410 - root - DEBUG - Shot Time : 0.0733
+2022-09-27 11:38:29,485 - root - DEBUG - Shot Time : 0.0731
+2022-09-27 11:38:29,487 - root - INFO - Cam Started.
+2022-09-27 11:38:29,487 - root - INFO - Serial Opened.
+2022-09-27 11:38:30,378 - root - INFO - Start button clicked.
+2022-09-27 11:38:32,830 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 11:38:33,072 - root - INFO - QRcode is not found.
+2022-09-27 11:38:33,408 - root - DEBUG - kind_idx : [0], kind_counts : [99]
+2022-09-27 11:38:33,461 - root - ERROR - [process]list index out of range
+2022-09-27 11:39:56,666 - root - INFO - RUN GUI mode.
+2022-09-27 11:39:57,338 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:39:57,338 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:39:57,966 - root - DEBUG - Shot Time : 0.0762
+2022-09-27 11:39:58,041 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 11:39:58,116 - root - DEBUG - Shot Time : 0.0732
+2022-09-27 11:39:58,118 - root - INFO - Cam Started.
+2022-09-27 11:39:58,119 - root - INFO - Serial Opened.
+2022-09-27 11:39:59,599 - root - INFO - Start button clicked.
+2022-09-27 11:40:02,138 - root - DEBUG - Shot Time : 0.0717
+2022-09-27 11:40:02,374 - root - INFO - QRcode is not found.
+2022-09-27 11:40:02,711 - root - DEBUG - kind_idx : [0], kind_counts : [98]
+2022-09-27 11:40:02,763 - root - ERROR - [process]list index out of range
+2022-09-27 11:41:46,396 - root - INFO - RUN GUI mode.
+2022-09-27 11:41:47,120 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:41:47,120 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:41:47,749 - root - DEBUG - Shot Time : 0.0768
+2022-09-27 11:41:47,826 - root - DEBUG - Shot Time : 0.0744
+2022-09-27 11:41:47,900 - root - DEBUG - Shot Time : 0.0748
+2022-09-27 11:41:47,900 - root - INFO - Cam Started.
+2022-09-27 11:41:47,902 - root - INFO - Serial Opened.
+2022-09-27 11:41:51,232 - root - INFO - Start button clicked.
+2022-09-27 11:41:55,219 - root - DEBUG - Shot Time : 0.0734
+2022-09-27 11:41:55,455 - root - INFO - QRcode is not found.
+2022-09-27 11:41:55,799 - root - DEBUG - kind_idx : [0], kind_counts : [112]
+2022-09-27 11:41:55,851 - root - ERROR - [process]list index out of range
+2022-09-27 11:42:59,616 - root - INFO - RUN GUI mode.
+2022-09-27 11:43:00,335 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:43:00,335 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:43:00,970 - root - DEBUG - Shot Time : 0.0774
+2022-09-27 11:43:01,043 - root - DEBUG - Shot Time : 0.0733
+2022-09-27 11:43:01,119 - root - DEBUG - Shot Time : 0.0737
+2022-09-27 11:43:01,121 - root - INFO - Cam Started.
+2022-09-27 11:43:01,121 - root - INFO - Serial Opened.
+2022-09-27 11:43:02,084 - root - INFO - Start button clicked.
+2022-09-27 11:43:05,705 - root - DEBUG - Shot Time : 0.0726
+2022-09-27 11:43:05,961 - root - INFO - QRcode is not found.
+2022-09-27 11:43:06,306 - root - DEBUG - kind_idx : [0], kind_counts : [94]
+2022-09-27 11:43:06,440 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:43:06,440 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:43:06,524 - root - INFO - Barcode is not found.
+2022-09-27 11:43:52,773 - root - INFO - RUN GUI mode.
+2022-09-27 11:43:53,446 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:43:53,446 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:43:54,078 - root - DEBUG - Shot Time : 0.0770
+2022-09-27 11:43:54,152 - root - DEBUG - Shot Time : 0.0746
+2022-09-27 11:43:54,227 - root - DEBUG - Shot Time : 0.0750
+2022-09-27 11:43:54,227 - root - INFO - Cam Started.
+2022-09-27 11:43:54,229 - root - INFO - Serial Opened.
+2022-09-27 11:43:55,127 - root - INFO - Start button clicked.
+2022-09-27 11:44:08,748 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 11:44:08,984 - root - INFO - QRcode is not found.
+2022-09-27 11:44:09,326 - root - DEBUG - kind_idx : [0], kind_counts : [103]
+2022-09-27 11:44:09,400 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:44:09,400 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:44:09,483 - root - INFO - Barcode is not found.
+2022-09-27 11:46:27,983 - root - INFO - RUN GUI mode.
+2022-09-27 11:46:28,655 - root - DEBUG - ExposureTime:3000, AcquisitionMode:SingleFrame
+2022-09-27 11:46:28,655 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:46:29,287 - root - DEBUG - Shot Time : 0.0771
+2022-09-27 11:46:29,362 - root - DEBUG - Shot Time : 0.0743
+2022-09-27 11:46:29,437 - root - DEBUG - Shot Time : 0.0753
+2022-09-27 11:46:29,437 - root - INFO - Cam Started.
+2022-09-27 11:46:29,439 - root - INFO - Serial Opened.
+2022-09-27 11:46:30,476 - root - INFO - Start button clicked.
+2022-09-27 11:46:37,370 - root - DEBUG - Shot Time : 0.0731
+2022-09-27 11:46:37,609 - root - INFO - QRcode is not found.
+2022-09-27 11:46:37,954 - root - DEBUG - kind_idx : [0], kind_counts : [111]
+2022-09-27 11:46:38,030 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:46:38,030 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:46:38,112 - root - INFO - Barcode is not found.
+2022-09-27 11:46:43,556 - root - DEBUG - Shot Time : 0.0716
+2022-09-27 11:46:43,827 - root - INFO - QRcode is not found.
+2022-09-27 11:46:44,167 - root - DEBUG - kind_idx : [0], kind_counts : [87]
+2022-09-27 11:46:44,241 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:46:44,241 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:46:44,325 - root - INFO - Barcode is not found.
+2022-09-27 11:46:45,579 - root - DEBUG - Shot Time : 0.0730
+2022-09-27 11:46:45,811 - root - INFO - QRcode is not found.
+2022-09-27 11:46:46,143 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 1 92]
+2022-09-27 11:46:46,219 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:46:46,220 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:46:46,302 - root - INFO - Barcode is not found.
+2022-09-27 11:46:55,729 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 11:46:55,963 - root - INFO - QRcode is not found.
+2022-09-27 11:46:56,303 - root - DEBUG - kind_idx : [0], kind_counts : [105]
+2022-09-27 11:46:56,379 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:46:56,379 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:46:56,463 - root - INFO - Barcode is not found.
+2022-09-27 11:47:00,363 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 11:47:00,606 - root - INFO - QRcode is not found.
+2022-09-27 11:47:00,946 - root - DEBUG - kind_idx : [-1  0], kind_counts : [10 56]
+2022-09-27 11:47:01,020 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:47:01,020 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:47:01,106 - root - INFO - Barcode is not found.
+2022-09-27 11:47:05,340 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 11:47:05,574 - root - INFO - QRcode is not found.
+2022-09-27 11:47:05,912 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 3 96]
+2022-09-27 11:47:05,990 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:47:05,990 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:47:06,097 - root - INFO - Barcode is not found.
+2022-09-27 11:48:05,876 - root - DEBUG - Shot Time : 0.0718
+2022-09-27 11:48:06,116 - root - INFO - QRcode is not found.
+2022-09-27 11:48:06,500 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 53 122  97]
+2022-09-27 11:48:06,578 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:06,582 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:06,582 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-27 11:48:06,668 - root - INFO - Barcode is not found.
+2022-09-27 11:48:11,064 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 11:48:11,308 - root - INFO - QRcode is not found.
+2022-09-27 11:48:11,709 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 81 290  95]
+2022-09-27 11:48:11,787 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:11,789 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:11,789 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-27 11:48:11,873 - root - INFO - Barcode is not found.
+2022-09-27 11:48:19,947 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 11:48:20,183 - root - INFO - QRcode is not found.
+2022-09-27 11:48:20,561 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 75 250]
+2022-09-27 11:48:20,637 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:20,637 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:48:20,742 - root - INFO - Barcode is not found.
+2022-09-27 11:48:24,342 - root - DEBUG - Shot Time : 0.0734
+2022-09-27 11:48:24,619 - root - INFO - QRcode is not found.
+2022-09-27 11:48:25,019 - root - DEBUG - kind_idx : [-1  0], kind_counts : [120 313]
+2022-09-27 11:48:25,097 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:25,097 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:48:25,183 - root - INFO - Barcode is not found.
+2022-09-27 11:48:27,511 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 11:48:27,745 - root - INFO - QRcode is not found.
+2022-09-27 11:48:28,143 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 97 318]
+2022-09-27 11:48:28,221 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:28,221 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:48:28,307 - root - INFO - Barcode is not found.
+2022-09-27 11:48:34,302 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 11:48:34,556 - root - INFO - QRcode is not found.
+2022-09-27 11:48:34,947 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 84 297]
+2022-09-27 11:48:35,027 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:48:35,027 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:48:35,111 - root - INFO - Barcode is not found.
+2022-09-27 11:49:16,140 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 11:49:16,382 - root - INFO - QRcode is not found.
+2022-09-27 11:49:16,768 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 21 455]
+2022-09-27 11:49:16,850 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:49:16,850 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:49:16,936 - root - INFO - Barcode is not found.
+2022-09-27 11:49:22,247 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 11:49:22,487 - root - INFO - QRcode is not found.
+2022-09-27 11:49:22,871 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 29 416]
+2022-09-27 11:49:22,953 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:49:22,953 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:49:23,039 - root - INFO - Barcode is not found.
+2022-09-27 11:49:25,260 - root - DEBUG - Shot Time : 0.0718
+2022-09-27 11:49:25,504 - root - INFO - QRcode is not found.
+2022-09-27 11:49:25,874 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 10 390]
+2022-09-27 11:49:25,954 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:49:25,954 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:49:26,038 - root - INFO - Barcode is not found.
+2022-09-27 11:50:32,273 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 11:50:32,509 - root - INFO - QRcode is not found.
+2022-09-27 11:50:32,881 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  6 332]
+2022-09-27 11:50:32,958 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:32,958 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:50:33,044 - root - INFO - Barcode is not found.
+2022-09-27 11:50:37,751 - root - DEBUG - Shot Time : 0.0726
+2022-09-27 11:50:37,989 - root - INFO - QRcode is not found.
+2022-09-27 11:50:38,349 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  7 302]
+2022-09-27 11:50:38,429 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:38,429 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:50:38,515 - root - INFO - Barcode is not found.
+2022-09-27 11:50:41,290 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 11:50:41,522 - root - INFO - QRcode is not found.
+2022-09-27 11:50:41,900 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 11 546]
+2022-09-27 11:50:41,978 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:41,978 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:50:42,113 - root - INFO - Barcode is not found.
+2022-09-27 11:50:48,828 - root - DEBUG - Shot Time : 0.0730
+2022-09-27 11:50:49,070 - root - INFO - QRcode is not found.
+2022-09-27 11:50:49,440 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 85 205  44  40]
+2022-09-27 11:50:49,520 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:49,521 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:49,523 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:49,523 - root - WARNING - Candidate : 3, Decodable : 0
+2022-09-27 11:50:49,607 - root - INFO - Barcode is not found.
+2022-09-27 11:50:51,482 - root - DEBUG - Shot Time : 0.0717
+2022-09-27 11:50:51,718 - root - INFO - QRcode is not found.
+2022-09-27 11:50:52,092 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  9 500]
+2022-09-27 11:50:52,172 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:50:52,172 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:50:52,256 - root - INFO - Barcode is not found.
+2022-09-27 11:51:20,822 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 11:51:21,052 - root - INFO - QRcode is not found.
+2022-09-27 11:51:21,408 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  9 253]
+2022-09-27 11:51:21,486 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:51:21,488 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:51:21,572 - root - INFO - Barcode is not found.
+2022-09-27 11:52:09,881 - root - INFO - RUN GUI mode.
+2022-09-27 11:52:10,553 - root - DEBUG - ExposureTime:4000, AcquisitionMode:SingleFrame
+2022-09-27 11:52:10,553 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:52:11,186 - root - DEBUG - Shot Time : 0.0784
+2022-09-27 11:52:11,263 - root - DEBUG - Shot Time : 0.0749
+2022-09-27 11:52:11,337 - root - DEBUG - Shot Time : 0.0739
+2022-09-27 11:52:11,339 - root - INFO - Cam Started.
+2022-09-27 11:52:11,341 - root - INFO - Serial Opened.
+2022-09-27 11:52:12,269 - root - INFO - Start button clicked.
+2022-09-27 11:52:16,278 - root - DEBUG - Shot Time : 0.0738
+2022-09-27 11:52:16,522 - root - INFO - QRcode is not found.
+2022-09-27 11:52:16,908 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  6 442]
+2022-09-27 11:52:16,986 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:52:16,986 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:52:17,070 - root - INFO - Barcode is not found.
+2022-09-27 11:52:19,817 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 11:52:20,059 - root - INFO - QRcode is not found.
+2022-09-27 11:52:20,445 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 25 415]
+2022-09-27 11:52:20,525 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:52:20,525 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:52:20,609 - root - INFO - Barcode is not found.
+2022-09-27 11:52:23,049 - root - DEBUG - Shot Time : 0.0731
+2022-09-27 11:52:23,328 - root - INFO - QRcode is not found.
+2022-09-27 11:52:23,708 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 13 303]
+2022-09-27 11:52:23,788 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:52:23,788 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:52:23,873 - root - INFO - Barcode is not found.
+2022-09-27 11:52:37,289 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 11:52:37,532 - root - INFO - QRcode is not found.
+2022-09-27 11:52:37,898 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  7 264]
+2022-09-27 11:52:37,974 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:52:37,974 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:52:38,058 - root - INFO - Barcode is not found.
+2022-09-27 11:54:13,055 - root - INFO - RUN GUI mode.
+2022-09-27 11:54:13,733 - root - DEBUG - ExposureTime:4000, AcquisitionMode:SingleFrame
+2022-09-27 11:54:13,733 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:54:14,365 - root - DEBUG - Shot Time : 0.0796
+2022-09-27 11:54:14,441 - root - DEBUG - Shot Time : 0.0735
+2022-09-27 11:54:14,515 - root - DEBUG - Shot Time : 0.0745
+2022-09-27 11:54:14,517 - root - INFO - Cam Started.
+2022-09-27 11:54:14,517 - root - INFO - Serial Opened.
+2022-09-27 11:54:15,359 - root - INFO - Start button clicked.
+2022-09-27 11:54:18,097 - root - DEBUG - Shot Time : 0.0741
+2022-09-27 11:54:18,347 - root - INFO - QRcode is not found.
+2022-09-27 11:54:18,736 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  7 283]
+2022-09-27 11:54:18,816 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:54:18,816 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:54:18,900 - root - INFO - Barcode is not found.
+2022-09-27 11:55:33,921 - root - INFO - RUN GUI mode.
+2022-09-27 11:55:34,595 - root - DEBUG - ExposureTime:4000, AcquisitionMode:SingleFrame
+2022-09-27 11:55:34,597 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:55:35,229 - root - DEBUG - Shot Time : 0.0781
+2022-09-27 11:55:35,306 - root - DEBUG - Shot Time : 0.0744
+2022-09-27 11:55:35,382 - root - DEBUG - Shot Time : 0.0742
+2022-09-27 11:55:35,382 - root - INFO - Cam Started.
+2022-09-27 11:55:35,384 - root - INFO - Serial Opened.
+2022-09-27 11:55:36,468 - root - INFO - Start button clicked.
+2022-09-27 11:55:39,382 - root - DEBUG - Shot Time : 0.0742
+2022-09-27 11:55:39,634 - root - INFO - QRcode is not found.
+2022-09-27 11:55:40,012 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  7 286]
+2022-09-27 11:55:40,128 - root - ERROR - [process]OpenCV(4.6.0) D:\a\opencv-python\opencv-python\opencv\modules\imgcodecs\src\loadsave.cpp:730: error: (-2:Unspecified error) could not find a writer for the specified extension in function 'cv::imwrite_'
+
+2022-09-27 11:55:56,898 - root - INFO - RUN GUI mode.
+2022-09-27 11:55:57,621 - root - DEBUG - ExposureTime:4000, AcquisitionMode:SingleFrame
+2022-09-27 11:55:57,621 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 11:55:58,251 - root - DEBUG - Shot Time : 0.0785
+2022-09-27 11:55:58,327 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 11:55:58,403 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 11:55:58,405 - root - INFO - Cam Started.
+2022-09-27 11:55:58,406 - root - INFO - Serial Opened.
+2022-09-27 11:55:59,599 - root - INFO - Start button clicked.
+2022-09-27 11:56:01,596 - root - DEBUG - Shot Time : 0.0735
+2022-09-27 11:56:01,839 - root - INFO - QRcode is not found.
+2022-09-27 11:56:02,212 - root - DEBUG - kind_idx : [-1  0], kind_counts : [  5 274]
+2022-09-27 11:56:02,332 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:56:02,332 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:56:02,422 - root - INFO - Barcode is not found.
+2022-09-27 11:57:03,652 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 11:57:03,904 - root - INFO - QRcode is not found.
+2022-09-27 11:57:04,301 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 10 390]
+2022-09-27 11:57:04,381 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 11:57:04,381 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 11:57:04,465 - root - INFO - Barcode is not found.
+2022-09-27 11:57:15,018 - root - INFO - Stop button clicked.
+2022-09-27 11:57:17,965 - root - INFO - Shotmode button clicked.
+2022-09-27 11:57:20,963 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:00:26,587 - root - DEBUG - Shot Time : 0.0734
+2022-09-27 12:04:05,237 - root - INFO - RUN GUI mode.
+2022-09-27 12:04:06,005 - root - DEBUG - ExposureTime:4000, AcquisitionMode:SingleFrame
+2022-09-27 12:04:06,005 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:04:06,636 - root - DEBUG - Shot Time : 0.0800
+2022-09-27 12:04:06,712 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 12:04:06,788 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 12:04:06,790 - root - INFO - Cam Started.
+2022-09-27 12:04:06,790 - root - INFO - Serial Opened.
+2022-09-27 12:04:07,678 - root - INFO - Start button clicked.
+2022-09-27 12:04:10,570 - root - DEBUG - Shot Time : 0.0732
+2022-09-27 12:04:10,878 - root - INFO - QRcode is not found.
+2022-09-27 12:04:11,296 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 94 141]
+2022-09-27 12:04:11,374 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:04:11,374 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:04:11,460 - root - INFO - Barcode is not found.
+2022-09-27 12:04:15,623 - root - DEBUG - Shot Time : 0.0744
+2022-09-27 12:04:15,899 - root - INFO - QRcode is not found.
+2022-09-27 12:04:16,330 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 34 716]
+2022-09-27 12:04:16,414 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:04:16,416 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:04:16,502 - root - INFO - Barcode is not found.
+2022-09-27 12:04:38,200 - root - INFO - RUN GUI mode.
+2022-09-27 12:04:38,851 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:04:38,851 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:04:39,479 - root - DEBUG - Shot Time : 0.0764
+2022-09-27 12:04:39,553 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:04:39,627 - root - DEBUG - Shot Time : 0.0722
+2022-09-27 12:04:39,629 - root - INFO - Cam Started.
+2022-09-27 12:04:39,629 - root - INFO - Serial Opened.
+2022-09-27 12:04:41,123 - root - INFO - Start button clicked.
+2022-09-27 12:04:43,122 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:04:43,380 - root - INFO - QRcode is not found.
+2022-09-27 12:04:43,802 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 35 752]
+2022-09-27 12:04:43,882 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:04:43,884 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:04:43,968 - root - INFO - Barcode is not found.
+2022-09-27 12:05:18,334 - root - DEBUG - Shot Time : 0.0722
+2022-09-27 12:05:18,620 - root - INFO - QRcode is not found.
+2022-09-27 12:05:19,032 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 16 140 457]
+2022-09-27 12:05:19,112 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:19,116 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:19,116 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-27 12:05:19,202 - root - INFO - Barcode is not found.
+2022-09-27 12:05:21,565 - root - DEBUG - Shot Time : 0.0718
+2022-09-27 12:05:21,849 - root - INFO - QRcode is not found.
+2022-09-27 12:05:22,269 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 15 556 183]
+2022-09-27 12:05:22,349 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:22,351 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:22,351 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-27 12:05:22,479 - root - INFO - Barcode is not found.
+2022-09-27 12:05:39,317 - root - DEBUG - Shot Time : 0.0709
+2022-09-27 12:05:39,571 - root - INFO - QRcode is not found.
+2022-09-27 12:05:40,073 - root - DEBUG - kind_idx : [-1  0  1  2], kind_counts : [ 77 335 405 282]
+2022-09-27 12:05:40,157 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:40,161 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:40,165 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:40,165 - root - WARNING - Candidate : 3, Decodable : 0
+2022-09-27 12:05:40,303 - root - INFO - Barcode is not found.
+2022-09-27 12:05:42,491 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 12:05:42,763 - root - INFO - QRcode is not found.
+2022-09-27 12:05:43,245 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [130 330 407 168  58]
+2022-09-27 12:05:43,331 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:43,333 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:43,335 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:43,339 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:43,341 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:05:43,427 - root - INFO - Barcode is not found.
+2022-09-27 12:05:44,945 - root - DEBUG - Shot Time : 0.0710
+2022-09-27 12:05:45,223 - root - INFO - QRcode is not found.
+2022-09-27 12:05:45,709 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [148 346 417 155  44]
+2022-09-27 12:05:45,795 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:45,797 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:45,801 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:45,803 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:45,803 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:05:45,893 - root - INFO - Barcode is not found.
+2022-09-27 12:05:48,370 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 12:05:48,646 - root - INFO - QRcode is not found.
+2022-09-27 12:05:49,136 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [127 317 436 149  42]
+2022-09-27 12:05:49,221 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:49,225 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:49,227 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:49,231 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:49,231 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:05:49,318 - root - INFO - Barcode is not found.
+2022-09-27 12:05:51,433 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 12:05:51,693 - root - INFO - QRcode is not found.
+2022-09-27 12:05:52,169 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [103 379 307 128  57]
+2022-09-27 12:05:52,253 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:52,257 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:52,261 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:52,263 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:05:52,265 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:05:52,407 - root - INFO - Barcode is not found.
+2022-09-27 12:06:13,196 - root - DEBUG - Shot Time : 0.0722
+2022-09-27 12:06:13,448 - root - INFO - QRcode is not found.
+2022-09-27 12:06:13,932 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 78 361 256 169  63]
+2022-09-27 12:06:14,016 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:14,022 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:14,024 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:14,028 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:14,028 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:06:14,116 - root - INFO - Barcode is not found.
+2022-09-27 12:06:24,908 - root - DEBUG - Shot Time : 0.0717
+2022-09-27 12:06:25,160 - root - INFO - QRcode is not found.
+2022-09-27 12:06:25,626 - root - DEBUG - kind_idx : [-1  0  1], kind_counts : [ 61 338 275]
+2022-09-27 12:06:25,708 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:25,712 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:25,713 - root - WARNING - Candidate : 2, Decodable : 0
+2022-09-27 12:06:25,854 - root - INFO - Barcode is not found.
+2022-09-27 12:06:36,737 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:06:36,995 - root - INFO - QRcode is not found.
+2022-09-27 12:06:37,475 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 66 309 396 172  62]
+2022-09-27 12:06:37,561 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:37,563 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:37,567 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:37,571 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:37,571 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:06:37,659 - root - INFO - Barcode is not found.
+2022-09-27 12:06:40,539 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:06:40,802 - root - INFO - QRcode is not found.
+2022-09-27 12:06:41,288 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 99 344 405 164  51]
+2022-09-27 12:06:41,372 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:41,376 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:41,378 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:41,382 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:41,382 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:06:41,468 - root - INFO - Barcode is not found.
+2022-09-27 12:06:45,576 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:06:45,834 - root - INFO - QRcode is not found.
+2022-09-27 12:06:46,330 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [113 329 423 171  39  33]
+2022-09-27 12:06:46,418 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:46,420 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:46,424 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:46,426 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:46,428 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:06:46,430 - root - WARNING - Candidate : 5, Decodable : 0
+2022-09-27 12:06:46,518 - root - INFO - Barcode is not found.
+2022-09-27 12:07:05,883 - root - DEBUG - Shot Time : 0.0717
+2022-09-27 12:07:06,192 - root - INFO - QRcode is not found.
+2022-09-27 12:07:06,604 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 27 458]
+2022-09-27 12:07:06,684 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:07:06,686 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:07:06,773 - root - INFO - Barcode is not found.
+2022-09-27 12:07:26,349 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 12:07:26,621 - root - INFO - QRcode is not found.
+2022-09-27 12:07:27,029 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 27 417]
+2022-09-27 12:07:27,109 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:07:27,111 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:07:27,197 - root - INFO - Barcode is not found.
+2022-09-27 12:07:40,519 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:07:40,784 - root - INFO - QRcode is not found.
+2022-09-27 12:07:41,196 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 31 423]
+2022-09-27 12:07:41,276 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:07:41,278 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:07:41,364 - root - INFO - Barcode is not found.
+2022-09-27 12:08:14,680 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 12:08:14,936 - root - INFO - QRcode is not found.
+2022-09-27 12:08:15,372 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 25 448]
+2022-09-27 12:08:15,456 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:08:15,458 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:08:15,548 - root - INFO - Barcode is not found.
+2022-09-27 12:08:27,454 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:08:27,694 - root - INFO - QRcode is not found.
+2022-09-27 12:08:28,046 - root - DEBUG - Not found long boxes.
+2022-09-27 12:08:28,068 - root - DEBUG - Not found barcode_boxes
+2022-09-27 12:08:28,070 - root - INFO - Barcode is not found.
+2022-09-27 12:08:30,357 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:08:30,633 - root - INFO - QRcode is not found.
+2022-09-27 12:08:31,033 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 23 390]
+2022-09-27 12:08:31,113 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:08:31,113 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:08:31,232 - root - INFO - Barcode is not found.
+2022-09-27 12:08:35,965 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:08:36,215 - root - INFO - QRcode is not found.
+2022-09-27 12:08:36,611 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 25 486]
+2022-09-27 12:08:36,692 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:08:36,692 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:08:36,780 - root - INFO - Barcode is not found.
+2022-09-27 12:08:39,388 - root - DEBUG - Shot Time : 0.0726
+2022-09-27 12:08:39,646 - root - INFO - QRcode is not found.
+2022-09-27 12:08:40,058 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 12 567]
+2022-09-27 12:08:40,140 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:08:40,140 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:08:40,228 - root - INFO - Barcode is not found.
+2022-09-27 12:08:41,678 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 12:08:41,938 - root - INFO - QRcode is not found.
+2022-09-27 12:08:42,349 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 13 670]
+2022-09-27 12:08:42,429 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:08:42,431 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:08:42,517 - root - INFO - Barcode is not found.
+2022-09-27 12:08:43,423 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:08:43,687 - root - INFO - QRcode is not found.
+2022-09-27 12:08:44,116 - root - DEBUG - kind_idx : [-1  0], kind_counts : [ 10 711]
+2022-09-27 12:08:44,198 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:08:44,198 - root - WARNING - Candidate : 1, Decodable : 0
+2022-09-27 12:08:44,284 - root - INFO - Barcode is not found.
+2022-09-27 12:09:42,896 - root - INFO - Stop button clicked.
+2022-09-27 12:11:43,325 - root - INFO - RUN GUI mode.
+2022-09-27 12:11:44,062 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:11:44,062 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:11:44,689 - root - DEBUG - Shot Time : 0.0762
+2022-09-27 12:11:44,764 - root - DEBUG - Shot Time : 0.0733
+2022-09-27 12:11:44,838 - root - DEBUG - Shot Time : 0.0735
+2022-09-27 12:11:44,838 - root - INFO - Cam Started.
+2022-09-27 12:11:44,840 - root - INFO - Serial Opened.
+2022-09-27 12:11:45,946 - root - INFO - Start button clicked.
+2022-09-27 12:11:49,261 - root - DEBUG - Shot Time : 0.0716
+2022-09-27 12:11:49,509 - root - INFO - QRcode is not found.
+2022-09-27 12:11:50,003 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 57 160 584 333 502]
+2022-09-27 12:11:50,087 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:11:50,141 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:11:50,147 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:11:50,147 - root - WARNING - Candidate : 4, Decodable : 1
+2022-09-27 12:11:50,233 - root - INFO - code : ecrvtbyn
+2022-09-27 12:11:55,338 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:11:55,586 - root - INFO - QRcode is not found.
+2022-09-27 12:11:56,082 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 21  56 501 263 466 362]
+2022-09-27 12:11:56,166 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:11:56,174 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:11:56,180 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:11:56,180 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:11:56,268 - root - INFO - code : ecrvtbyn
+2022-09-27 12:11:56,268 - root - INFO - code : yhujikol
+2022-09-27 12:11:59,545 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 12:11:59,793 - root - INFO - QRcode is not found.
+2022-09-27 12:12:00,271 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 21 100 148 456 395 336]
+2022-09-27 12:12:00,353 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:12:00,355 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:12:00,367 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:12:00,367 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:12:00,456 - root - INFO - code : yhujikol
+2022-09-27 12:12:00,462 - root - INFO - code : azsxdcfv
+2022-09-27 12:12:07,252 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:12:07,524 - root - INFO - QRcode is not found.
+2022-09-27 12:12:07,948 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [ 39 152  94 260 275 174]
+2022-09-27 12:12:08,034 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:12:08,040 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:12:08,042 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:12:08,044 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:12:08,131 - root - INFO - code : ecrvtbyn
+2022-09-27 12:12:08,131 - root - INFO - code : azsxdcfv
+2022-09-27 12:13:29,858 - root - INFO - RUN GUI mode.
+2022-09-27 12:13:30,600 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:13:30,600 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:13:31,230 - root - DEBUG - Shot Time : 0.0777
+2022-09-27 12:13:31,304 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 12:13:31,378 - root - DEBUG - Shot Time : 0.0739
+2022-09-27 12:13:31,378 - root - INFO - Cam Started.
+2022-09-27 12:13:31,380 - root - INFO - Serial Opened.
+2022-09-27 12:13:33,563 - root - INFO - Start button clicked.
+2022-09-27 12:13:42,361 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 12:13:42,609 - root - INFO - QRcode is not found.
+2022-09-27 12:13:43,079 - root - DEBUG - kind_idx : [-1  0  1  2  3], kind_counts : [ 29 205 488 387 383]
+2022-09-27 12:13:43,161 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:43,165 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:43,169 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:43,173 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:43,173 - root - WARNING - Candidate : 4, Decodable : 0
+2022-09-27 12:13:43,257 - root - INFO - Barcode is not found.
+2022-09-27 12:13:50,005 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 12:13:50,248 - root - INFO - QRcode is not found.
+2022-09-27 12:13:50,702 - root - DEBUG - kind_idx : [0 1 2 3 4], kind_counts : [245 311  99 230 302]
+2022-09-27 12:13:50,792 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:50,796 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:50,798 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:50,800 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:13:50,886 - root - INFO - code : ecrvtbyn
+2022-09-27 12:13:50,886 - root - INFO - code : yhujikol
+2022-09-27 12:13:52,745 - root - DEBUG - Shot Time : 0.0711
+2022-09-27 12:13:52,995 - root - INFO - QRcode is not found.
+2022-09-27 12:13:53,445 - root - DEBUG - kind_idx : [0 1 2 3 4], kind_counts : [248 332  92 230 315]
+2022-09-27 12:13:53,537 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:53,541 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:53,543 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:13:53,546 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:13:53,686 - root - INFO - code : ecrvtbyn
+2022-09-27 12:13:53,688 - root - INFO - code : yhujikol
+2022-09-27 12:14:00,646 - root - DEBUG - Shot Time : 0.0718
+2022-09-27 12:14:00,902 - root - INFO - QRcode is not found.
+2022-09-27 12:14:01,340 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 231 273 107 265 191]
+2022-09-27 12:14:01,432 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:01,436 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:01,440 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:01,440 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:14:01,526 - root - INFO - code : ecrvtbyn
+2022-09-27 12:14:01,528 - root - INFO - code : yhujikol
+2022-09-27 12:14:05,953 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:14:06,289 - root - INFO - QRcode is not found.
+2022-09-27 12:14:06,705 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  4 147 171 180 117  99]
+2022-09-27 12:14:06,802 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:06,806 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:06,806 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:14:06,892 - root - INFO - code : ecrvtbyn
+2022-09-27 12:14:06,894 - root - INFO - code : yhujikol
+2022-09-27 12:14:06,894 - root - INFO - code : azsxdcfv
+2022-09-27 12:14:11,763 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 12:14:12,086 - root - INFO - QRcode is not found.
+2022-09-27 12:14:12,513 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  6 176 188 211 127 127]
+2022-09-27 12:14:12,611 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:12,615 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:12,615 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:14:12,703 - root - INFO - code : ecrvtbyn
+2022-09-27 12:14:12,703 - root - INFO - code : yhujikol
+2022-09-27 12:14:12,703 - root - INFO - code : azsxdcfv
+2022-09-27 12:14:28,273 - root - DEBUG - Shot Time : 0.0712
+2022-09-27 12:14:28,629 - root - INFO - QRcode is not found.
+2022-09-27 12:14:29,043 - root - DEBUG - kind_idx : [0 1 2 3 4], kind_counts : [148 174 126 155 107]
+2022-09-27 12:14:29,135 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:29,143 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:29,144 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:14:29,278 - root - INFO - code : ecrvtbyn
+2022-09-27 12:14:29,278 - root - INFO - code : yhujikol
+2022-09-27 12:14:29,278 - root - INFO - code : azsxdcfv
+2022-09-27 12:14:46,726 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:14:46,976 - root - INFO - QRcode is not found.
+2022-09-27 12:14:47,496 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 495 171 516 436 372]
+2022-09-27 12:14:47,586 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:47,592 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:47,594 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:47,598 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:14:47,598 - root - WARNING - Candidate : 5, Decodable : 1
+2022-09-27 12:14:47,749 - root - INFO - code : ecrvtbyn
+2022-09-27 12:16:13,779 - root - DEBUG - Shot Time : 0.0722
+2022-09-27 12:16:14,028 - root - INFO - QRcode is not found.
+2022-09-27 12:16:14,526 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 440 153 474 393 342]
+2022-09-27 12:16:14,618 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:14,622 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:14,626 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:14,628 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:14,628 - root - WARNING - Candidate : 5, Decodable : 1
+2022-09-27 12:16:14,714 - root - INFO - code : ecrvtbyn
+2022-09-27 12:16:18,174 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:16:18,448 - root - INFO - QRcode is not found.
+2022-09-27 12:16:18,944 - root - DEBUG - kind_idx : [0 1 2 3 4], kind_counts : [193 434 188 364 326]
+2022-09-27 12:16:19,029 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:19,037 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:19,041 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:19,067 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:19,067 - root - WARNING - Candidate : 5, Decodable : 1
+2022-09-27 12:16:19,173 - root - INFO - code : yhujikol
+2022-09-27 12:16:22,451 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 12:16:22,754 - root - INFO - QRcode is not found.
+2022-09-27 12:16:23,224 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 369 395  98 270 212]
+2022-09-27 12:16:23,322 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:23,330 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:16:23,330 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:16:23,418 - root - INFO - code : ecrvtbyn
+2022-09-27 12:16:23,418 - root - INFO - code : yhujikol
+2022-09-27 12:16:23,418 - root - INFO - code : azsxdcfv
+2022-09-27 12:18:02,527 - root - INFO - RUN GUI mode.
+2022-09-27 12:18:03,205 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:18:03,205 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:18:03,836 - root - DEBUG - Shot Time : 0.0750
+2022-09-27 12:18:03,912 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 12:18:03,986 - root - DEBUG - Shot Time : 0.0744
+2022-09-27 12:18:03,986 - root - INFO - Cam Started.
+2022-09-27 12:18:03,988 - root - INFO - Serial Opened.
+2022-09-27 12:18:06,384 - root - INFO - Start button clicked.
+2022-09-27 12:18:08,873 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:18:09,167 - root - INFO - QRcode is not found.
+2022-09-27 12:18:09,649 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 368 413  87 280 229]
+2022-09-27 12:18:09,743 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:18:09,753 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:18:09,753 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:18:09,837 - root - INFO - code : ecrvtbyn
+2022-09-27 12:18:09,839 - root - INFO - code : yhujikol
+2022-09-27 12:18:09,839 - root - INFO - code : azsxdcfv
+2022-09-27 12:18:42,237 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:18:42,539 - root - INFO - QRcode is not found.
+2022-09-27 12:18:43,059 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 460 250 315 462 130]
+2022-09-27 12:18:43,153 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:18:43,165 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:18:43,165 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:18:43,255 - root - INFO - code : ecrvtbyn
+2022-09-27 12:18:43,257 - root - INFO - code : azsxdcfv
+2022-09-27 12:18:43,257 - root - INFO - code : yhujikol
+2022-09-27 12:18:47,808 - root - INFO - Stop button clicked.
+2022-09-27 12:18:51,529 - root - INFO - Start button clicked.
+2022-09-27 12:18:53,950 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 12:18:54,246 - root - INFO - QRcode is not found.
+2022-09-27 12:18:54,796 - root - DEBUG - kind_idx : [0 1 2 3 4], kind_counts : [513 157 499 302 233]
+2022-09-27 12:18:54,916 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:18:54,942 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:18:54,942 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:18:55,032 - root - INFO - code : ecrvtbyn
+2022-09-27 12:18:55,034 - root - INFO - code : yhujikol
+2022-09-27 12:18:55,034 - root - INFO - code : azsxdcfv
+2022-09-27 12:19:09,118 - root - INFO - RUN GUI mode.
+2022-09-27 12:19:09,783 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:19:09,783 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:19:10,420 - root - DEBUG - Shot Time : 0.0775
+2022-09-27 12:19:10,494 - root - DEBUG - Shot Time : 0.0741
+2022-09-27 12:19:10,567 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 12:19:10,567 - root - INFO - Cam Started.
+2022-09-27 12:19:10,570 - root - INFO - Serial Opened.
+2022-09-27 12:19:15,150 - root - INFO - Start button clicked.
+2022-09-27 12:19:18,876 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:19:19,166 - root - INFO - QRcode is not found.
+2022-09-27 12:19:19,685 - root - DEBUG - kind_idx : [0 1 2 3 4], kind_counts : [402 419 115 264 231]
+2022-09-27 12:19:19,785 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:19:19,789 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:19:19,791 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:19:19,793 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:19:19,879 - root - INFO - code : ecrvtbyn
+2022-09-27 12:19:19,879 - root - INFO - code : yhujikol
+2022-09-27 12:19:30,946 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:19:31,243 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:34,198 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:19:34,474 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:34,474 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:36,205 - root - DEBUG - Shot Time : 0.0722
+2022-09-27 12:19:36,487 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:36,487 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:38,141 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:19:38,435 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:38,435 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:39,848 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:19:40,193 - root - INFO - code : hellooooooooooooooooooooooooooooooooooo
+2022-09-27 12:19:40,193 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-27 12:20:34,180 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:20:34,467 - root - INFO - code : helloooooooooooooooooooooooooooooooooo
+2022-09-27 12:20:40,885 - root - DEBUG - Shot Time : 0.0730
+2022-09-27 12:20:41,157 - root - INFO - QRcode is not found.
+2022-09-27 12:20:41,641 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1  57 468 232 332 405]
+2022-09-27 12:20:41,725 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:20:41,735 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:20:41,739 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:20:41,745 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:20:41,745 - root - WARNING - Candidate : 5, Decodable : 1
+2022-09-27 12:20:41,831 - root - INFO - code : ecrvtbyn
+2022-09-27 12:21:05,742 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:21:06,020 - root - INFO - QRcode is not found.
+2022-09-27 12:21:06,504 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 364 124 385 248 325]
+2022-09-27 12:21:06,596 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:21:06,606 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:21:06,610 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:21:06,696 - root - INFO - code : ecrvtbyn
+2022-09-27 12:21:06,698 - root - INFO - code : yhujikol
+2022-09-27 12:21:06,698 - root - INFO - code : azsxdcfv
+2022-09-27 12:23:43,225 - root - INFO - RUN GUI mode.
+2022-09-27 12:23:43,898 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:23:43,898 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:23:44,529 - root - DEBUG - Shot Time : 0.0764
+2022-09-27 12:23:44,603 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:23:44,679 - root - DEBUG - Shot Time : 0.0732
+2022-09-27 12:23:44,679 - root - INFO - Cam Started.
+2022-09-27 12:23:44,681 - root - INFO - Serial Opened.
+2022-09-27 12:23:45,712 - root - INFO - Start button clicked.
+2022-09-27 12:23:48,482 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 12:23:48,765 - root - INFO - QRcode is not found.
+2022-09-27 12:23:49,247 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 382 118 410 248 306]
+2022-09-27 12:23:49,337 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:23:49,345 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:23:49,349 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:23:49,487 - root - INFO - code : ecrvtbyn
+2022-09-27 12:23:49,489 - root - INFO - code : yhujikol
+2022-09-27 12:23:49,489 - root - INFO - code : azsxdcfv
+2022-09-27 12:25:12,579 - root - INFO - RUN GUI mode.
+2022-09-27 12:25:13,248 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:25:13,248 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:25:13,881 - root - DEBUG - Shot Time : 0.0769
+2022-09-27 12:25:13,954 - root - DEBUG - Shot Time : 0.0733
+2022-09-27 12:25:14,030 - root - DEBUG - Shot Time : 0.0737
+2022-09-27 12:25:14,030 - root - INFO - Cam Started.
+2022-09-27 12:25:14,032 - root - INFO - Serial Opened.
+2022-09-27 12:25:16,338 - root - INFO - Start button clicked.
+2022-09-27 12:25:18,576 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:25:18,857 - root - INFO - QRcode is not found.
+2022-09-27 12:25:19,329 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 366  94 356 238 308]
+2022-09-27 12:25:19,417 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:19,425 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:19,431 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:25:19,515 - root - INFO - code : ecrvtbyn
+2022-09-27 12:25:19,517 - root - INFO - code : yhujikol
+2022-09-27 12:25:19,517 - root - INFO - code : azsxdcfv
+2022-09-27 12:25:23,936 - root - DEBUG - Shot Time : 0.0715
+2022-09-27 12:25:24,220 - root - INFO - QRcode is not found.
+2022-09-27 12:25:24,706 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 404 102 411 237 345]
+2022-09-27 12:25:24,796 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:24,807 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:24,810 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:25:24,948 - root - INFO - code : ecrvtbyn
+2022-09-27 12:25:24,950 - root - INFO - code : yhujikol
+2022-09-27 12:25:24,950 - root - INFO - code : azsxdcfv
+2022-09-27 12:25:29,461 - root - DEBUG - Shot Time : 0.0709
+2022-09-27 12:25:29,748 - root - INFO - QRcode is not found.
+2022-09-27 12:25:30,230 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 374 110 386 239 299]
+2022-09-27 12:25:30,320 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:30,330 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:30,334 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:25:30,422 - root - INFO - code : ecrvtbyn
+2022-09-27 12:25:30,422 - root - INFO - code : yhujikol
+2022-09-27 12:25:30,426 - root - INFO - code : azsxdcfv
+2022-09-27 12:25:32,395 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:25:32,675 - root - INFO - QRcode is not found.
+2022-09-27 12:25:33,155 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 382 112 398 239 311]
+2022-09-27 12:25:33,247 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:33,255 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:25:33,261 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:25:33,393 - root - INFO - code : ecrvtbyn
+2022-09-27 12:25:33,393 - root - INFO - code : yhujikol
+2022-09-27 12:25:33,395 - root - INFO - code : azsxdcfv
+2022-09-27 12:27:23,183 - root - INFO - RUN GUI mode.
+2022-09-27 12:27:23,837 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:27:23,837 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:27:24,466 - root - DEBUG - Shot Time : 0.0760
+2022-09-27 12:27:24,542 - root - DEBUG - Shot Time : 0.0741
+2022-09-27 12:27:24,616 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 12:27:24,616 - root - INFO - Cam Started.
+2022-09-27 12:27:24,619 - root - INFO - Serial Opened.
+2022-09-27 12:27:25,696 - root - INFO - Start button clicked.
+2022-09-27 12:27:28,044 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:27:28,330 - root - INFO - QRcode is not found.
+2022-09-27 12:27:28,824 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 412 116 431 231 351]
+2022-09-27 12:27:28,914 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:28,922 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:28,926 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:27:29,055 - root - INFO - code : ecrvtbyn
+2022-09-27 12:27:29,057 - root - INFO - code : yhujikol
+2022-09-27 12:27:29,057 - root - INFO - code : azsxdcfv
+2022-09-27 12:27:32,297 - root - DEBUG - Shot Time : 0.0717
+2022-09-27 12:27:32,584 - root - INFO - QRcode is not found.
+2022-09-27 12:27:33,067 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 383 102 399 235 318]
+2022-09-27 12:27:33,157 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:33,165 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:33,169 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:27:33,257 - root - INFO - code : ecrvtbyn
+2022-09-27 12:27:33,257 - root - INFO - code : yhujikol
+2022-09-27 12:27:33,257 - root - INFO - code : azsxdcfv
+2022-09-27 12:27:35,884 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 12:27:36,161 - root - INFO - QRcode is not found.
+2022-09-27 12:27:36,672 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  7 482 133 460 261 365]
+2022-09-27 12:27:36,766 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:36,774 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:36,778 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:27:36,778 - root - WARNING - Candidate : 5, Decodable : 2
+2022-09-27 12:27:36,868 - root - INFO - code : ecrvtbyn
+2022-09-27 12:27:36,868 - root - INFO - code : yhujikol
+2022-09-27 12:27:39,005 - root - INFO - Stop button clicked.
+2022-09-27 12:27:56,032 - root - INFO - RUN GUI mode.
+2022-09-27 12:27:56,689 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:27:56,689 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:27:57,313 - root - DEBUG - Shot Time : 0.0759
+2022-09-27 12:27:57,389 - root - DEBUG - Shot Time : 0.0740
+2022-09-27 12:27:57,463 - root - DEBUG - Shot Time : 0.0736
+2022-09-27 12:27:57,465 - root - INFO - Cam Started.
+2022-09-27 12:27:57,465 - root - INFO - Serial Opened.
+2022-09-27 12:27:59,071 - root - INFO - Start button clicked.
+2022-09-27 12:28:01,289 - root - DEBUG - Shot Time : 0.0724
+2022-09-27 12:28:01,564 - root - INFO - QRcode is not found.
+2022-09-27 12:28:02,043 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 363 109 412 237 303]
+2022-09-27 12:28:02,133 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:28:02,141 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:28:02,145 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:28:02,231 - root - INFO - code : ecrvtbyn
+2022-09-27 12:28:02,231 - root - INFO - code : yhujikol
+2022-09-27 12:28:02,231 - root - INFO - code : azsxdcfv
+2022-09-27 12:28:06,153 - root - DEBUG - Shot Time : 0.0729
+2022-09-27 12:28:06,456 - root - INFO - QRcode is not found.
+2022-09-27 12:28:06,961 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 431 121 448 252 352]
+2022-09-27 12:28:07,051 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:28:07,059 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:28:07,063 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:28:07,212 - root - INFO - code : ecrvtbyn
+2022-09-27 12:28:07,214 - root - INFO - code : yhujikol
+2022-09-27 12:28:07,216 - root - INFO - code : azsxdcfv
+2022-09-27 12:28:12,636 - root - INFO - Stop button clicked.
+2022-09-27 12:29:04,204 - root - INFO - RUN GUI mode.
+2022-09-27 12:29:04,875 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:29:04,875 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:29:05,509 - root - DEBUG - Shot Time : 0.0772
+2022-09-27 12:29:05,584 - root - DEBUG - Shot Time : 0.0741
+2022-09-27 12:29:05,658 - root - DEBUG - Shot Time : 0.0735
+2022-09-27 12:29:05,660 - root - INFO - Cam Started.
+2022-09-27 12:29:05,662 - root - INFO - Serial Opened.
+2022-09-27 12:29:06,558 - root - INFO - Start button clicked.
+2022-09-27 12:29:09,099 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:29:09,375 - root - INFO - QRcode is not found.
+2022-09-27 12:29:09,857 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 339 108 388 232 315]
+2022-09-27 12:29:09,947 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:09,955 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:09,961 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:29:10,047 - root - INFO - code : ecrvtbyn
+2022-09-27 12:29:10,047 - root - INFO - code : yhujikol
+2022-09-27 12:29:10,047 - root - INFO - code : azsxdcfv
+2022-09-27 12:29:12,831 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 12:29:13,137 - root - INFO - QRcode is not found.
+2022-09-27 12:29:13,645 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 396 115 423 242 324]
+2022-09-27 12:29:13,735 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:13,745 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:13,749 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:29:13,835 - root - INFO - code : ecrvtbyn
+2022-09-27 12:29:13,835 - root - INFO - code : yhujikol
+2022-09-27 12:29:13,835 - root - INFO - code : azsxdcfv
+2022-09-27 12:29:15,083 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:29:15,361 - root - INFO - QRcode is not found.
+2022-09-27 12:29:15,917 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 380 111 385 247 337]
+2022-09-27 12:29:16,007 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:16,017 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:16,021 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:29:16,107 - root - INFO - code : ecrvtbyn
+2022-09-27 12:29:16,107 - root - INFO - code : yhujikol
+2022-09-27 12:29:16,109 - root - INFO - code : azsxdcfv
+2022-09-27 12:29:31,815 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:29:32,117 - root - INFO - QRcode is not found.
+2022-09-27 12:29:32,625 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 440 122 443 270 345]
+2022-09-27 12:29:32,715 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:32,723 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:29:32,729 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:29:32,869 - root - INFO - code : ecrvtbyn
+2022-09-27 12:29:32,871 - root - INFO - code : yhujikol
+2022-09-27 12:29:32,871 - root - INFO - code : azsxdcfv
+2022-09-27 12:30:55,655 - root - INFO - RUN GUI mode.
+2022-09-27 12:30:56,366 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:30:56,366 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:30:56,996 - root - DEBUG - Shot Time : 0.0771
+2022-09-27 12:30:57,070 - root - DEBUG - Shot Time : 0.0723
+2022-09-27 12:30:57,145 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:30:57,147 - root - INFO - Cam Started.
+2022-09-27 12:30:57,148 - root - INFO - Serial Opened.
+2022-09-27 12:30:58,789 - root - INFO - Start button clicked.
+2022-09-27 12:31:01,043 - root - DEBUG - Shot Time : 0.0720
+2022-09-27 12:31:01,337 - root - INFO - QRcode is not found.
+2022-09-27 12:31:01,858 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  4 470 140 484 254 374]
+2022-09-27 12:31:01,966 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:01,978 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:01,982 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:31:02,068 - root - INFO - code : ecrvtbyn
+2022-09-27 12:31:02,068 - root - INFO - code : yhujikol
+2022-09-27 12:31:02,068 - root - INFO - code : azsxdcfv
+2022-09-27 12:31:04,618 - root - DEBUG - Shot Time : 0.0727
+2022-09-27 12:31:04,928 - root - INFO - QRcode is not found.
+2022-09-27 12:31:05,448 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 457 135 453 272 376]
+2022-09-27 12:31:05,540 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:05,548 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:05,552 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:31:05,693 - root - INFO - code : ecrvtbyn
+2022-09-27 12:31:05,701 - root - INFO - code : yhujikol
+2022-09-27 12:31:05,701 - root - INFO - code : azsxdcfv
+2022-09-27 12:31:07,709 - root - DEBUG - Shot Time : 0.0713
+2022-09-27 12:31:07,999 - root - INFO - QRcode is not found.
+2022-09-27 12:31:08,514 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 445 142 468 266 359]
+2022-09-27 12:31:08,606 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:08,616 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:08,620 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:31:08,708 - root - INFO - code : ecrvtbyn
+2022-09-27 12:31:08,708 - root - INFO - code : yhujikol
+2022-09-27 12:31:08,708 - root - INFO - code : azsxdcfv
+2022-09-27 12:31:34,923 - root - INFO - RUN GUI mode.
+2022-09-27 12:31:35,645 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:31:35,645 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:31:36,274 - root - DEBUG - Shot Time : 0.0769
+2022-09-27 12:31:36,348 - root - DEBUG - Shot Time : 0.0738
+2022-09-27 12:31:36,423 - root - DEBUG - Shot Time : 0.0747
+2022-09-27 12:31:36,423 - root - INFO - Cam Started.
+2022-09-27 12:31:36,426 - root - INFO - Serial Opened.
+2022-09-27 12:31:37,610 - root - INFO - Start button clicked.
+2022-09-27 12:31:41,136 - root - DEBUG - Shot Time : 0.0716
+2022-09-27 12:31:41,414 - root - INFO - QRcode is not found.
+2022-09-27 12:31:41,928 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  4 460 136 464 253 348]
+2022-09-27 12:31:42,018 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:42,026 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:42,032 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:31:42,116 - root - INFO - code : ecrvtbyn
+2022-09-27 12:31:42,118 - root - INFO - code : yhujikol
+2022-09-27 12:31:42,118 - root - INFO - code : azsxdcfv
+2022-09-27 12:31:43,520 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:31:43,810 - root - INFO - QRcode is not found.
+2022-09-27 12:31:44,330 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 446 139 447 255 354]
+2022-09-27 12:31:44,422 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:44,432 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:44,436 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:31:44,522 - root - INFO - code : ecrvtbyn
+2022-09-27 12:31:44,522 - root - INFO - code : yhujikol
+2022-09-27 12:31:44,522 - root - INFO - code : azsxdcfv
+2022-09-27 12:31:47,604 - root - DEBUG - Shot Time : 0.0725
+2022-09-27 12:31:47,891 - root - INFO - QRcode is not found.
+2022-09-27 12:31:48,405 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 454 145 456 271 345]
+2022-09-27 12:31:48,497 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:48,507 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:31:48,511 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:31:48,599 - root - INFO - code : ecrvtbyn
+2022-09-27 12:31:48,599 - root - INFO - code : yhujikol
+2022-09-27 12:31:48,599 - root - INFO - code : azsxdcfv
+2022-09-27 12:32:02,725 - root - INFO - RUN GUI mode.
+2022-09-27 12:32:03,416 - root - DEBUG - ExposureTime:2500, AcquisitionMode:SingleFrame
+2022-09-27 12:32:03,416 - root - DEBUG - Device:STC-MCS500POE(21FH158)
+2022-09-27 12:32:04,051 - root - DEBUG - Shot Time : 0.0777
+2022-09-27 12:32:04,124 - root - DEBUG - Shot Time : 0.0732
+2022-09-27 12:32:04,199 - root - DEBUG - Shot Time : 0.0728
+2022-09-27 12:32:04,199 - root - INFO - Cam Started.
+2022-09-27 12:32:04,202 - root - INFO - Serial Opened.
+2022-09-27 12:32:05,091 - root - INFO - Start button clicked.
+2022-09-27 12:32:09,505 - root - DEBUG - Shot Time : 0.0716
+2022-09-27 12:32:09,811 - root - INFO - QRcode is not found.
+2022-09-27 12:32:10,301 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 385 114 416 244 324]
+2022-09-27 12:32:10,391 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:10,399 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:10,403 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:32:10,489 - root - INFO - code : ecrvtbyn
+2022-09-27 12:32:10,489 - root - INFO - code : yhujikol
+2022-09-27 12:32:10,489 - root - INFO - code : azsxdcfv
+2022-09-27 12:32:12,668 - root - DEBUG - Shot Time : 0.0714
+2022-09-27 12:32:12,957 - root - INFO - QRcode is not found.
+2022-09-27 12:32:13,465 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  5 441 134 430 261 373]
+2022-09-27 12:32:13,555 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:13,563 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:13,569 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:32:13,655 - root - INFO - code : ecrvtbyn
+2022-09-27 12:32:13,655 - root - INFO - code : yhujikol
+2022-09-27 12:32:13,655 - root - INFO - code : azsxdcfv
+2022-09-27 12:32:15,183 - root - DEBUG - Shot Time : 0.0721
+2022-09-27 12:32:15,463 - root - INFO - QRcode is not found.
+2022-09-27 12:32:15,945 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  1 356 104 384 239 293]
+2022-09-27 12:32:16,037 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:16,045 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:16,051 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:32:16,138 - root - INFO - code : ecrvtbyn
+2022-09-27 12:32:16,138 - root - INFO - code : yhujikol
+2022-09-27 12:32:16,138 - root - INFO - code : azsxdcfv
+2022-09-27 12:32:18,263 - root - DEBUG - Shot Time : 0.0719
+2022-09-27 12:32:18,575 - root - INFO - QRcode is not found.
+2022-09-27 12:32:19,087 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  3 463 155 463 275 362]
+2022-09-27 12:32:19,180 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:19,188 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:19,192 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:32:19,328 - root - INFO - code : ecrvtbyn
+2022-09-27 12:32:19,328 - root - INFO - code : yhujikol
+2022-09-27 12:32:19,328 - root - INFO - code : azsxdcfv
+2022-09-27 12:32:20,433 - root - DEBUG - Shot Time : 0.0715
+2022-09-27 12:32:20,711 - root - INFO - QRcode is not found.
+2022-09-27 12:32:21,197 - root - DEBUG - kind_idx : [-1  0  1  2  3  4], kind_counts : [  2 376 102 406 245 315]
+2022-09-27 12:32:21,291 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:21,299 - root - DEBUG - Candidate img could not be decode..
+2022-09-27 12:32:21,305 - root - WARNING - Candidate : 5, Decodable : 3
+2022-09-27 12:32:21,391 - root - INFO - code : ecrvtbyn
+2022-09-27 12:32:21,391 - root - INFO - code : yhujikol
+2022-09-27 12:32:21,393 - root - INFO - code : azsxdcfv
