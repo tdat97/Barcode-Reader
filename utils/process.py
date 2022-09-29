@@ -12,6 +12,8 @@ path = os.path.join(SAVE_PATH, "debug")
 if not os.path.isdir(path): os.mkdir(path)
 path = os.path.join(SAVE_PATH, "raw")
 if not os.path.isdir(path): os.mkdir(path)
+path = os.path.join(SAVE_PATH, "not_found")
+if not os.path.isdir(path): os.mkdir(path)
 
 
 def raw_shot(self):
@@ -67,6 +69,8 @@ def process(self):
             if not data:
                 logger.info("Barcode is not found.")
                 data = None
+                path = os.path.join(SAVE_PATH, "not_found", f"{time_str}.jpg")
+                cv2.imwrite(path, img)
                 
             if data:
                 for v in data:
@@ -75,7 +79,9 @@ def process(self):
                 img = draw_box_text(img, data, poly_boxes)
                 data = data[0]
                 # save anno img
-                path = os.path.join(SAVE_PATH, "anno", f"{time_str}.jpg")
+                path = os.path.join(SAVE_PATH, "anno", f"{data}")
+                if not os.path.isdir(path): os.mkdir(path)
+                path = os.path.join(path, f"{time_str}.jpg")
                 cv2.imwrite(path, img)
             
             self.image_Q.put(img)
