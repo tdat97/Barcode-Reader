@@ -6,11 +6,24 @@ import cv2
 import os
 
 SAVE_PATH = "./image"
+path = os.path.join(SAVE_PATH, "anno")
+if not os.path.isdir(path): os.mkdir(path)
+path = os.path.join(SAVE_PATH, "debug")
+if not os.path.isdir(path): os.mkdir(path)
+path = os.path.join(SAVE_PATH, "raw")
+if not os.path.isdir(path): os.mkdir(path)
+path = os.path.join(SAVE_PATH, "not_found")
+if not os.path.isdir(path): os.mkdir(path)
+
 
 def raw_shot(self):
     self.serial.write(b'o')
+    time.sleep(0.015)
     img = self.cam.get_image()
     self.serial.write(b'x')
+    if img is None:
+        logger.error("Raw Image is None !!")
+        return
     self.raw_Q.put(img)
     
 def sensor2shot(self):
@@ -56,17 +69,23 @@ def process(self):
             if not data:
                 logger.info("Barcode is not found.")
                 data = None
+                path = os.path.join(SAVE_PATH, "not_found", f"{time_str}.jpg")
+                cv2.imwrite(path, img)
                 
             if data:
-                for v in data: logger.info(f"code : {v}")
+                for v in data:
+                    logger.info(f"code : {v}")
+                    #self.data_Q.put(v)###########
                 img = draw_box_text(img, data, poly_boxes)
                 data = data[0]
                 # save anno img
-                path = os.path.join(SAVE_PATH, "anno", f"{time_str}.jpg")
+                path = os.path.join(SAVE_PATH, "anno", f"{data}")
+                if not os.path.isdir(path): os.mkdir(path)
+                path = os.path.join(path, f"{time_str}.jpg")
                 cv2.imwrite(path, img)
             
             self.image_Q.put(img)
-            self.data_Q.put(data)
+            self.data_Q.put(data) #########
         
     except Exception as e:
         logger.error(f"[process]{e}")
