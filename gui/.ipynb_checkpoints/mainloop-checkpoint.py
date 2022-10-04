@@ -218,6 +218,8 @@ class VisualControl():
             self.listbox4.delete(i)
         self.data_unique_list = []
         self.total_ffl1.configure(text=0)
+        self.total_ffl2.configure(text=0)
+        self.total_ffl3.configure(text=0)
     
     def data_eater(self):
         while True:
