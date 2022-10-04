@@ -1,3 +1,30 @@
-2022-09-29 16:32:46,776 - root - INFO - RUN GUI mode.
-2022-09-29 16:32:47,540 - root - ERROR - There is no available device.
-2022-09-29 16:32:47,555 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:10:21,163 - root - INFO - RUN GUI mode.
+2022-10-04 09:10:22,006 - root - ERROR - There is no available device.
+2022-10-04 09:10:22,012 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:11:04,399 - root - INFO - RUN GUI mode.
+2022-10-04 09:11:04,919 - root - ERROR - There is no available device.
+2022-10-04 09:11:04,922 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:12:43,470 - root - INFO - RUN GUI mode.
+2022-10-04 09:12:43,974 - root - ERROR - There is no available device.
+2022-10-04 09:12:43,977 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:24:43,462 - root - INFO - RUN GUI mode.
+2022-10-04 09:24:43,977 - root - ERROR - There is no available device.
+2022-10-04 09:24:43,980 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:25:10,398 - root - INFO - RUN GUI mode.
+2022-10-04 09:25:10,896 - root - ERROR - There is no available device.
+2022-10-04 09:25:10,899 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:29:12,814 - root - INFO - RUN GUI mode.
+2022-10-04 09:29:13,317 - root - ERROR - There is no available device.
+2022-10-04 09:29:13,320 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:29:34,909 - root - INFO - RUN GUI mode.
+2022-10-04 09:29:35,434 - root - ERROR - There is no available device.
+2022-10-04 09:29:35,437 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:29:44,836 - root - INFO - RUN GUI mode.
+2022-10-04 09:29:45,375 - root - ERROR - There is no available device.
+2022-10-04 09:29:45,379 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:30:17,474 - root - INFO - RUN GUI mode.
+2022-10-04 09:30:17,974 - root - ERROR - There is no available device.
+2022-10-04 09:30:17,977 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)
+2022-10-04 09:36:49,031 - root - INFO - RUN GUI mode.
+2022-10-04 09:36:49,548 - root - ERROR - There is no available device.
+2022-10-04 09:36:49,557 - root - ERROR - could not open port 'COM5': FileNotFoundError(2, '지정된 파일을 찾을 수 없습니다.', None, 2)

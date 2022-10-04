@@ -65,30 +65,35 @@ def configure(self):
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl1 = tk.Label(self.total_ff, text=f'{9999:,d}', relief="solid", bd=1)
+    self.total_ffl1 = tk.Label(self.total_ff, text=f'{10000:d}', relief="solid", bd=1)
     self.total_ffl1.place(relx=0.18, rely=0.0, relwidth=0.3, relheight=0.25)
     self.total_ffl1['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl1.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    # self.total_ffl = tk.Label(self.total_ff, text='OK 수량')
-    # self.total_ffl.place(relx=0.0, rely=0.3, relwidth=0.17, relheight=0.25)
-    # self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
-    # self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
-    # # 프레임2 - 프레임2 - 프레임 - 라벨
-    # self.total_ffl2 = tk.Label(self.total_ff, text=f'{10000:,d}', relief="solid", bd=1)
-    # self.total_ffl2.place(relx=0.18, rely=0.3, relwidth=0.3, relheight=0.25)
-    # self.total_ffl2['font'] = font.Font(family='Helvetica', size=10, weight='bold')
-    # self.total_ffl2.configure(fg='#000', anchor='w')
-    # # 프레임2 - 프레임2 - 프레임 - 라벨
-    # self.total_ffl = tk.Label(self.total_ff, text='NG 수량')
-    # self.total_ffl.place(relx=0.5, rely=0.3, relwidth=0.17, relheight=0.25)
-    # self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
-    # self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
-    # # 프레임2 - 프레임2 - 프레임 - 라벨
-    # self.total_ffl3 = tk.Label(self.total_ff, text=f'{1000:,d}', relief="solid", bd=1)
-    # self.total_ffl3.place(relx=0.68, rely=0.3, relwidth=0.3, relheight=0.25)
-    # self.total_ffl3['font'] = font.Font(family='Helvetica', size=10, weight='bold')
-    # self.total_ffl3.configure(fg='#000', anchor='w')
+    self.total_ffl = tk.Label(self.total_ff, text='정상 수량')
+    self.total_ffl.place(relx=0.0, rely=0.3, relwidth=0.17, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl2 = tk.Label(self.total_ff, text=f'{9900:d}', relief="solid", bd=1)
+    self.total_ffl2.place(relx=0.18, rely=0.3, relwidth=0.3, relheight=0.25)
+    self.total_ffl2['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl2.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='미판독 수량')
+    self.total_ffl.place(relx=0.5, rely=0.3, relwidth=0.17, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl3 = tk.Label(self.total_ff, text=f'{100:d}', relief="solid", bd=1)
+    self.total_ffl3.place(relx=0.68, rely=0.3, relwidth=0.3, relheight=0.25)
+    self.total_ffl3['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl3.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 버튼
+    func = lambda:self.go_directory(self.not_found_path)
+    self.file_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
+    self.file_button.place(relx=0.5, rely=0.0, relwidth=0.48, relheight=0.25)
+    self.file_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     # 프레임2 - 프레임2 - 프레임 - 버튼
     self.init_button = tk.Button(self.total_ff, text="초기화", command=self.clear_data, bd=2)
     self.init_button.place(relx=0, rely=0.65, relwidth=1, relheight=0.35)

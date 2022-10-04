@@ -17,6 +17,7 @@ import os
 
 TITLE = "Machine Vision System"
 ICON_PATH = "./gui/eye.ico"
+NOT_FOUND_PATH = "./image/not_found"
 
 class VisualControl():
     def __init__(self, root):
@@ -30,6 +31,7 @@ class VisualControl():
         self.root.minsize(self.screenwidth//3*2, self.screenheight//3*2)
         self.current_origin_image = None#np.zeros((100,100,3), dtype=np.uint8)
         self.current_image = None
+        self.not_found_path = NOT_FOUND_PATH
         configure(self)
         
         self.stop_signal = True
@@ -196,13 +198,18 @@ class VisualControl():
     #######################################################################
     def update_data(self, code_data):
         self.data_dict[code_data] += 1
-        if not code_data in self.data_unique_list:
+        total = sum(self.data_dict.values())
+        self.total_ffl1.configure(text=total)
+        self.total_ffl2.configure(text=total-self.data_dict[None])
+        self.total_ffl3.configure(text=self.data_dict[None])
+        
+        if code_data is None: return
+        if not (code_data in self.data_unique_list):
             self.listbox1.insert(len(self.data_unique_list), code_data)
             self.data_unique_list.append(code_data)
         idx = self.data_unique_list.index(code_data)
         self.listbox4.delete(idx)
         self.listbox4.insert(idx, self.data_dict[code_data])
-        self.total_ffl1.configure(text=sum(self.data_dict.values()))
         
     def clear_data(self):
         self.data_dict = defaultdict(int)
@@ -219,14 +226,16 @@ class VisualControl():
             if self.data_Q.empty(): continue
             
             code_data = self.data_Q.get()
+            self.update_data(code_data)
             if code_data:
                 self.ok_label.configure(text='OK', fg='#ff0', bg='#0cf', anchor='center')
                 self.objinfo_ffl11.configure(text=code_data)
-                self.update_data(code_data)
             else:
                 self.ok_label.configure(text='FAIL', fg='#ff0', bg='#f30', anchor='center')
                 self.objinfo_ffl11.configure(text="None")
     
     #######################################################################
-        
-            
+    def go_directory(self, path):
+        path = os.path.realpath(path)
+        os.startfile(path)
+    
