@@ -81,7 +81,10 @@ class VisualControl():
         if (not self.cam) or (not self.serial): return
         
         self.stop_signal = False
-        self.total_ffl1.configure(text=sum(self.data_dict.values()))
+        total = sum(self.data_dict.values())
+        self.total_ffl1.configure(text=total)
+        self.total_ffl2.configure(text=total-self.data_dict[None])
+        self.total_ffl3.configure(text=self.data_dict[None])
         
         clear_serial(self.serial)
         clear_Q(self.raw_Q)

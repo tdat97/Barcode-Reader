@@ -59,19 +59,14 @@ def find_barcode(img_gray):
     logger.debug(f"kind_idx : {kind_idx}, kind_counts : {kind_counts}")
 
     # debug
-    img_copy = np.tile(img_gray.copy()[...,None], (1,1,3))
+    debug_img = np.tile(img_gray.copy()[...,None], (1,1,3))
     colors = [tuple(map(int, np.random.randint(50, 200, size=3)))
               for _ in range(len(kind_idx))]
-    # for x, y, i in zip(center_x, center_y, cluster_idx):
-    #     x, y = int(x), int(y)
-    #     color = (255,255,255) if i == -1 else colors[i]
-    #     cv2.line(img_copy, (x, y), (x, y), color, 3)
 
     for box, i in zip(boxes, cluster_idx):
         color = (255,255,255) if i == -1 else colors[i]
-        cv2.polylines(img_copy, [box], True, color)
+        cv2.polylines(debug_img, [box], True, color)
     
-    debug_img = img_copy
     # 바코드 박싱
     barcode_boxes = []
     for kind in kind_idx:
@@ -84,6 +79,11 @@ def find_barcode(img_gray):
     
         barcode_box = cv2.boxPoints(big_rect).astype(np.int32)
         barcode_boxes.append(barcode_box)
+        
+    # debug2
+    for box in barcode_boxes:
+        color = (0,0,255)
+        cv2.polylines(debug_img, [box], True, color)
 
     return barcode_boxes, debug_img
     

@@ -59,24 +59,18 @@ def find_barcode(img_gray):
     logger.debug(f"kind_idx : {kind_idx}, kind_counts : {kind_counts}")
 
     # debug
-    img_copy = np.tile(img_gray.copy()[...,None], (1,1,3))
+    debug_img = np.tile(img_gray.copy()[...,None], (1,1,3))
     colors = [tuple(map(int, np.random.randint(50, 200, size=3)))
-              for _ in range(1, len(kind_idx))]
-    # for x, y, i in zip(center_x, center_y, cluster_idx):
-    #     x, y = int(x), int(y)
-    #     color = (255,255,255) if i == -1 else colors[i]
-    #     cv2.line(img_copy, (x, y), (x, y), color, 3)
+              for _ in range(len(kind_idx))]
+
     for box, i in zip(boxes, cluster_idx):
         color = (255,255,255) if i == -1 else colors[i]
-        cv2.polylines(img_copy, [box], True, color)
+        cv2.polylines(debug_img, [box], True, color)
     
-    debug_img = img_copy
-
     # 바코드 박싱
     barcode_boxes = []
     for kind in kind_idx:
         if kind == -1: continue
-        kind_boxes = boxes
         kind_boxes = boxes[np.where(cluster_idx==kind)]
         points = kind_boxes.reshape(-1, 2) # (n, 4, 2) -> (m, 2)
         # ((a,b),(c,d),e) -> [(a,b), ndarr(c,d), e]
@@ -85,6 +79,11 @@ def find_barcode(img_gray):
     
         barcode_box = cv2.boxPoints(big_rect).astype(np.int32)
         barcode_boxes.append(barcode_box)
+        
+    # debug2
+    for box in barcode_boxes:
+        color = (0,0,255)
+        cv2.polylines(debug_img, [box], True, color)
 
     return barcode_boxes, debug_img
     
@@ -106,20 +105,22 @@ def get_barcode(img):
         w, h = get_poly_box_wh(poly_box)
         barcode_img, _ = crop_obj_in_bg(img, poly_box, w, h)
         barcode_imgs.append(barcode_img)
-
+        
     data = []
-    for img in barcode_imgs:
+    boxes = []
+    for img, box in zip(barcode_imgs, barcode_boxes):
         detect = pyzbar.decode(img)
         if not detect:
             logger.debug("Candidate img could not be decode..")
             continue
         data.append(detect[0].data.decode('utf-8'))
+        boxes.append(box)
 
     if len(data) != len(barcode_imgs):
         msg = f"Candidate : {len(barcode_imgs)}, Decodable : {len(data)}"
         logger.warning(msg)
 
-    return data, barcode_boxes, debug_img
+    return data, boxes, debug_img
 
 ######################################################################
 def draw_box_text(img, data, poly_boxes):
