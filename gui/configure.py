@@ -60,44 +60,79 @@ def configure(self):
     self.total_ff = tk.Frame(self.total_frame, bd=10)
     self.total_ff.place(relx=0.0, rely=0.2, relwidth=1, relheight=0.8)
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl = tk.Label(self.total_ff, text='총 수량')
-    self.total_ffl.place(relx=0.0, rely=0.0, relwidth=0.17, relheight=0.25)
+    self.total_ffl = tk.Label(self.total_ff, text='누적 총수량')
+    self.total_ffl.place(relx=0.0, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
     self.total_ffl1 = tk.Label(self.total_ff, text=f'{10000:d}', relief="solid", bd=1)
-    self.total_ffl1.place(relx=0.18, rely=0.0, relwidth=0.3, relheight=0.25)
+    self.total_ffl1.place(relx=0.16, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl1['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl1.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl = tk.Label(self.total_ff, text='정상 수량')
-    self.total_ffl.place(relx=0.0, rely=0.3, relwidth=0.17, relheight=0.25)
+    self.total_ffl = tk.Label(self.total_ff, text='누적 정상')
+    self.total_ffl.place(relx=0.32, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
     self.total_ffl2 = tk.Label(self.total_ff, text=f'{9900:d}', relief="solid", bd=1)
-    self.total_ffl2.place(relx=0.18, rely=0.3, relwidth=0.3, relheight=0.25)
+    self.total_ffl2.place(relx=0.48, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl2['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl2.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl = tk.Label(self.total_ff, text='미판독 수량')
-    self.total_ffl.place(relx=0.5, rely=0.3, relwidth=0.17, relheight=0.25)
+    self.total_ffl = tk.Label(self.total_ff, text='누적 미판독')
+    self.total_ffl.place(relx=0.64, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
     self.total_ffl3 = tk.Label(self.total_ff, text=f'{100:d}', relief="solid", bd=1)
-    self.total_ffl3.place(relx=0.68, rely=0.3, relwidth=0.3, relheight=0.25)
+    self.total_ffl3.place(relx=0.80, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl3['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl3.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='총 수량')
+    self.total_ffl.place(relx=0.0, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl4 = tk.Label(self.total_ff, text=f'{10000:d}', relief="solid", bd=1)
+    self.total_ffl4.place(relx=0.16, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl4['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl4.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='정상')
+    self.total_ffl.place(relx=0.32, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl5 = tk.Label(self.total_ff, text=f'{9900:d}', relief="solid", bd=1)
+    self.total_ffl5.place(relx=0.48, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl5['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl5.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='미판독')
+    self.total_ffl.place(relx=0.64, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl6 = tk.Label(self.total_ff, text=f'{100:d}', relief="solid", bd=1)
+    self.total_ffl6.place(relx=0.80, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl6['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl6.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 버튼
     func = lambda:self.go_directory(self.not_found_path)
-    self.file_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
-    self.file_button.place(relx=0.5, rely=0.0, relwidth=0.48, relheight=0.25)
-    self.file_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
-    # 프레임2 - 프레임2 - 프레임 - 버튼
-    self.init_button = tk.Button(self.total_ff, text="초기화", command=self.clear_data, bd=2)
+    self.init_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
     self.init_button.place(relx=0, rely=0.65, relwidth=1, relheight=0.35)
     self.init_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    # 프레임2 - 프레임2 - 프레임 - 버튼
+    # func = lambda:self.go_directory(self.not_found_path)
+    # self.file_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
+    # self.file_button.place(relx=0.5, rely=0.0, relwidth=0.48, relheight=0.25)
+    # self.file_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    # 프레임2 - 프레임2 - 프레임 - 버튼
+    # self.init_button = tk.Button(self.total_ff, text="초기화", command=self.clear_data, bd=2)
+    # self.init_button.place(relx=0, rely=0.65, relwidth=1, relheight=0.35)
+    # self.init_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     
     # 프레임2 - 프레임3
     self.detail_frame = tk.Frame(self.state_frame)#, relief="solid", bd=10)

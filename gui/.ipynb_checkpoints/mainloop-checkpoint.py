@@ -1,8 +1,10 @@
 from gui.configure import configure
-from utils.tool import fix_ratio_resize_img, clear_Q, clear_serial
+from utils import tool, process, db
+# from utils.tool import fix_ratio_resize_img, clear_Q, clear_serial
 from utils.camera import SentechCam
 from utils.logger import logger
-from utils.process import process, raw_shot, sensor2shot
+# from utils.process import process, raw_shot, sensor2shot
+# from utils.db import connect_db, load_db
 from collections import defaultdict
 import tkinter as tk
 import tkinter.filedialog as filedialog
@@ -29,6 +31,7 @@ class VisualControl():
         self.root.state("zoomed")
         self.root.geometry(f"{self.screenwidth//3*2}x{self.screenheight//3*2}")
         self.root.minsize(self.screenwidth//3*2, self.screenheight//3*2)
+        
         self.current_origin_image = None#np.zeros((100,100,3), dtype=np.uint8)
         self.current_image = None
         self.not_found_path = NOT_FOUND_PATH
@@ -38,8 +41,19 @@ class VisualControl():
         self.raw_Q = Queue()
         self.image_Q = Queue()
         self.data_Q = Queue()
-        self.data_dict = defaultdict(int)
-        self.data_unique_list = []
+        self.db_Q = Queue()
+        
+        self.connection, self.cursor = db.connect_db()
+        logger.info("DB connected.")
+        name2code, code2name, name2stack_cnt = db.load_db(self)
+        
+        self.name2code = name2code
+        self.code2name = code2name
+        self.name2stack_cnt = name2stack_cnt
+        self.name2current_cnt = defaultdict(int)
+        
+        # self.data_dict = defaultdict(int)
+        # self.data_unique_list = []
         
         self.cam = self.get_cam()
         self.serial = self.get_serial("COM5")
@@ -81,18 +95,22 @@ class VisualControl():
         if (not self.cam) or (not self.serial): return
         
         self.stop_signal = False
-        self.total_ffl1.configure(text=sum(self.data_dict.values()))
+        total = sum(self.data_dict.values())
+        self.total_ffl1.configure(text=total)
+        self.total_ffl2.configure(text=total-self.data_dict[None])
+        self.total_ffl3.configure(text=self.data_dict[None])
         
-        clear_serial(self.serial)
-        clear_Q(self.raw_Q)
-        clear_Q(self.image_Q)
-        clear_Q(self.data_Q)
+        tool.clear_serial(self.serial)
+        tool.clear_Q(self.raw_Q)
+        tool.clear_Q(self.image_Q)
+        tool.clear_Q(self.data_Q)
         
         Thread(target=self.stop_signal_eater, args=(), daemon=True).start()
         Thread(target=self.image_eater, args=(), daemon=True).start()
         Thread(target=self.data_eater, args=(), daemon=True).start()
-        Thread(target=sensor2shot, args=(self,), daemon=True).start()
-        Thread(target=process, args=(self,), daemon=True).start()
+        Thread(target=process.sensor2shot, args=(self,), daemon=True).start()
+        Thread(target=process.process, args=(self,), daemon=True).start()
+        Thread(target=db.db_process, args=(self,), daemon=True).start()
         
         self.run_button.configure(text="Waiting...", command=lambda:time.sleep(1))
         self.sub_button1.configure(text="", command=None)
@@ -141,7 +159,7 @@ class VisualControl():
         self.sub_button2.configure(text="", command=None)
         time.sleep(1)
         self.run_button.configure(text="STOP", command=self.stop)
-        self.sub_button1.configure(text="SHOT", command=lambda:raw_shot(self))
+        self.sub_button1.configure(text="SHOT", command=lambda:process.raw_shot(self))
         self.sub_button2.configure(text="SAVE", command=self.save)
         
     def raw_Q2image_Q(self):
