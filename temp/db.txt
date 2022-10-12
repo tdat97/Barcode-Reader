@@ -1,0 +1,32 @@
+CREATE TABLE Summary_cnt(
+stack_total INT NOT NULL DEFAULT 0,
+stack_total_ok INT NOT NULL DEFAULT 0,
+stack_total_fail INT NOT NULL DEFAULT 0,
+current_total INT NOT NULL DEFAULT 0,
+current_total_ok INT NOT NULL DEFAULT 0,
+current_total_fail INT NOT NULL DEFAULT 0
+);
+
+CREATE TABLE Product(
+id INT NOT NULL AUTO_INCREMENT,
+code VARCHAR(50),
+name VARCHAR(50) DEFAULT NULL,
+stack_cnt INT NOT NULL DEFAULT 0,
+current_cnt INT NOT NULL DEFAULT 0,
+PRIMARY KEY (id),
+UNIQUE (code)
+);
+
+CREATE TABLE Image_stack(
+id INT NOT NULL AUTO_INCREMENT,
+pcode VARCHAR(50) DEFAULT NULL,
+date TIMESTAMP,
+path VARCHAR(200) NOT NULL,
+PRIMARY KEY (id),
+FOREIGN KEY (pcode) REFERENCES Product(code) 
+ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+
+INSERT INTO Summary_cnt() VALUES ();
+INSERT INTO Product(code, name) VALUES (NULL, "Not_Found");

@@ -60,44 +60,79 @@ def configure(self):
     self.total_ff = tk.Frame(self.total_frame, bd=10)
     self.total_ff.place(relx=0.0, rely=0.2, relwidth=1, relheight=0.8)
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl = tk.Label(self.total_ff, text='총 수량')
-    self.total_ffl.place(relx=0.0, rely=0.0, relwidth=0.17, relheight=0.25)
+    self.total_ffl = tk.Label(self.total_ff, text='누적 총수량')
+    self.total_ffl.place(relx=0.0, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
     self.total_ffl1 = tk.Label(self.total_ff, text=f'{10000:d}', relief="solid", bd=1)
-    self.total_ffl1.place(relx=0.18, rely=0.0, relwidth=0.3, relheight=0.25)
+    self.total_ffl1.place(relx=0.16, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl1['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl1.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl = tk.Label(self.total_ff, text='정상 수량')
-    self.total_ffl.place(relx=0.0, rely=0.3, relwidth=0.17, relheight=0.25)
+    self.total_ffl = tk.Label(self.total_ff, text='누적 정상')
+    self.total_ffl.place(relx=0.32, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
     self.total_ffl2 = tk.Label(self.total_ff, text=f'{9900:d}', relief="solid", bd=1)
-    self.total_ffl2.place(relx=0.18, rely=0.3, relwidth=0.3, relheight=0.25)
+    self.total_ffl2.place(relx=0.48, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl2['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl2.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
-    self.total_ffl = tk.Label(self.total_ff, text='미판독 수량')
-    self.total_ffl.place(relx=0.5, rely=0.3, relwidth=0.17, relheight=0.25)
+    self.total_ffl = tk.Label(self.total_ff, text='누적 미판독')
+    self.total_ffl.place(relx=0.64, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 라벨
     self.total_ffl3 = tk.Label(self.total_ff, text=f'{100:d}', relief="solid", bd=1)
-    self.total_ffl3.place(relx=0.68, rely=0.3, relwidth=0.3, relheight=0.25)
+    self.total_ffl3.place(relx=0.80, rely=0.0, relwidth=0.15, relheight=0.25)
     self.total_ffl3['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     self.total_ffl3.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='총 수량')
+    self.total_ffl.place(relx=0.0, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl4 = tk.Label(self.total_ff, text=f'{10000:d}', relief="solid", bd=1)
+    self.total_ffl4.place(relx=0.16, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl4['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl4.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='정상')
+    self.total_ffl.place(relx=0.32, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl5 = tk.Label(self.total_ff, text=f'{9900:d}', relief="solid", bd=1)
+    self.total_ffl5.place(relx=0.48, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl5['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl5.configure(fg='#000', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl = tk.Label(self.total_ff, text='미판독')
+    self.total_ffl.place(relx=0.64, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl.configure(fg='#fff', bg='#08f', anchor='w')
+    # 프레임2 - 프레임2 - 프레임 - 라벨
+    self.total_ffl6 = tk.Label(self.total_ff, text=f'{100:d}', relief="solid", bd=1)
+    self.total_ffl6.place(relx=0.80, rely=0.3, relwidth=0.15, relheight=0.25)
+    self.total_ffl6['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    self.total_ffl6.configure(fg='#000', anchor='w')
     # 프레임2 - 프레임2 - 프레임 - 버튼
     func = lambda:self.go_directory(self.not_found_path)
-    self.file_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
-    self.file_button.place(relx=0.5, rely=0.0, relwidth=0.48, relheight=0.25)
-    self.file_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
-    # 프레임2 - 프레임2 - 프레임 - 버튼
-    self.init_button = tk.Button(self.total_ff, text="초기화", command=self.clear_data, bd=2)
+    self.init_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
     self.init_button.place(relx=0, rely=0.65, relwidth=1, relheight=0.35)
     self.init_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    # 프레임2 - 프레임2 - 프레임 - 버튼
+    # func = lambda:self.go_directory(self.not_found_path)
+    # self.file_button = tk.Button(self.total_ff, text="미판독 보기", command=func, bd=2)
+    # self.file_button.place(relx=0.5, rely=0.0, relwidth=0.48, relheight=0.25)
+    # self.file_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
+    # 프레임2 - 프레임2 - 프레임 - 버튼
+    # self.init_button = tk.Button(self.total_ff, text="초기화", command=self.clear_data, bd=2)
+    # self.init_button.place(relx=0, rely=0.65, relwidth=1, relheight=0.35)
+    # self.init_button['font'] = font.Font(family='Helvetica', size=10, weight='bold')
     
     # 프레임2 - 프레임3
     self.detail_frame = tk.Frame(self.state_frame)#, relief="solid", bd=10)
@@ -113,9 +148,11 @@ def configure(self):
     self.detail_ff.place(relx=0.0, rely=0.1, relwidth=1, relheight=0.9)
     # 프레임2 - 프레임3 - 프레임 - 라벨(name, ok, ng)
     self.detail_fffl1 = tk.Label(self.detail_ff, text="제품 이름")
-    self.detail_fffl1.place(relx=0.0, rely=0.0, relwidth=0.48, relheight=0.1)
-    self.detail_fffl4 = tk.Label(self.detail_ff, text="총 수량")
-    self.detail_fffl4.place(relx=0.48, rely=0.0, relwidth=0.48, relheight=0.1)
+    self.detail_fffl1.place(relx=0.0, rely=0.0, relwidth=0.33, relheight=0.1)
+    self.detail_fffl2 = tk.Label(self.detail_ff, text="누적 총 수량")
+    self.detail_fffl2.place(relx=0.33, rely=0.0, relwidth=0.33, relheight=0.1)
+    self.detail_fffl3 = tk.Label(self.detail_ff, text="총 수량")
+    self.detail_fffl3.place(relx=0.66, rely=0.0, relwidth=0.31, relheight=0.1)
     # 프레임2 - 프레임3 - 프레임 - 프레임
     self.detail_fff = tk.Frame(self.detail_ff, relief="solid", bd=1) #####
     self.detail_fff.place(relx=0.0, rely=0.1, relwidth=1, relheight=0.9)
@@ -129,15 +166,18 @@ def configure(self):
     self.scrollbar = ttk.Scrollbar(self.detail_fff, style='arrowless.Vertical.TScrollbar')
     self.scrollbar.pack(side="right", fill="y")
     # 프레임2 - 프레임3 - 프레임 - 프레임 - 리스트박스
-    yscrollcommand1 = lambda x,y:(self.scrollbar.set(x,y), self.listbox4.yview("moveto",x),)
+    func = lambda x,y:(self.scrollbar.set(x,y), self.listbox2.yview("moveto",x), self.listbox3.yview("moveto",x), )
+    self.listbox1 = tk.Listbox(self.detail_fff, yscrollcommand=func)
+    self.listbox1.place(relx=0.0, rely=0.0, relwidth=0.33, relheight=1)
+    func = lambda x,y:self.listbox1.yview("moveto",x)
+    self.listbox2 = tk.Listbox(self.detail_fff, yscrollcommand=func)
+    self.listbox2.place(relx=0.33, rely=0.0, relwidth=0.33, relheight=1)
+    func = lambda x,y:self.listbox1.yview("moveto",x)
+    self.listbox3 = tk.Listbox(self.detail_fff, yscrollcommand=func)
+    self.listbox3.place(relx=0.66, rely=0.0, relwidth=0.31, relheight=1)
     
-    self.listbox1 = tk.Listbox(self.detail_fff, yscrollcommand=lambda x,y:(self.scrollbar.set(x,y),
-                                                                           self.listbox4.yview("moveto",x),))
-    self.listbox1.place(relx=0.0, rely=0.0, relwidth=0.48, relheight=1)
-    self.listbox4 = tk.Listbox(self.detail_fff, yscrollcommand=lambda x,y:self.listbox1.yview("moveto",x))
-    self.listbox4.place(relx=0.48, rely=0.0, relwidth=0.48, relheight=1)
-    self.scrollbar.config(command=lambda x,y:(self.listbox1.yview(x,y),
-                                              self.listbox4.yview(x,y),))
+    func = lambda x,y:(self.listbox1.yview(x,y), self.listbox2.yview(x,y), self.listbox3.yview(x,y), )
+    self.scrollbar.config(command=func)
     
     # 프레임2 - 프레임4
     self.objinfo_frame = tk.Frame(self.state_frame)#, relief="solid", bd=10)

@@ -1,8 +1,7 @@
 from gui.configure import configure
-from utils.tool import fix_ratio_resize_img, clear_Q, clear_serial
+from utils import tool, process, db
 from utils.camera import SentechCam
 from utils.logger import logger
-from utils.process import process, raw_shot, sensor2shot
 from collections import defaultdict
 import tkinter as tk
 import tkinter.filedialog as filedialog
@@ -29,6 +28,7 @@ class VisualControl():
         self.root.state("zoomed")
         self.root.geometry(f"{self.screenwidth//3*2}x{self.screenheight//3*2}")
         self.root.minsize(self.screenwidth//3*2, self.screenheight//3*2)
+        
         self.current_origin_image = None#np.zeros((100,100,3), dtype=np.uint8)
         self.current_image = None
         self.not_found_path = NOT_FOUND_PATH
@@ -38,13 +38,27 @@ class VisualControl():
         self.raw_Q = Queue()
         self.image_Q = Queue()
         self.data_Q = Queue()
-        self.data_dict = defaultdict(int)
-        self.data_unique_list = []
+        self.db_Q = Queue()
+        
+        self.connection, self.cursor = db.connect_db()
+        logger.info("DB connected.")
+        code2name, code2stack_cnt = db.load_db(self)
+        
+        self.code2name = code2name
+        self.code2stack_cnt = code2stack_cnt
+        self.code2current_cnt = defaultdict(int)
+        self.code_list = list(code2name.keys())
+        self.init_data()
+        self.apply_total()
+        for code in self.code_list:
+            self.code2current_cnt[code] = 0
+            self.apply_listbox(code)
         
         self.cam = self.get_cam()
         self.serial = self.get_serial("COM5")
         self.show_device_state()
         
+    #######################################################################
     def get_cam(self):
         try:
             cam = SentechCam(logger=logger, ExposureTime=2500)
@@ -74,25 +88,27 @@ class VisualControl():
             self.run_button.configure(text="", command=None)
             self.sub_button1.configure(text="", command=None)
             self.sub_button2.configure(text="", command=None)
-    
+            
+    #######################################################################
     def start(self):
         logger.info("Start button clicked.")
         
         if (not self.cam) or (not self.serial): return
         
         self.stop_signal = False
-        self.total_ffl1.configure(text=sum(self.data_dict.values()))
         
-        clear_serial(self.serial)
-        clear_Q(self.raw_Q)
-        clear_Q(self.image_Q)
-        clear_Q(self.data_Q)
+        tool.clear_serial(self.serial)
+        tool.clear_Q(self.raw_Q)
+        tool.clear_Q(self.image_Q)
+        tool.clear_Q(self.data_Q)
+        tool.clear_Q(self.db_Q)
         
         Thread(target=self.stop_signal_eater, args=(), daemon=True).start()
         Thread(target=self.image_eater, args=(), daemon=True).start()
         Thread(target=self.data_eater, args=(), daemon=True).start()
-        Thread(target=sensor2shot, args=(self,), daemon=True).start()
-        Thread(target=process, args=(self,), daemon=True).start()
+        Thread(target=process.sensor2shot, args=(self,), daemon=True).start()
+        Thread(target=process.process, args=(self,), daemon=True).start()
+        Thread(target=db.db_process, args=(self,), daemon=True).start()
         
         self.run_button.configure(text="Waiting...", command=lambda:time.sleep(1))
         self.sub_button1.configure(text="", command=None)
@@ -101,7 +117,6 @@ class VisualControl():
         self.run_button.configure(text="STOP", command=self.stop)
         self.sub_button1.configure(text="", command=None)
         self.sub_button2.configure(text="", command=None)
-        
         
     #######################################################################
     def stop(self):
@@ -141,7 +156,7 @@ class VisualControl():
         self.sub_button2.configure(text="", command=None)
         time.sleep(1)
         self.run_button.configure(text="STOP", command=self.stop)
-        self.sub_button1.configure(text="SHOT", command=lambda:raw_shot(self))
+        self.sub_button1.configure(text="SHOT", command=lambda:process.raw_shot(self))
         self.sub_button2.configure(text="SAVE", command=self.save)
         
     def raw_Q2image_Q(self):
@@ -164,7 +179,6 @@ class VisualControl():
             logger.info(f"{filename}.jpg " + text)
             self.msg_label.configure(text=text)
     
-    
     #######################################################################
     def __auto_resize_img(self):
         h, w = self.current_origin_image.shape[:2]
@@ -175,7 +189,7 @@ class VisualControl():
         
         if ratio < wratio: size, target = ww, 'w'
         else: size, target = wh, 'h'
-        self.current_image = fix_ratio_resize_img(self.current_origin_image, size=size, target=target)
+        self.current_image = tool.fix_ratio_resize_img(self.current_origin_image, size=size, target=target)
                                                  
     
     def image_eater(self):
@@ -196,30 +210,57 @@ class VisualControl():
             self.image_label.image = imgtk
     
     #######################################################################
-    def update_data(self, code_data):
-        self.data_dict[code_data] += 1
-        total = sum(self.data_dict.values())
-        self.total_ffl1.configure(text=total)
-        self.total_ffl2.configure(text=total-self.data_dict[None])
-        self.total_ffl3.configure(text=self.data_dict[None])
+    def init_data(self):
+        # 전체 통계
+        total = sum(self.code2stack_cnt.values())
+        self.stack_list = [total, total-self.code2stack_cnt[None], self.code2stack_cnt[None]]
+        total = sum(self.code2current_cnt.values())
+        self.current_list = [total, total-self.code2current_cnt[None], self.code2current_cnt[None]]
+    
+    def apply_total(self):
+        self.total_ffl1.configure(text=self.stack_list[0])
+        self.total_ffl2.configure(text=self.stack_list[1])
+        self.total_ffl3.configure(text=self.stack_list[2])
+        self.total_ffl4.configure(text=self.current_list[0])
+        self.total_ffl5.configure(text=self.current_list[1])
+        self.total_ffl6.configure(text=self.current_list[2])
         
-        if code_data is None: return
-        if not (code_data in self.data_unique_list):
-            self.listbox1.insert(len(self.data_unique_list), code_data)
-            self.data_unique_list.append(code_data)
-        idx = self.data_unique_list.index(code_data)
-        self.listbox4.delete(idx)
-        self.listbox4.insert(idx, self.data_dict[code_data])
+    def apply_listbox(self, code):
+        assert code in self.code_list
+        assert code in self.code2stack_cnt
+        assert code in self.code2current_cnt
+            
+        idx = self.code_list.index(code)
+        name = code
+        if code in self.code2name and self.code2name[code] is not None:
+            name = self.code2name[code]
         
-    def clear_data(self):
-        self.data_dict = defaultdict(int)
-        for i in range(len(self.data_unique_list))[::-1]:
-            self.listbox1.delete(i)
-            self.listbox4.delete(i)
-        self.data_unique_list = []
-        self.total_ffl1.configure(text=0)
-        self.total_ffl2.configure(text=0)
-        self.total_ffl3.configure(text=0)
+        self.listbox1.delete(idx)
+        self.listbox1.insert(idx, name)
+        self.listbox2.delete(idx)
+        self.listbox2.insert(idx, self.code2stack_cnt[code])
+        self.listbox3.delete(idx)
+        self.listbox3.insert(idx, self.code2current_cnt[code])
+    
+    #######################################################################
+    def update_data(self, code):
+        # 항상 카운트
+        self.stack_list[0] += 1
+        self.current_list[0] += 1
+        
+        # unknown
+        if not (code in self.code_list):
+            self.code_list.append(code)
+        self.code2stack_cnt[code] += 1
+        self.code2current_cnt[code] += 1
+        if code is not None:
+            self.stack_list[1] += 1
+            self.current_list[1] += 1
+        else:
+            self.stack_list[2] += 1
+            self.current_list[2] += 1
+        self.apply_total()
+        self.apply_listbox(code)
     
     def data_eater(self):
         while True:
@@ -227,11 +268,11 @@ class VisualControl():
             if self.stop_signal: break
             if self.data_Q.empty(): continue
             
-            code_data = self.data_Q.get()
-            self.update_data(code_data)
-            if code_data:
+            code = self.data_Q.get()
+            self.update_data(code)
+            if code:
                 self.ok_label.configure(text='OK', fg='#ff0', bg='#0cf', anchor='center')
-                self.objinfo_ffl11.configure(text=code_data)
+                self.objinfo_ffl11.configure(text=code)
             else:
                 self.ok_label.configure(text='FAIL', fg='#ff0', bg='#f30', anchor='center')
                 self.objinfo_ffl11.configure(text="None")
