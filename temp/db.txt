@@ -2,9 +2,9 @@ CREATE TABLE Summary_cnt(
 stack_total INT NOT NULL DEFAULT 0,
 stack_total_ok INT NOT NULL DEFAULT 0,
 stack_total_fail INT NOT NULL DEFAULT 0,
-total INT NOT NULL DEFAULT 0,
-total_ok INT NOT NULL DEFAULT 0,
-total_fail INT NOT NULL DEFAULT 0
+current_total INT NOT NULL DEFAULT 0,
+current_total_ok INT NOT NULL DEFAULT 0,
+current_total_fail INT NOT NULL DEFAULT 0
 );
 
 CREATE TABLE Product(
@@ -12,7 +12,7 @@ id INT NOT NULL AUTO_INCREMENT,
 code VARCHAR(50),
 name VARCHAR(50) DEFAULT NULL,
 stack_cnt INT NOT NULL DEFAULT 0,
-cnt INT NOT NULL DEFAULT 0,
+current_cnt INT NOT NULL DEFAULT 0,
 PRIMARY KEY (id),
 UNIQUE (code)
 );
@@ -29,4 +29,4 @@ ON DELETE CASCADE ON UPDATE CASCADE
 
 
 INSERT INTO Summary_cnt() VALUES ();
-INSERT INTO Product(code) VALUES (NULL);
+INSERT INTO Product(code, name) VALUES (NULL, "Not_Found");

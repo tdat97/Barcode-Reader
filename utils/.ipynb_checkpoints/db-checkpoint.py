@@ -7,6 +7,8 @@ import os
 
 DB_INFO_PATH = "./temp/db.json"
 
+
+
 def connect_db():
     with open(DB_INFO_PATH, 'r', encoding='utf-8') as f:
         info_dic = json.load(f)
@@ -16,13 +18,13 @@ def connect_db():
 
 def load_db(self):
     # init
-    sql = "UPDATE Summary_cnt SET total = 0;"
+    sql = "UPDATE Summary_cnt SET current_total = 0;"
     self.cursor.execute(sql)
-    sql = "UPDATE Summary_cnt SET total_ok = 0;"
+    sql = "UPDATE Summary_cnt SET current_total_ok = 0;"
     self.cursor.execute(sql)
-    sql = "UPDATE Summary_cnt SET total_fail = 0;"
+    sql = "UPDATE Summary_cnt SET current_total_fail = 0;"
     self.cursor.execute(sql)
-    sql = "UPDATE Product SET cnt = 0;"
+    sql = "UPDATE Product SET current_cnt = 0;"
     self.cursor.execute(sql)
     
     sql = "SELECT code, name from Product;"
@@ -48,44 +50,39 @@ def db_process(self):
             code, path = self.db_Q.get()
             path = os.path.realpath(path).replace('\\','/')
 
-            ###################################################### 미판독 예외처리
-            if code is None:
-                cols = ["stack_total", "total", "stack_total_fail", "total_fail"]
-                formulas = list(map(lambda x:f"{x}={x}+1", cols))
-                text = ', '.join(formulas)
-                # 1씩 더하기
-                sql = f"UPDATE Summary_cnt SET {text};"
-                self.cursor.execute(sql)
-                
-                sql = f"INSERT INTO Image_stack(path) VALUES ('{path}')"
-                self.cursor.execute(sql)
-                continue
+            ###################################################### Summary_cnt         
+            cols = ["stack_total", "current_total", "stack_total_ok", "current_total_ok", ]
+            if code is None: cols[2:4] = ["stack_total_fail", "current_total_fail", ]
             
-            ###################################################### Summary_cnt              
-            cols = ["stack_total", "total", "stack_total_ok", "total_ok"]
             formulas = list(map(lambda x:f"{x}={x}+1", cols))
             text = ', '.join(formulas)
-            
             # 1씩 더하기
             sql = f"UPDATE Summary_cnt SET {text};"
             self.cursor.execute(sql)
             
             ###################################################### Product
             # 코드가 db에 없을 경우
-            sql = f"SELECT * from Product WHERE code='{code}';"
-            self.cursor.execute(sql)
-            rows = self.cursor.fetchall()
-            if not rows:
-                sql = f"INSERT INTO Product(code) VALUES ('{code}');"
+            if code is not None:
+                sql = f"SELECT * from Product WHERE code='{code}';"
                 self.cursor.execute(sql)
+                rows = self.cursor.fetchall()
+                if not rows:
+                    sql = f"INSERT INTO Product(code) VALUES ('{code}');"
+                    self.cursor.execute(sql)
 
             # 1씩 더하기
-            sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, cnt=cnt+1 where code='{code}';"
+            sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where code='{code}';"
+            if code is None:
+                sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where code=NULL;"
             self.cursor.execute(sql)
             
             ###################################################### Image_stack
+            time.sleep(0.01)
             sql = f"INSERT INTO Image_stack(pcode, path) VALUES ('{code}', '{path}')"
+            if code is None:
+                sql = f"INSERT INTO Image_stack(path) VALUES ('{path}')"
             self.cursor.execute(sql)
+            
                 
                 
     except Exception as e:
