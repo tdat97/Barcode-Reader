@@ -3,6 +3,7 @@ from collections import defaultdict
 import pymysql
 import json
 import time
+import os
 
 DB_INFO_PATH = "./temp/db.json"
 
@@ -52,16 +53,26 @@ def db_process(self):
                 cols[2] = "stack_total_fail"
                 cols[3] = "total_fail"
 
-            formulas = list(map(lambda x:f"{x}={x}+1"))
+            formulas = list(map(lambda x:f"{x}={x}+1", cols))
             text = ', '.join(formulas)
 
             # 1씩 더하기
-            sql = f"UPDATE Product SET {text};"
+            sql = f"UPDATE Summary_cnt SET {text};"
             self.cursor.execute(sql)
 
+            ###################################################### Image_stack
+            path = os.path.realpath(path).replace('\\','/')
+            if code is not None:
+                sql = f"INSERT INTO Image_stack(pcode, path) VALUES ('{code}', '{path}')"
+                self.cursor.execute(sql)
+            else:
+                sql = f"INSERT INTO Image_stack(path) VALUES ('{path}')"
+                self.cursor.execute(sql)
+                continue
+            
             ###################################################### Product
             # 코드가 db에 없을 경우
-            sql = "SELECT code from Product;"
+            sql = f"SELECT * from Product WHERE code='{code}';"
             self.cursor.execute(sql)
             rows = self.cursor.fetchall()
             if not rows:
@@ -69,12 +80,8 @@ def db_process(self):
                 self.cursor.execute(sql)
 
             # 1씩 더하기
-            sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, cnt=cnt+1 where code={code};"
+            sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, cnt=cnt+1 where code='{code}';"
             self.cursor.execute(sql)
-
-            ###################################################### Image_stack
-            path = os.path.realpath(path)
-            sql = f"INSERT INTO Image_stack(pcode, path) VALUES ({code}, {path})"
                 
     except Exception as e:
         logger.error(f"[db_process] {e}")

@@ -1,3 +1,7 @@
 INSERT INTO Product(name, code) VALUES ("product1", "ecrvtbyn");
 INSERT INTO Product(name, code) VALUES ("product2", "yhujikol");
 INSERT INTO Product(name, code) VALUES ("product3", "azsxdcfv");
+INSERT INTO Product(name, code) VALUES ("product3", "azsxdcfv");
+
+
+UPDATE Product SET stack_cnt = stack_cnt+1 where code=...

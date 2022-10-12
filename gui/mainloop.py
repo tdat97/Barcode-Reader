@@ -53,7 +53,7 @@ class VisualControl():
         self.code_list = list(code2name.keys())
         self.init_data()
         self.apply_total()
-        for code in code_list:
+        for code in self.code_list:
             self.code2current_cnt[code] = 0
             self.apply_listbox(code)
         
@@ -102,10 +102,6 @@ class VisualControl():
         if (not self.cam) or (not self.serial): return
         
         self.stop_signal = False
-        total = sum(self.data_dict.values())
-        self.total_ffl1.configure(text=total)
-        self.total_ffl2.configure(text=total-self.data_dict[None])
-        self.total_ffl3.configure(text=self.data_dict[None])
         
         tool.clear_serial(self.serial)
         tool.clear_Q(self.raw_Q)
@@ -199,7 +195,7 @@ class VisualControl():
         
         if ratio < wratio: size, target = ww, 'w'
         else: size, target = wh, 'h'
-        self.current_image = fix_ratio_resize_img(self.current_origin_image, size=size, target=target)
+        self.current_image = tool.fix_ratio_resize_img(self.current_origin_image, size=size, target=target)
                                                  
     
     def image_eater(self):
