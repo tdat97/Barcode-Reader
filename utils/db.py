@@ -73,11 +73,10 @@ def db_process(self):
             # 1씩 더하기
             sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where code='{code}';"
             if code is None:
-                sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where code=NULL;"
+                sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where name='Not_Found';"
             self.cursor.execute(sql)
             
             ###################################################### Image_stack
-            time.sleep(0.01)
             sql = f"INSERT INTO Image_stack(pcode, path) VALUES ('{code}', '{path}')"
             if code is None:
                 sql = f"INSERT INTO Image_stack(path) VALUES ('{path}')"

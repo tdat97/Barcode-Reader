@@ -1,10 +1,7 @@
 from gui.configure import configure
 from utils import tool, process, db
-# from utils.tool import fix_ratio_resize_img, clear_Q, clear_serial
 from utils.camera import SentechCam
 from utils.logger import logger
-# from utils.process import process, raw_shot, sensor2shot
-# from utils.db import connect_db, load_db
 from collections import defaultdict
 import tkinter as tk
 import tkinter.filedialog as filedialog
@@ -56,9 +53,6 @@ class VisualControl():
         for code in self.code_list:
             self.code2current_cnt[code] = 0
             self.apply_listbox(code)
-        
-        # self.data_dict = defaultdict(int)
-        # self.data_unique_list = []
         
         self.cam = self.get_cam()
         self.serial = self.get_serial("COM5")
@@ -254,54 +248,19 @@ class VisualControl():
         self.stack_list[0] += 1
         self.current_list[0] += 1
         
-        # 미판독
-        if code is None:
-            self.code2stack_cnt[None] += 1
-            self.code2current_cnt[None] += 1
-            self.stack_list[2] += 1
-            self.current_list[2] += 1
-            self.apply_total()
-            
-        # 판독
-        else:
-            # unknown
-            if not (code in self.code_list):
-                self.code_list.append(code)
-            self.code2stack_cnt[code] += 1
-            self.code2current_cnt[code] += 1
+        # unknown
+        if not (code in self.code_list):
+            self.code_list.append(code)
+        self.code2stack_cnt[code] += 1
+        self.code2current_cnt[code] += 1
+        if code is not None:
             self.stack_list[1] += 1
             self.current_list[1] += 1
-            self.apply_total()
-            self.apply_listbox(code)
-        
-
-        
-        
-        
-#         self.name2current_cnt[name] += 1
-        
-#         total = sum(self.name2current_cnt.values())
-#         self.total_ffl1.configure(text=total)
-#         self.total_ffl2.configure(text=total-self.name2current_cnt[None])
-#         self.total_ffl3.configure(text=self.name2current_cnt[None])
-        
-#         if code is None: return
-#         if not (code in self.data_unique_list):
-#             self.listbox1.insert(len(self.data_unique_list), code)
-#             self.data_unique_list.append(code)
-#         idx = self.data_unique_list.index(code)
-#         self.listbox4.delete(idx)
-#         self.listbox4.insert(idx, self.data_dict[code])
-        
-    # def clear_data(self):
-    #     self.data_dict = defaultdict(int)
-    #     for i in range(len(self.data_unique_list))[::-1]:
-    #         self.listbox1.delete(i)
-    #         self.listbox4.delete(i)
-    #     self.data_unique_list = []
-    #     self.total_ffl1.configure(text=0)
-    #     self.total_ffl2.configure(text=0)
-    #     self.total_ffl3.configure(text=0)
+        else:
+            self.stack_list[2] += 1
+            self.current_list[2] += 1
+        self.apply_total()
+        self.apply_listbox(code)
     
     def data_eater(self):
         while True:

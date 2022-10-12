@@ -1,10 +1,7 @@
 from gui.configure import configure
 from utils import tool, process, db
-# from utils.tool import fix_ratio_resize_img, clear_Q, clear_serial
 from utils.camera import SentechCam
 from utils.logger import logger
-# from utils.process import process, raw_shot, sensor2shot
-# from utils.db import connect_db, load_db
 from collections import defaultdict
 import tkinter as tk
 import tkinter.filedialog as filedialog
@@ -56,9 +53,6 @@ class VisualControl():
         for code in self.code_list:
             self.code2current_cnt[code] = 0
             self.apply_listbox(code)
-        
-        # self.data_dict = defaultdict(int)
-        # self.data_unique_list = []
         
         self.cam = self.get_cam()
         self.serial = self.get_serial("COM5")
