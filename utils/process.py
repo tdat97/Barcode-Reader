@@ -86,6 +86,7 @@ def process(self):
             
             self.image_Q.put(img)
             self.data_Q.put(data) #########
+            self.db_Q.put([data, path])
         
     except Exception as e:
         logger.error(f"[process]{e}")

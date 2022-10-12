@@ -1,6 +1,8 @@
 from utils.logger import logger
+from collections import defaultdict
 import pymysql
 import json
+import time
 
 DB_INFO_PATH = "./temp/db.json"
 
@@ -22,19 +24,31 @@ def load_db(self):
     sql = "UPDATE Product SET cnt = 0;"
     self.cursor.execute(sql)
     
-    sql = "SELECT name, code from Product;"
+    sql = "SELECT code, name from Product;"
     self.cursor.execute(sql)
     rows = self.cursor.fetchall()
-    name2code = dict(rows)
-    code2name = dict(zip(name2code.values(), name2code.keys()))
+    code2name = dict(rows)
     
-    sql = "SELECT name, stack_cnt from Product;"
+    sql = "SELECT code, stack_cnt from Product;"
     self.cursor.execute(sql)
     rows = self.cursor.fetchall()
-    name2stack_cnt = dict(rows)
+    code2stack_cnt = defaultdict(int, dict(rows))
 
-    return name2code, code2name, name2stack_cnt
+    return code2name, code2stack_cnt
     
 
 def db_process(self):
-    pass
+    try:
+        while True:
+            time.sleep(0.1)
+                if self.stop_signal: break
+                if self.db_Q.empty(): continue
+                
+                code, path = self.db_Q.get() 
+                
+    except Exception as e:
+        logger.error(f"[db_process] {e}")
+        self.msg_label.configure(text=e)
+        self.stop_signal = True
+            
+            

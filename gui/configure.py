@@ -148,9 +148,11 @@ def configure(self):
     self.detail_ff.place(relx=0.0, rely=0.1, relwidth=1, relheight=0.9)
     # 프레임2 - 프레임3 - 프레임 - 라벨(name, ok, ng)
     self.detail_fffl1 = tk.Label(self.detail_ff, text="제품 이름")
-    self.detail_fffl1.place(relx=0.0, rely=0.0, relwidth=0.48, relheight=0.1)
-    self.detail_fffl4 = tk.Label(self.detail_ff, text="총 수량")
-    self.detail_fffl4.place(relx=0.48, rely=0.0, relwidth=0.48, relheight=0.1)
+    self.detail_fffl1.place(relx=0.0, rely=0.0, relwidth=0.33, relheight=0.1)
+    self.detail_fffl2 = tk.Label(self.detail_ff, text="누적 총 수량")
+    self.detail_fffl2.place(relx=0.33, rely=0.0, relwidth=0.33, relheight=0.1)
+    self.detail_fffl3 = tk.Label(self.detail_ff, text="총 수량")
+    self.detail_fffl3.place(relx=0.66, rely=0.0, relwidth=0.31, relheight=0.1)
     # 프레임2 - 프레임3 - 프레임 - 프레임
     self.detail_fff = tk.Frame(self.detail_ff, relief="solid", bd=1) #####
     self.detail_fff.place(relx=0.0, rely=0.1, relwidth=1, relheight=0.9)
@@ -164,15 +166,18 @@ def configure(self):
     self.scrollbar = ttk.Scrollbar(self.detail_fff, style='arrowless.Vertical.TScrollbar')
     self.scrollbar.pack(side="right", fill="y")
     # 프레임2 - 프레임3 - 프레임 - 프레임 - 리스트박스
-    yscrollcommand1 = lambda x,y:(self.scrollbar.set(x,y), self.listbox4.yview("moveto",x),)
+    func = lambda x,y:(self.scrollbar.set(x,y), self.listbox2.yview("moveto",x), self.listbox3.yview("moveto",x), )
+    self.listbox1 = tk.Listbox(self.detail_fff, yscrollcommand=func)
+    self.listbox1.place(relx=0.0, rely=0.0, relwidth=0.33, relheight=1)
+    func = lambda x,y:self.listbox1.yview("moveto",x)
+    self.listbox2 = tk.Listbox(self.detail_fff, yscrollcommand=func)
+    self.listbox2.place(relx=0.33, rely=0.0, relwidth=0.33, relheight=1)
+    func = lambda x,y:self.listbox1.yview("moveto",x)
+    self.listbox3 = tk.Listbox(self.detail_fff, yscrollcommand=func)
+    self.listbox3.place(relx=0.66, rely=0.0, relwidth=0.31, relheight=1)
     
-    self.listbox1 = tk.Listbox(self.detail_fff, yscrollcommand=lambda x,y:(self.scrollbar.set(x,y),
-                                                                           self.listbox4.yview("moveto",x),))
-    self.listbox1.place(relx=0.0, rely=0.0, relwidth=0.48, relheight=1)
-    self.listbox4 = tk.Listbox(self.detail_fff, yscrollcommand=lambda x,y:self.listbox1.yview("moveto",x))
-    self.listbox4.place(relx=0.48, rely=0.0, relwidth=0.48, relheight=1)
-    self.scrollbar.config(command=lambda x,y:(self.listbox1.yview(x,y),
-                                              self.listbox4.yview(x,y),))
+    func = lambda x,y:(self.listbox1.yview(x,y), self.listbox2.yview(x,y), self.listbox3.yview(x,y), )
+    self.scrollbar.config(command=func)
     
     # 프레임2 - 프레임4
     self.objinfo_frame = tk.Frame(self.state_frame)#, relief="solid", bd=10)

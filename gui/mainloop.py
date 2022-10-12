@@ -45,12 +45,17 @@ class VisualControl():
         
         self.connection, self.cursor = db.connect_db()
         logger.info("DB connected.")
-        name2code, code2name, name2stack_cnt = db.load_db(self)
+        code2name, code2stack_cnt = db.load_db(self)
         
-        self.name2code = name2code
         self.code2name = code2name
-        self.name2stack_cnt = name2stack_cnt
-        self.name2current_cnt = defaultdict(int)
+        self.code2stack_cnt = code2stack_cnt
+        self.code2current_cnt = defaultdict(int)
+        self.code_list = list(code2name.keys())
+        self.init_data()
+        self.apply_total()
+        for code in code_list:
+            self.code2current_cnt[code] = 0
+            self.apply_listbox(code)
         
         # self.data_dict = defaultdict(int)
         # self.data_unique_list = []
@@ -59,6 +64,7 @@ class VisualControl():
         self.serial = self.get_serial("COM5")
         self.show_device_state()
         
+    #######################################################################
     def get_cam(self):
         try:
             cam = SentechCam(logger=logger, ExposureTime=2500)
@@ -88,7 +94,8 @@ class VisualControl():
             self.run_button.configure(text="", command=None)
             self.sub_button1.configure(text="", command=None)
             self.sub_button2.configure(text="", command=None)
-    
+            
+    #######################################################################
     def start(self):
         logger.info("Start button clicked.")
         
@@ -104,6 +111,7 @@ class VisualControl():
         tool.clear_Q(self.raw_Q)
         tool.clear_Q(self.image_Q)
         tool.clear_Q(self.data_Q)
+        tool.clear_Q(self.db_Q)
         
         Thread(target=self.stop_signal_eater, args=(), daemon=True).start()
         Thread(target=self.image_eater, args=(), daemon=True).start()
@@ -119,7 +127,6 @@ class VisualControl():
         self.run_button.configure(text="STOP", command=self.stop)
         self.sub_button1.configure(text="", command=None)
         self.sub_button2.configure(text="", command=None)
-        
         
     #######################################################################
     def stop(self):
@@ -182,7 +189,6 @@ class VisualControl():
             logger.info(f"{filename}.jpg " + text)
             self.msg_label.configure(text=text)
     
-    
     #######################################################################
     def __auto_resize_img(self):
         h, w = self.current_origin_image.shape[:2]
@@ -214,20 +220,82 @@ class VisualControl():
             self.image_label.image = imgtk
     
     #######################################################################
-    def update_data(self, code_data):
-        self.data_dict[code_data] += 1
-        total = sum(self.data_dict.values())
-        self.total_ffl1.configure(text=total)
-        self.total_ffl2.configure(text=total-self.data_dict[None])
-        self.total_ffl3.configure(text=self.data_dict[None])
+    def init_data(self):
+        # 전체 통계
+        total = sum(self.code2stack_cnt.values())
+        self.stack_list = [total, total-self.code2stack_cnt[None], self.code2stack_cnt[None]]
+        total = sum(self.code2current_cnt.values())
+        self.current_list = [total, total-self.code2current_cnt[None], self.code2current_cnt[None]]
+    
+    def apply_total(self):
+        self.total_ffl1.configure(text=self.stack_list[0])
+        self.total_ffl2.configure(text=self.stack_list[1])
+        self.total_ffl3.configure(text=self.stack_list[2])
+        self.total_ffl4.configure(text=self.current_list[0])
+        self.total_ffl5.configure(text=self.current_list[1])
+        self.total_ffl6.configure(text=self.current_list[2])
         
-        if code_data is None: return
-        if not (code_data in self.data_unique_list):
-            self.listbox1.insert(len(self.data_unique_list), code_data)
-            self.data_unique_list.append(code_data)
-        idx = self.data_unique_list.index(code_data)
-        self.listbox4.delete(idx)
-        self.listbox4.insert(idx, self.data_dict[code_data])
+    def apply_listbox(self, code):
+        assert code in self.code_list
+        assert code in self.code2stack_cnt
+        assert code in self.code2current_cnt
+            
+        idx = self.code_list.index(code)
+        name = code
+        if code in self.code2name and self.code2name[code] is not None:
+            name = self.code2name[code]
+        
+        self.listbox1.delete(idx)
+        self.listbox1.insert(idx, name)
+        self.listbox2.delete(idx)
+        self.listbox2.insert(idx, self.code2stack_cnt[code])
+        self.listbox3.delete(idx)
+        self.listbox3.insert(idx, self.code2current_cnt[code])
+    
+    #######################################################################
+    def update_data(self, code):
+        # 항상 카운트
+        self.stack_list[0] += 1
+        self.current_list[0] += 1
+        
+        # 미판독
+        if code is None:
+            self.code2stack_cnt[None] += 1
+            self.code2current_cnt[None] += 1
+            self.stack_list[2] += 1
+            self.current_list[2] += 1
+            self.apply_total()
+            
+        # 판독
+        else:
+            # unknown
+            if not (code in self.code_list):
+                self.code_list.append(code)
+            self.code2stack_cnt[code] += 1
+            self.code2current_cnt[code] += 1
+            self.stack_list[1] += 1
+            self.current_list[1] += 1
+            self.apply_total()
+            self.apply_listbox(code)
+        
+
+        
+        
+        
+#         self.name2current_cnt[name] += 1
+        
+#         total = sum(self.name2current_cnt.values())
+#         self.total_ffl1.configure(text=total)
+#         self.total_ffl2.configure(text=total-self.name2current_cnt[None])
+#         self.total_ffl3.configure(text=self.name2current_cnt[None])
+        
+#         if code is None: return
+#         if not (code in self.data_unique_list):
+#             self.listbox1.insert(len(self.data_unique_list), code)
+#             self.data_unique_list.append(code)
+#         idx = self.data_unique_list.index(code)
+#         self.listbox4.delete(idx)
+#         self.listbox4.insert(idx, self.data_dict[code])
         
     # def clear_data(self):
     #     self.data_dict = defaultdict(int)
@@ -245,11 +313,11 @@ class VisualControl():
             if self.stop_signal: break
             if self.data_Q.empty(): continue
             
-            code_data = self.data_Q.get()
-            self.update_data(code_data)
-            if code_data:
+            code = self.data_Q.get()
+            self.update_data(code)
+            if code:
                 self.ok_label.configure(text='OK', fg='#ff0', bg='#0cf', anchor='center')
-                self.objinfo_ffl11.configure(text=code_data)
+                self.objinfo_ffl11.configure(text=code)
             else:
                 self.ok_label.configure(text='FAIL', fg='#ff0', bg='#f30', anchor='center')
                 self.objinfo_ffl11.configure(text="None")
