@@ -41,40 +41,40 @@ def db_process(self):
     try:
         while True:
             time.sleep(0.1)
-                if self.stop_signal: break
-                if self.db_Q.empty(): continue
-                
-                code, path = self.db_Q.get()
-                
-                ###################################################### Summary_cnt
-                cols = ["stack_total", "total", "stack_total_ok", "total_ok"]
-                if code is None:
-                    cols[2] = "stack_total_fail"
-                    cols[3] = "total_fail"
-                
-                formulas = list(map(lambda x:f"{x}={x}+1"))
-                text = ', '.join(formulas)
-                
-                # 1씩 더하기
-                sql = f"UPDATE Product SET {text};"
+            if self.stop_signal: break
+            if self.db_Q.empty(): continue
+
+            code, path = self.db_Q.get()
+
+            ###################################################### Summary_cnt
+            cols = ["stack_total", "total", "stack_total_ok", "total_ok"]
+            if code is None:
+                cols[2] = "stack_total_fail"
+                cols[3] = "total_fail"
+
+            formulas = list(map(lambda x:f"{x}={x}+1"))
+            text = ', '.join(formulas)
+
+            # 1씩 더하기
+            sql = f"UPDATE Product SET {text};"
+            self.cursor.execute(sql)
+
+            ###################################################### Product
+            # 코드가 db에 없을 경우
+            sql = "SELECT code from Product;"
+            self.cursor.execute(sql)
+            rows = self.cursor.fetchall()
+            if not rows:
+                sql = f"INSERT INTO Product(code) VALUES ('{code}');"
                 self.cursor.execute(sql)
-                
-                ###################################################### Product
-                # 코드가 db에 없을 경우
-                sql = "SELECT code from Product;"
-                self.cursor.execute(sql)
-                rows = self.cursor.fetchall()
-                if not rows:
-                    sql = f"INSERT INTO Product(code) VALUES ('{code}');"
-                    self.cursor.execute(sql)
-                
-                # 1씩 더하기
-                sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, cnt=cnt+1 where code={code};"
-                self.cursor.execute(sql)
-                
-                ###################################################### Image_stack
-                path = os.path.realpath(path)
-                sql = f"INSERT INTO Image_stack(pcode, path) VALUES ({code}, {path})"
+
+            # 1씩 더하기
+            sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, cnt=cnt+1 where code={code};"
+            self.cursor.execute(sql)
+
+            ###################################################### Image_stack
+            path = os.path.realpath(path)
+            sql = f"INSERT INTO Image_stack(pcode, path) VALUES ({code}, {path})"
                 
     except Exception as e:
         logger.error(f"[db_process] {e}")
