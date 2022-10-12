@@ -46,29 +46,29 @@ def db_process(self):
             if self.db_Q.empty(): continue
 
             code, path = self.db_Q.get()
-
-            ###################################################### Summary_cnt
-            cols = ["stack_total", "total", "stack_total_ok", "total_ok"]
-            if code is None:
-                cols[2] = "stack_total_fail"
-                cols[3] = "total_fail"
-
-            formulas = list(map(lambda x:f"{x}={x}+1", cols))
-            text = ', '.join(formulas)
-
-            # 1씩 더하기
-            sql = f"UPDATE Summary_cnt SET {text};"
-            self.cursor.execute(sql)
-
-            ###################################################### Image_stack
             path = os.path.realpath(path).replace('\\','/')
-            if code is not None:
-                sql = f"INSERT INTO Image_stack(pcode, path) VALUES ('{code}', '{path}')"
+
+            ###################################################### 미판독 예외처리
+            if code is None:
+                cols = ["stack_total", "total", "stack_total_fail", "total_fail"]
+                formulas = list(map(lambda x:f"{x}={x}+1", cols))
+                text = ', '.join(formulas)
+                # 1씩 더하기
+                sql = f"UPDATE Summary_cnt SET {text};"
                 self.cursor.execute(sql)
-            else:
+                
                 sql = f"INSERT INTO Image_stack(path) VALUES ('{path}')"
                 self.cursor.execute(sql)
                 continue
+            
+            ###################################################### Summary_cnt              
+            cols = ["stack_total", "total", "stack_total_ok", "total_ok"]
+            formulas = list(map(lambda x:f"{x}={x}+1", cols))
+            text = ', '.join(formulas)
+            
+            # 1씩 더하기
+            sql = f"UPDATE Summary_cnt SET {text};"
+            self.cursor.execute(sql)
             
             ###################################################### Product
             # 코드가 db에 없을 경우
@@ -82,6 +82,11 @@ def db_process(self):
             # 1씩 더하기
             sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, cnt=cnt+1 where code='{code}';"
             self.cursor.execute(sql)
+            
+            ###################################################### Image_stack
+            sql = f"INSERT INTO Image_stack(pcode, path) VALUES ('{code}', '{path}')"
+            self.cursor.execute(sql)
+                
                 
     except Exception as e:
         logger.error(f"[db_process] {e}")
