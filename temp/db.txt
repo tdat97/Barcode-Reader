@@ -1,3 +1,6 @@
+drop table summary_cnt, image_stack, product;
+
+
 CREATE TABLE Summary_cnt(
 stack_total INT NOT NULL DEFAULT 0,
 stack_total_ok INT NOT NULL DEFAULT 0,

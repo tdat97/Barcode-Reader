@@ -145,7 +145,7 @@ class VisualControl():
         logger.info("Shotmode button clicked.")
         self.stop_signal = False
         
-        clear_Q(self.raw_Q)
+        tool.clear_Q(self.raw_Q)
         
         Thread(target=self.stop_signal_eater, args=(), daemon=True).start()
         Thread(target=self.image_eater, args=(), daemon=True).start()
