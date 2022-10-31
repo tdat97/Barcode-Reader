@@ -273,9 +273,12 @@ class VisualControl():
             self.update_data(code)
             if code:
                 self.ok_label.configure(text='OK', fg='#ff0', bg='#0cf', anchor='center')
+                name = self.code2name[code] if code in self.code2name else "No Name"
+                self.objinfo_ffl01.configure(text=name)
                 self.objinfo_ffl11.configure(text=code)
             else:
                 self.ok_label.configure(text='FAIL', fg='#ff0', bg='#f30', anchor='center')
+                self.objinfo_ffl01.configure(text="None")
                 self.objinfo_ffl11.configure(text="None")
     
     #######################################################################

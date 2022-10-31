@@ -17,6 +17,7 @@ import os
 TITLE = "Machine Vision System"
 ICON_PATH = "./gui/eye.ico"
 NOT_FOUND_PATH = "./image/not_found"
+SERIAL_PORT = "COM1"
 
 class VisualControl():
     def __init__(self, root):
@@ -55,7 +56,7 @@ class VisualControl():
             self.apply_listbox(code)
         
         self.cam = self.get_cam()
-        self.serial = self.get_serial("COM5")
+        self.serial = self.get_serial(SERIAL_PORT)
         self.show_device_state()
         
     #######################################################################
@@ -272,9 +273,12 @@ class VisualControl():
             self.update_data(code)
             if code:
                 self.ok_label.configure(text='OK', fg='#ff0', bg='#0cf', anchor='center')
+                name = self.code2name[code] if code in self.code2name else "No Name"
+                self.objinfo_ffl01.configure(text=name)
                 self.objinfo_ffl11.configure(text=code)
             else:
                 self.ok_label.configure(text='FAIL', fg='#ff0', bg='#f30', anchor='center')
+                self.objinfo_ffl01.configure(text="None")
                 self.objinfo_ffl11.configure(text="None")
     
     #######################################################################
