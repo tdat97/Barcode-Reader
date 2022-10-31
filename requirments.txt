@@ -4,7 +4,8 @@ pyzbar
 scikit-learn
 pyserial
 PyMySQL
+pillow
 
 jupyterlab
 
-stapipy-1.1.2.3-cp38-cp38-win_amd64.whl
+stapipy-1.1.2.4-cp38-cp38-win_amd64.whl
