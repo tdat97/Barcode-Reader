@@ -86,9 +86,9 @@ class VisualControl():
         text = f"Cam state : {bool(self.cam)}     Serial state : {bool(self.serial)}"
         self.msg_label.configure(text=text)
         if (not self.cam) or (not self.serial):
-            self.run_button.configure(text="", command=None)
-            self.sub_button1.configure(text="", command=None)
-            self.sub_button2.configure(text="", command=None)
+            self.run_button.configure(text="", command=lambda:time.sleep(0.1))
+            self.sub_button1.configure(text="", command=lambda:time.sleep(0.1))
+            self.sub_button2.configure(text="", command=lambda:time.sleep(0.1))
             
     #######################################################################
     def start(self):
@@ -111,13 +111,13 @@ class VisualControl():
         Thread(target=process.process, args=(self,), daemon=True).start()
         Thread(target=db.db_process, args=(self,), daemon=True).start()
         
-        self.run_button.configure(text="Waiting...", command=lambda:time.sleep(1))
-        self.sub_button1.configure(text="", command=None)
-        self.sub_button2.configure(text="", command=None)
+        self.run_button.configure(text="Waiting...", command=lambda:time.sleep(0.1))
+        self.sub_button1.configure(text="", command=lambda:time.sleep(0.1))
+        self.sub_button2.configure(text="", command=lambda:time.sleep(0.1))
         time.sleep(1)
         self.run_button.configure(text="STOP", command=self.stop)
-        self.sub_button1.configure(text="", command=None)
-        self.sub_button2.configure(text="", command=None)
+        self.sub_button1.configure(text="", command=lambda:time.sleep(0.1))
+        self.sub_button2.configure(text="", command=lambda:time.sleep(0.1))
         
     #######################################################################
     def stop(self):
@@ -128,17 +128,17 @@ class VisualControl():
         while True:
             time.sleep(0.01)
             if self.stop_signal:
-                self.run_button.configure(text="Waiting...", command=lambda:time.sleep(1))
+                self.run_button.configure(text="Waiting...", command=lambda:time.sleep(0.1))
                 self.sub_button1.configure(text="", command=None)
                 self.sub_button2.configure(text="", command=None)
                 time.sleep(1)
                 self.run_button.configure(text="START", command=self.start)
                 self.sub_button1.configure(text="SHOT\nMODE", command=self.shotmode)
-                self.sub_button2.configure(text="", command=None)
+                self.sub_button2.configure(text="", command=lambda:time.sleep(1))
                 
                 self.image_label.configure(image=None)
                 self.image_label.image = None
-                self.ok_label.configure(text='NONE', fg='#ff0', bg='#333', anchor='center')
+                self.ok_label.configure(text='')#, fg='#ff0', bg='#333', anchor='center')
                 break
     
     #######################################################################
@@ -152,9 +152,9 @@ class VisualControl():
         Thread(target=self.image_eater, args=(), daemon=True).start()
         Thread(target=self.raw_Q2image_Q, args=(), daemon=True).start()
         
-        self.run_button.configure(text="", command=None)
+        self.run_button.configure(text="", command=lambda:time.sleep(0.1))
         self.sub_button1.configure(text="Waiting...", command=lambda:time.sleep(1))
-        self.sub_button2.configure(text="", command=None)
+        self.sub_button2.configure(text="", command=lambda:time.sleep(0.1))
         time.sleep(1)
         self.run_button.configure(text="STOP", command=self.stop)
         self.sub_button1.configure(text="SHOT", command=lambda:process.raw_shot(self))
