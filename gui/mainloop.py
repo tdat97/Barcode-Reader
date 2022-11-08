@@ -53,7 +53,7 @@ class VisualControl():
         self.apply_total()
         for code in self.code_list:
             self.code2current_cnt[code] = 0
-            self.apply_listbox(code)
+            # self.apply_listbox(code)
         
         self.cam = self.get_cam()
         self.serial = self.get_serial(SERIAL_PORT)
