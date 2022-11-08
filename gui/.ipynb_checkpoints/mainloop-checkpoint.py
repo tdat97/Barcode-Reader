@@ -219,12 +219,18 @@ class VisualControl():
         self.current_list = [total, total-self.code2current_cnt[None], self.code2current_cnt[None]]
     
     def apply_total(self):
-        self.total_ffl1.configure(text=self.stack_list[0])
-        self.total_ffl2.configure(text=self.stack_list[1])
-        self.total_ffl3.configure(text=self.stack_list[2])
-        self.total_ffl4.configure(text=self.current_list[0])
-        self.total_ffl5.configure(text=self.current_list[1])
-        self.total_ffl6.configure(text=self.current_list[2])
+        # self.total_ffl1.configure(text=self.stack_list[0])
+        # self.total_ffl2.configure(text=self.stack_list[1])
+        # self.total_ffl3.configure(text=self.stack_list[2])
+        # self.total_ffl4.configure(text=self.current_list[0])
+        # self.total_ffl5.configure(text=self.current_list[1])
+        # self.total_ffl6.configure(text=self.current_list[2])
+        self.stack_cnt_all.configure(text=self.stack_list[0])
+        self.stack_cnt_ok.configure(text=self.stack_list[1])
+        self.stack_cnt_ng.configure(text=self.stack_list[2])
+        self.current_cnt_all.configure(text=self.current_list[0])
+        self.current_cnt_ok.configure(text=self.current_list[1])
+        self.current_cnt_ng.configure(text=self.current_list[2])
         
     def apply_listbox(self, code):
         assert code in self.code_list
@@ -261,7 +267,7 @@ class VisualControl():
             self.stack_list[2] += 1
             self.current_list[2] += 1
         self.apply_total()
-        self.apply_listbox(code)
+        # self.apply_listbox(code)
     
     def data_eater(self):
         while True:
@@ -272,14 +278,16 @@ class VisualControl():
             code = self.data_Q.get()
             self.update_data(code)
             if code:
-                self.ok_label.configure(text='OK', fg='#ff0', bg='#0cf', anchor='center')
+                self.ok_label.configure(text='OK', fg='#6f6')#, bg='#0cf', anchor='center')
                 name = self.code2name[code] if code in self.code2name else "No Name"
-                self.objinfo_ffl01.configure(text=name)
-                self.objinfo_ffl11.configure(text=code)
+                self.name_label.configure(text=name)
+                # self.objinfo_ffl01.configure(text=name)
+                # self.objinfo_ffl11.configure(text=code)
             else:
-                self.ok_label.configure(text='FAIL', fg='#ff0', bg='#f30', anchor='center')
-                self.objinfo_ffl01.configure(text="None")
-                self.objinfo_ffl11.configure(text="None")
+                self.ok_label.configure(text='NG', fg='#f00')#, bg='#f30', anchor='center')
+                self.name_label.configure(text="None")
+                # self.objinfo_ffl01.configure(text="None")
+                # self.objinfo_ffl11.configure(text="None")
     
     #######################################################################
     def go_directory(self, path):

@@ -1,0 +1,314 @@
+2022-11-08 10:57:55,349 - root - INFO - RUN GUI mode.
+2022-11-08 10:57:55,919 - root - INFO - DB connected.
+2022-11-08 10:57:56,337 - root - ERROR - There is no available device.
+2022-11-08 10:57:56,343 - root - INFO - Serial Opened.
+2022-11-08 11:02:09,931 - root - INFO - RUN GUI mode.
+2022-11-08 11:02:10,168 - root - INFO - DB connected.
+2022-11-08 11:02:10,445 - root - ERROR - There is no available device.
+2022-11-08 11:02:10,452 - root - INFO - Serial Opened.
+2022-11-08 11:10:09,801 - root - INFO - RUN GUI mode.
+2022-11-08 11:10:10,043 - root - INFO - DB connected.
+2022-11-08 11:10:10,328 - root - ERROR - There is no available device.
+2022-11-08 11:10:10,337 - root - INFO - Serial Opened.
+2022-11-08 11:12:17,900 - root - INFO - RUN GUI mode.
+2022-11-08 11:12:18,135 - root - INFO - DB connected.
+2022-11-08 11:12:18,413 - root - ERROR - There is no available device.
+2022-11-08 11:12:18,423 - root - INFO - Serial Opened.
+2022-11-08 11:12:33,431 - root - INFO - RUN GUI mode.
+2022-11-08 11:12:33,661 - root - INFO - DB connected.
+2022-11-08 11:12:33,949 - root - ERROR - There is no available device.
+2022-11-08 11:12:33,960 - root - INFO - Serial Opened.
+2022-11-08 11:12:44,044 - root - INFO - RUN GUI mode.
+2022-11-08 11:12:44,280 - root - INFO - DB connected.
+2022-11-08 11:12:44,558 - root - ERROR - There is no available device.
+2022-11-08 11:12:44,569 - root - INFO - Serial Opened.
+2022-11-08 11:12:53,926 - root - INFO - RUN GUI mode.
+2022-11-08 11:12:54,159 - root - INFO - DB connected.
+2022-11-08 11:12:54,435 - root - ERROR - There is no available device.
+2022-11-08 11:12:54,444 - root - INFO - Serial Opened.
+2022-11-08 11:15:30,275 - root - INFO - RUN GUI mode.
+2022-11-08 11:15:30,509 - root - INFO - DB connected.
+2022-11-08 11:15:30,797 - root - ERROR - There is no available device.
+2022-11-08 11:15:30,801 - root - INFO - Serial Opened.
+2022-11-08 11:19:29,297 - root - INFO - RUN GUI mode.
+2022-11-08 11:19:37,000 - root - INFO - RUN GUI mode.
+2022-11-08 11:19:46,042 - root - INFO - RUN GUI mode.
+2022-11-08 11:27:41,960 - root - INFO - RUN GUI mode.
+2022-11-08 11:27:42,202 - root - INFO - DB connected.
+2022-11-08 11:27:42,484 - root - ERROR - There is no available device.
+2022-11-08 11:27:42,494 - root - INFO - Serial Opened.
+2022-11-08 11:31:05,909 - root - INFO - RUN GUI mode.
+2022-11-08 11:31:16,504 - root - INFO - RUN GUI mode.
+2022-11-08 11:31:40,582 - root - INFO - RUN GUI mode.
+2022-11-08 11:31:40,830 - root - INFO - DB connected.
+2022-11-08 11:31:41,119 - root - ERROR - There is no available device.
+2022-11-08 11:31:41,130 - root - INFO - Serial Opened.
+2022-11-08 11:32:36,270 - root - INFO - RUN GUI mode.
+2022-11-08 11:32:36,521 - root - INFO - DB connected.
+2022-11-08 11:32:36,808 - root - ERROR - There is no available device.
+2022-11-08 11:32:36,819 - root - INFO - Serial Opened.
+2022-11-08 11:39:23,890 - root - INFO - RUN GUI mode.
+2022-11-08 11:39:24,135 - root - INFO - DB connected.
+2022-11-08 11:39:24,418 - root - ERROR - There is no available device.
+2022-11-08 11:39:24,430 - root - INFO - Serial Opened.
+2022-11-08 11:39:43,700 - root - INFO - RUN GUI mode.
+2022-11-08 11:39:43,938 - root - INFO - DB connected.
+2022-11-08 11:39:44,228 - root - ERROR - There is no available device.
+2022-11-08 11:39:44,232 - root - INFO - Serial Opened.
+2022-11-08 11:40:59,060 - root - INFO - RUN GUI mode.
+2022-11-08 11:40:59,309 - root - INFO - DB connected.
+2022-11-08 11:40:59,594 - root - ERROR - There is no available device.
+2022-11-08 11:40:59,598 - root - INFO - Serial Opened.
+2022-11-08 14:26:44,524 - root - INFO - RUN GUI mode.
+2022-11-08 14:26:44,864 - root - INFO - DB connected.
+2022-11-08 14:26:45,152 - root - ERROR - There is no available device.
+2022-11-08 14:26:45,164 - root - INFO - Serial Opened.
+2022-11-08 14:27:07,256 - root - INFO - RUN GUI mode.
+2022-11-08 14:27:07,497 - root - INFO - DB connected.
+2022-11-08 14:27:07,779 - root - ERROR - There is no available device.
+2022-11-08 14:27:07,788 - root - INFO - Serial Opened.
+2022-11-08 14:28:27,201 - root - INFO - RUN GUI mode.
+2022-11-08 14:28:27,441 - root - INFO - DB connected.
+2022-11-08 14:28:27,731 - root - ERROR - There is no available device.
+2022-11-08 14:28:27,739 - root - INFO - Serial Opened.
+2022-11-08 14:30:25,209 - root - INFO - RUN GUI mode.
+2022-11-08 14:30:25,453 - root - INFO - DB connected.
+2022-11-08 14:30:25,729 - root - ERROR - There is no available device.
+2022-11-08 14:30:25,736 - root - INFO - Serial Opened.
+2022-11-08 14:40:38,079 - root - INFO - RUN GUI mode.
+2022-11-08 14:40:38,322 - root - INFO - DB connected.
+2022-11-08 14:40:38,608 - root - ERROR - There is no available device.
+2022-11-08 14:40:38,622 - root - INFO - Serial Opened.
+2022-11-08 14:41:51,408 - root - INFO - RUN GUI mode.
+2022-11-08 14:41:51,659 - root - INFO - DB connected.
+2022-11-08 14:41:51,941 - root - ERROR - There is no available device.
+2022-11-08 14:41:51,954 - root - INFO - Serial Opened.
+2022-11-08 15:36:11,813 - root - INFO - RUN GUI mode.
+2022-11-08 15:36:12,143 - root - INFO - DB connected.
+2022-11-08 15:36:12,424 - root - ERROR - There is no available device.
+2022-11-08 15:36:12,435 - root - INFO - Serial Opened.
+2022-11-08 15:36:28,014 - root - INFO - RUN GUI mode.
+2022-11-08 15:36:28,256 - root - INFO - DB connected.
+2022-11-08 15:36:28,533 - root - ERROR - There is no available device.
+2022-11-08 15:36:28,536 - root - INFO - Serial Opened.
+2022-11-08 15:37:09,399 - root - INFO - RUN GUI mode.
+2022-11-08 15:37:09,658 - root - INFO - DB connected.
+2022-11-08 15:37:09,945 - root - ERROR - There is no available device.
+2022-11-08 15:37:09,950 - root - INFO - Serial Opened.
+2022-11-08 15:37:31,033 - root - INFO - RUN GUI mode.
+2022-11-08 15:37:31,278 - root - INFO - DB connected.
+2022-11-08 15:37:31,560 - root - ERROR - There is no available device.
+2022-11-08 15:37:31,566 - root - INFO - Serial Opened.
+2022-11-08 15:37:49,615 - root - INFO - RUN GUI mode.
+2022-11-08 15:37:49,856 - root - INFO - DB connected.
+2022-11-08 15:37:50,137 - root - ERROR - There is no available device.
+2022-11-08 15:37:50,150 - root - INFO - Serial Opened.
+2022-11-08 15:38:07,294 - root - INFO - RUN GUI mode.
+2022-11-08 15:38:07,533 - root - INFO - DB connected.
+2022-11-08 15:38:07,817 - root - ERROR - There is no available device.
+2022-11-08 15:38:07,821 - root - INFO - Serial Opened.
+2022-11-08 15:38:43,161 - root - INFO - RUN GUI mode.
+2022-11-08 15:38:43,397 - root - INFO - DB connected.
+2022-11-08 15:38:43,685 - root - ERROR - There is no available device.
+2022-11-08 15:38:43,694 - root - INFO - Serial Opened.
+2022-11-08 15:39:07,609 - root - INFO - RUN GUI mode.
+2022-11-08 15:39:07,847 - root - INFO - DB connected.
+2022-11-08 15:39:08,126 - root - ERROR - There is no available device.
+2022-11-08 15:39:08,130 - root - INFO - Serial Opened.
+2022-11-08 15:39:19,393 - root - INFO - RUN GUI mode.
+2022-11-08 15:39:19,634 - root - INFO - DB connected.
+2022-11-08 15:39:19,924 - root - ERROR - There is no available device.
+2022-11-08 15:39:19,929 - root - INFO - Serial Opened.
+2022-11-08 15:43:08,425 - root - INFO - RUN GUI mode.
+2022-11-08 15:43:08,665 - root - INFO - DB connected.
+2022-11-08 15:43:08,953 - root - ERROR - There is no available device.
+2022-11-08 15:43:08,960 - root - INFO - Serial Opened.
+2022-11-08 15:44:09,307 - root - INFO - RUN GUI mode.
+2022-11-08 15:44:09,551 - root - INFO - DB connected.
+2022-11-08 15:44:09,841 - root - ERROR - There is no available device.
+2022-11-08 15:44:09,845 - root - INFO - Serial Opened.
+2022-11-08 15:45:44,453 - root - INFO - RUN GUI mode.
+2022-11-08 15:45:44,692 - root - INFO - DB connected.
+2022-11-08 15:45:44,978 - root - ERROR - There is no available device.
+2022-11-08 15:45:44,991 - root - INFO - Serial Opened.
+2022-11-08 15:45:55,968 - root - INFO - RUN GUI mode.
+2022-11-08 15:45:56,205 - root - INFO - DB connected.
+2022-11-08 15:45:56,490 - root - ERROR - There is no available device.
+2022-11-08 15:45:56,502 - root - INFO - Serial Opened.
+2022-11-08 15:46:39,688 - root - INFO - RUN GUI mode.
+2022-11-08 15:46:39,930 - root - INFO - DB connected.
+2022-11-08 15:46:40,217 - root - ERROR - There is no available device.
+2022-11-08 15:46:40,230 - root - INFO - Serial Opened.
+2022-11-08 15:47:04,391 - root - INFO - RUN GUI mode.
+2022-11-08 15:47:04,635 - root - INFO - DB connected.
+2022-11-08 15:47:04,925 - root - ERROR - There is no available device.
+2022-11-08 15:47:04,936 - root - INFO - Serial Opened.
+2022-11-08 15:47:28,779 - root - INFO - RUN GUI mode.
+2022-11-08 15:47:29,017 - root - INFO - DB connected.
+2022-11-08 15:47:29,302 - root - ERROR - There is no available device.
+2022-11-08 15:47:29,315 - root - INFO - Serial Opened.
+2022-11-08 15:48:39,262 - root - INFO - RUN GUI mode.
+2022-11-08 15:48:39,500 - root - INFO - DB connected.
+2022-11-08 15:48:39,782 - root - ERROR - There is no available device.
+2022-11-08 15:48:39,794 - root - INFO - Serial Opened.
+2022-11-08 15:48:55,089 - root - INFO - RUN GUI mode.
+2022-11-08 15:48:55,340 - root - INFO - DB connected.
+2022-11-08 15:48:55,631 - root - ERROR - There is no available device.
+2022-11-08 15:48:55,636 - root - INFO - Serial Opened.
+2022-11-08 15:49:24,216 - root - INFO - RUN GUI mode.
+2022-11-08 15:49:24,459 - root - INFO - DB connected.
+2022-11-08 15:49:24,746 - root - ERROR - There is no available device.
+2022-11-08 15:49:24,758 - root - INFO - Serial Opened.
+2022-11-08 15:49:33,226 - root - INFO - RUN GUI mode.
+2022-11-08 15:49:33,469 - root - INFO - DB connected.
+2022-11-08 15:49:33,745 - root - ERROR - There is no available device.
+2022-11-08 15:49:33,750 - root - INFO - Serial Opened.
+2022-11-08 15:49:40,301 - root - INFO - RUN GUI mode.
+2022-11-08 15:49:40,545 - root - INFO - DB connected.
+2022-11-08 15:49:40,824 - root - ERROR - There is no available device.
+2022-11-08 15:49:40,834 - root - INFO - Serial Opened.
+2022-11-08 15:49:49,154 - root - INFO - RUN GUI mode.
+2022-11-08 15:49:49,400 - root - INFO - DB connected.
+2022-11-08 15:49:49,688 - root - ERROR - There is no available device.
+2022-11-08 15:49:49,694 - root - INFO - Serial Opened.
+2022-11-08 15:49:59,781 - root - INFO - RUN GUI mode.
+2022-11-08 15:50:00,021 - root - INFO - DB connected.
+2022-11-08 15:50:00,307 - root - ERROR - There is no available device.
+2022-11-08 15:50:00,312 - root - INFO - Serial Opened.
+2022-11-08 15:52:15,993 - root - INFO - RUN GUI mode.
+2022-11-08 15:52:16,238 - root - INFO - DB connected.
+2022-11-08 15:52:16,524 - root - ERROR - There is no available device.
+2022-11-08 15:52:16,528 - root - INFO - Serial Opened.
+2022-11-08 15:55:30,321 - root - INFO - RUN GUI mode.
+2022-11-08 15:55:30,559 - root - INFO - DB connected.
+2022-11-08 15:55:30,841 - root - ERROR - There is no available device.
+2022-11-08 15:55:30,846 - root - INFO - Serial Opened.
+2022-11-08 15:55:49,937 - root - INFO - RUN GUI mode.
+2022-11-08 15:55:50,172 - root - INFO - DB connected.
+2022-11-08 15:55:50,449 - root - ERROR - There is no available device.
+2022-11-08 15:55:50,454 - root - INFO - Serial Opened.
+2022-11-08 15:56:06,600 - root - INFO - RUN GUI mode.
+2022-11-08 15:56:06,834 - root - INFO - DB connected.
+2022-11-08 15:56:07,121 - root - ERROR - There is no available device.
+2022-11-08 15:56:07,131 - root - INFO - Serial Opened.
+2022-11-08 15:56:51,017 - root - INFO - RUN GUI mode.
+2022-11-08 15:56:51,256 - root - INFO - DB connected.
+2022-11-08 15:56:51,534 - root - ERROR - There is no available device.
+2022-11-08 15:56:51,538 - root - INFO - Serial Opened.
+2022-11-08 15:58:17,461 - root - INFO - RUN GUI mode.
+2022-11-08 15:58:17,701 - root - INFO - DB connected.
+2022-11-08 15:58:17,979 - root - ERROR - There is no available device.
+2022-11-08 15:58:17,991 - root - INFO - Serial Opened.
+2022-11-08 15:59:22,882 - root - INFO - RUN GUI mode.
+2022-11-08 15:59:23,123 - root - INFO - DB connected.
+2022-11-08 15:59:23,407 - root - ERROR - There is no available device.
+2022-11-08 15:59:23,421 - root - INFO - Serial Opened.
+2022-11-08 15:59:53,787 - root - INFO - RUN GUI mode.
+2022-11-08 15:59:54,028 - root - INFO - DB connected.
+2022-11-08 15:59:54,316 - root - ERROR - There is no available device.
+2022-11-08 15:59:54,320 - root - INFO - Serial Opened.
+2022-11-08 16:09:22,606 - root - INFO - RUN GUI mode.
+2022-11-08 16:09:22,787 - root - INFO - DB connected.
+2022-11-08 16:10:09,516 - root - INFO - RUN GUI mode.
+2022-11-08 16:10:45,536 - root - INFO - RUN GUI mode.
+2022-11-08 16:11:02,256 - root - INFO - RUN GUI mode.
+2022-11-08 16:14:10,633 - root - INFO - RUN GUI mode.
+2022-11-08 16:14:23,952 - root - INFO - RUN GUI mode.
+2022-11-08 16:15:19,656 - root - INFO - RUN GUI mode.
+2022-11-08 16:15:23,239 - root - INFO - Start button clicked.
+2022-11-08 16:15:23,951 - root - INFO - Start button clicked.
+2022-11-08 16:15:24,367 - root - INFO - Start button clicked.
+2022-11-08 16:15:24,495 - root - INFO - Start button clicked.
+2022-11-08 16:15:24,630 - root - INFO - Start button clicked.
+2022-11-08 16:15:25,327 - root - INFO - Start button clicked.
+2022-11-08 16:15:25,943 - root - INFO - Start button clicked.
+2022-11-08 16:15:26,775 - root - INFO - Start button clicked.
+2022-11-08 16:15:27,159 - root - INFO - Start button clicked.
+2022-11-08 16:15:27,831 - root - INFO - Start button clicked.
+2022-11-08 16:15:28,006 - root - INFO - Start button clicked.
+2022-11-08 16:15:28,143 - root - INFO - Start button clicked.
+2022-11-08 16:15:28,279 - root - INFO - Start button clicked.
+2022-11-08 16:15:34,175 - root - INFO - Start button clicked.
+2022-11-08 16:15:34,611 - root - INFO - Start button clicked.
+2022-11-08 16:15:35,023 - root - INFO - Start button clicked.
+2022-11-08 16:15:35,470 - root - INFO - Start button clicked.
+2022-11-08 16:15:35,951 - root - INFO - Start button clicked.
+2022-11-08 16:15:45,816 - root - INFO - RUN GUI mode.
+2022-11-08 16:16:00,016 - root - INFO - RUN GUI mode.
+2022-11-08 16:16:09,091 - root - INFO - RUN GUI mode.
+2022-11-08 16:16:35,662 - root - INFO - RUN GUI mode.
+2022-11-08 16:17:24,790 - root - INFO - RUN GUI mode.
+2022-11-08 16:21:11,950 - root - INFO - RUN GUI mode.
+2022-11-08 16:21:20,919 - root - INFO - RUN GUI mode.
+2022-11-08 16:21:30,726 - root - INFO - RUN GUI mode.
+2022-11-08 16:22:08,446 - root - INFO - RUN GUI mode.
+2022-11-08 16:26:42,961 - root - INFO - RUN GUI mode.
+2022-11-08 16:26:52,553 - root - INFO - RUN GUI mode.
+2022-11-08 16:28:32,813 - root - INFO - RUN GUI mode.
+2022-11-08 16:31:17,449 - root - INFO - RUN GUI mode.
+2022-11-08 16:32:06,319 - root - INFO - RUN GUI mode.
+2022-11-08 16:32:19,689 - root - INFO - RUN GUI mode.
+2022-11-08 16:32:34,663 - root - INFO - RUN GUI mode.
+2022-11-08 16:33:44,253 - root - INFO - RUN GUI mode.
+2022-11-08 16:34:15,294 - root - INFO - RUN GUI mode.
+2022-11-08 16:34:28,575 - root - INFO - RUN GUI mode.
+2022-11-08 16:34:38,971 - root - INFO - RUN GUI mode.
+2022-11-08 16:36:02,053 - root - INFO - RUN GUI mode.
+2022-11-08 16:36:21,646 - root - INFO - RUN GUI mode.
+2022-11-08 16:36:48,362 - root - INFO - RUN GUI mode.
+2022-11-08 16:37:03,875 - root - INFO - RUN GUI mode.
+2022-11-08 16:37:59,881 - root - INFO - RUN GUI mode.
+2022-11-08 16:40:30,614 - root - INFO - RUN GUI mode.
+2022-11-08 16:40:50,161 - root - INFO - RUN GUI mode.
+2022-11-08 16:41:58,167 - root - INFO - RUN GUI mode.
+2022-11-08 16:42:25,397 - root - INFO - RUN GUI mode.
+2022-11-08 16:44:10,873 - root - INFO - RUN GUI mode.
+2022-11-08 16:44:49,147 - root - INFO - RUN GUI mode.
+2022-11-08 16:45:00,096 - root - INFO - RUN GUI mode.
+2022-11-08 16:45:36,923 - root - INFO - RUN GUI mode.
+2022-11-08 16:45:48,825 - root - INFO - RUN GUI mode.
+2022-11-08 16:47:19,584 - root - INFO - RUN GUI mode.
+2022-11-08 16:54:52,430 - root - INFO - RUN GUI mode.
+2022-11-08 16:54:57,879 - root - INFO - RUN GUI mode.
+2022-11-08 16:56:58,759 - root - INFO - RUN GUI mode.
+2022-11-08 16:58:05,030 - root - INFO - RUN GUI mode.
+2022-11-08 16:58:27,954 - root - INFO - RUN GUI mode.
+2022-11-08 16:59:53,412 - root - INFO - RUN GUI mode.
+2022-11-08 17:00:11,460 - root - INFO - RUN GUI mode.
+2022-11-08 17:01:50,964 - root - INFO - RUN GUI mode.
+2022-11-08 17:02:24,231 - root - INFO - RUN GUI mode.
+2022-11-08 17:02:46,946 - root - INFO - RUN GUI mode.
+2022-11-08 17:03:06,486 - root - INFO - RUN GUI mode.
+2022-11-08 17:03:15,639 - root - INFO - RUN GUI mode.
+2022-11-08 17:03:50,696 - root - INFO - RUN GUI mode.
+2022-11-08 17:04:04,679 - root - INFO - RUN GUI mode.
+2022-11-08 17:04:29,017 - root - INFO - RUN GUI mode.
+2022-11-08 17:05:59,303 - root - INFO - RUN GUI mode.
+2022-11-08 17:07:15,573 - root - INFO - RUN GUI mode.
+2022-11-08 17:08:57,396 - root - INFO - RUN GUI mode.
+2022-11-08 17:11:05,337 - root - INFO - RUN GUI mode.
+2022-11-08 17:13:17,384 - root - INFO - RUN GUI mode.
+2022-11-08 17:13:32,812 - root - INFO - RUN GUI mode.
+2022-11-08 17:13:45,933 - root - INFO - RUN GUI mode.
+2022-11-08 17:14:11,101 - root - INFO - RUN GUI mode.
+2022-11-08 17:14:24,515 - root - INFO - RUN GUI mode.
+2022-11-08 17:14:47,560 - root - INFO - RUN GUI mode.
+2022-11-08 17:15:12,138 - root - INFO - RUN GUI mode.
+2022-11-08 17:15:55,216 - root - INFO - RUN GUI mode.
+2022-11-08 17:16:01,859 - root - INFO - RUN GUI mode.
+2022-11-08 17:16:25,876 - root - INFO - RUN GUI mode.
+2022-11-08 17:17:07,930 - root - INFO - RUN GUI mode.
+2022-11-08 17:20:24,726 - root - INFO - RUN GUI mode.
+2022-11-08 17:20:37,347 - root - INFO - RUN GUI mode.
+2022-11-08 17:21:16,844 - root - INFO - RUN GUI mode.
+2022-11-08 17:23:19,560 - root - INFO - RUN GUI mode.
+2022-11-08 17:23:53,506 - root - INFO - RUN GUI mode.
+2022-11-08 17:24:05,922 - root - INFO - RUN GUI mode.
+2022-11-08 17:25:19,584 - root - INFO - RUN GUI mode.
+2022-11-08 17:26:00,836 - root - INFO - RUN GUI mode.
+2022-11-08 17:26:13,667 - root - INFO - RUN GUI mode.
+2022-11-08 17:27:51,260 - root - INFO - RUN GUI mode.
+2022-11-08 17:28:06,092 - root - INFO - RUN GUI mode.
+2022-11-08 17:29:04,264 - root - INFO - RUN GUI mode.
+2022-11-08 17:29:35,975 - root - INFO - RUN GUI mode.
+2022-11-08 17:30:38,956 - root - INFO - RUN GUI mode.
