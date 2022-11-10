@@ -38,7 +38,7 @@ def sensor2shot(self):
             
     except Exception as e:
         logger.error(f"[sensor2shot]{e}")
-        self.msg_label.configure(text=e)
+        self.write_sys_msg(e)
         self.stop_signal = True
 
 def process(self):
@@ -90,5 +90,5 @@ def process(self):
         
     except Exception as e:
         logger.error(f"[process]{e}")
-        self.msg_label.configure(text=e)
+        self.write_sys_msg(e)
         self.stop_signal = True

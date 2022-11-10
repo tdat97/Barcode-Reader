@@ -17,10 +17,13 @@ def crop_obj_in_bg(bg_img, poly, w, h):
     obj_img = cv2.warpPerspective(bg_img, M, (w, h))
     return obj_img, M
 
-def get_time_str():
+def get_time_str(human_mode=False):
     now = datetime.datetime.now()
-    s = f"{now.year:04d}{now.month:02d}{now.day:02d}{now.hour:02d}{now.minute:02d}{now.second:02d}"
-    s += f"_{now.microsecond:06d}"
+    if human_mode:
+        s = f"{now.year:04d}-{now.month:02d}-{now.day:02d} {now.hour:02d}:{now.minute:02d}:{now.second:02d}"
+    else:
+        s = f"{now.year:04d}{now.month:02d}{now.day:02d}{now.hour:02d}{now.minute:02d}{now.second:02d}"
+        s += f"_{now.microsecond:06d}"
     return s
 
 def fix_ratio_resize_img(img, size, target='w'):

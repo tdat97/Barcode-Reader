@@ -1,0 +1,20 @@
+CREATE DATABASE myproduct2 default CHARACTER SET UTF8;
+
+drop table Image_stack, Product_list;
+
+CREATE TABLE Product_list(
+id INT NOT NULL AUTO_INCREMENT,
+code VARCHAR(50) NOT NULL,
+name VARCHAR(50) NOT NULL,
+PRIMARY KEY (id),
+UNIQUE (code)
+);
+
+CREATE TABLE Image_stack(
+id INT NOT NULL AUTO_INCREMENT,
+code VARCHAR(50) DEFAULT NULL,
+date TIMESTAMP,
+path VARCHAR(200) NOT NULL,
+PRIMARY KEY (id)
+);
+
