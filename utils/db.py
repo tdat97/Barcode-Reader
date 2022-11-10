@@ -1,5 +1,5 @@
 from utils.logger import logger
-from collections import defaultdict
+from collections import defaultdict, Counter
 import pymysql
 import json
 import time
@@ -17,27 +17,20 @@ def connect_db():
     return con, cur
 
 def load_db(self):
-    # init
-    sql = "UPDATE Summary_cnt SET current_total = 0;"
-    self.cursor.execute(sql)
-    sql = "UPDATE Summary_cnt SET current_total_ok = 0;"
-    self.cursor.execute(sql)
-    sql = "UPDATE Summary_cnt SET current_total_fail = 0;"
-    self.cursor.execute(sql)
-    sql = "UPDATE Product SET current_cnt = 0;"
-    self.cursor.execute(sql)
-    
-    sql = "SELECT code, name from Product;"
+    # 코드,이름 쌍 가져오기
+    sql = "SELECT code, name from Product_list;" # 둘 다 NOT NULL
     self.cursor.execute(sql)
     rows = self.cursor.fetchall()
     code2name = dict(rows)
     
-    sql = "SELECT code, stack_cnt from Product;"
+    # 오늘날짜들 가져오기
+    sql = "SELECT code from Image_stack WHERE date > curdate();"
     self.cursor.execute(sql)
     rows = self.cursor.fetchall()
-    code2stack_cnt = defaultdict(int, dict(rows))
+    rows = list(map(lambda x:x[0], rows))
+    code2cnt = defaultdict(int, Counter(rows))
 
-    return code2name, code2stack_cnt
+    return code2name, code2cnt
     
 
 def db_process(self):
@@ -49,44 +42,14 @@ def db_process(self):
 
             code, path = self.db_Q.get()
             path = os.path.realpath(path).replace('\\','/')
-
-            ###################################################### Summary_cnt         
-            cols = ["stack_total", "current_total", "stack_total_ok", "current_total_ok", ]
-            if code is None: cols[2:4] = ["stack_total_fail", "current_total_fail", ]
             
-            formulas = list(map(lambda x:f"{x}={x}+1", cols))
-            text = ', '.join(formulas)
-            # 1씩 더하기
-            sql = f"UPDATE Summary_cnt SET {text};"
-            self.cursor.execute(sql)
-            
-            ###################################################### Product
-            # 코드가 db에 없을 경우
-            if code is not None:
-                sql = f"SELECT * from Product WHERE code='{code}';"
-                self.cursor.execute(sql)
-                rows = self.cursor.fetchall()
-                if not rows:
-                    sql = f"INSERT INTO Product(code) VALUES ('{code}');"
-                    self.cursor.execute(sql)
-
-            # 1씩 더하기
-            sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where code='{code}';"
-            if code is None:
-                sql = f"UPDATE Product SET stack_cnt=stack_cnt+1, current_cnt=current_cnt+1 where name='Not_Found';"
-            self.cursor.execute(sql)
-            
-            ###################################################### Image_stack
-            sql = f"INSERT INTO Image_stack(pcode, path) VALUES ('{code}', '{path}')"
+            # Image_stack에 이미지 경로 추가
+            sql = f"INSERT INTO Image_stack(code, path) VALUES ('{code}', '{path}')"
             if code is None:
                 sql = f"INSERT INTO Image_stack(path) VALUES ('{path}')"
             self.cursor.execute(sql)
-            
-                
-                
+
     except Exception as e:
         logger.error(f"[db_process] {e}")
-        self.msg_label.configure(text=e)
+        self.write_sys_msg(e)
         self.stop_signal = True
-            
-            

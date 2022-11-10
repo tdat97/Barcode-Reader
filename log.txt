@@ -316,3 +316,73 @@
 2022-11-08 17:40:29,686 - root - INFO - DB connected.
 2022-11-08 17:40:29,968 - root - ERROR - There is no available device.
 2022-11-08 17:40:29,972 - root - INFO - Serial Opened.
+2022-11-10 09:56:04,098 - root - INFO - RUN GUI mode.
+2022-11-10 09:56:32,812 - root - INFO - RUN GUI mode.
+2022-11-10 10:02:26,043 - root - INFO - RUN GUI mode.
+2022-11-10 10:05:46,710 - root - INFO - RUN GUI mode.
+2022-11-10 10:06:08,332 - root - INFO - RUN GUI mode.
+2022-11-10 10:06:27,212 - root - INFO - RUN GUI mode.
+2022-11-10 10:06:42,913 - root - INFO - RUN GUI mode.
+2022-11-10 10:08:26,196 - root - INFO - RUN GUI mode.
+2022-11-10 10:09:05,872 - root - INFO - RUN GUI mode.
+2022-11-10 10:09:17,782 - root - INFO - RUN GUI mode.
+2022-11-10 10:10:12,726 - root - INFO - RUN GUI mode.
+2022-11-10 10:11:37,775 - root - INFO - RUN GUI mode.
+2022-11-10 10:12:05,191 - root - INFO - RUN GUI mode.
+2022-11-10 10:14:10,303 - root - INFO - RUN GUI mode.
+2022-11-10 10:17:42,518 - root - INFO - RUN GUI mode.
+2022-11-10 10:17:52,547 - root - INFO - RUN GUI mode.
+2022-11-10 10:18:57,787 - root - INFO - RUN GUI mode.
+2022-11-10 10:19:06,019 - root - INFO - RUN GUI mode.
+2022-11-10 10:19:14,273 - root - INFO - RUN GUI mode.
+2022-11-10 10:19:22,528 - root - INFO - RUN GUI mode.
+2022-11-10 10:25:10,113 - root - INFO - RUN GUI mode.
+2022-11-10 10:25:21,184 - root - INFO - RUN GUI mode.
+2022-11-10 10:25:40,139 - root - INFO - RUN GUI mode.
+2022-11-10 10:26:23,706 - root - INFO - RUN GUI mode.
+2022-11-10 10:26:45,472 - root - INFO - RUN GUI mode.
+2022-11-10 10:27:32,834 - root - INFO - RUN GUI mode.
+2022-11-10 10:28:32,895 - root - INFO - RUN GUI mode.
+2022-11-10 10:50:16,186 - root - INFO - RUN GUI mode.
+2022-11-10 10:51:21,277 - root - INFO - RUN GUI mode.
+2022-11-10 10:51:39,389 - root - INFO - RUN GUI mode.
+2022-11-10 10:52:06,084 - root - INFO - RUN GUI mode.
+2022-11-10 17:11:05,090 - root - INFO - RUN GUI mode.
+2022-11-10 17:11:05,473 - root - INFO - Loaded DB.
+2022-11-10 17:11:05,782 - root - ERROR - There is no available device.
+2022-11-10 17:12:15,905 - root - INFO - RUN GUI mode.
+2022-11-10 17:12:16,142 - root - INFO - Loaded DB.
+2022-11-10 17:12:16,425 - root - ERROR - There is no available device.
+2022-11-10 17:12:16,435 - root - INFO - Serial Opened.
+2022-11-10 17:14:36,701 - root - INFO - RUN GUI mode.
+2022-11-10 17:14:36,922 - root - INFO - Loaded DB.
+2022-11-10 17:14:37,204 - root - ERROR - There is no available device.
+2022-11-10 17:14:37,214 - root - INFO - Serial Opened.
+2022-11-10 17:15:06,152 - root - INFO - RUN GUI mode.
+2022-11-10 17:15:06,372 - root - INFO - Loaded DB.
+2022-11-10 17:15:06,658 - root - ERROR - There is no available device.
+2022-11-10 17:15:06,668 - root - INFO - Serial Opened.
+2022-11-10 17:15:15,515 - root - INFO - RUN GUI mode.
+2022-11-10 17:15:15,738 - root - INFO - Loaded DB.
+2022-11-10 17:15:16,013 - root - ERROR - There is no available device.
+2022-11-10 17:15:16,020 - root - INFO - Serial Opened.
+2022-11-10 17:15:53,343 - root - INFO - RUN GUI mode.
+2022-11-10 17:16:07,175 - root - INFO - RUN GUI mode.
+2022-11-10 17:16:16,644 - root - INFO - RUN GUI mode.
+2022-11-10 17:16:16,872 - root - INFO - Loaded DB.
+2022-11-10 17:16:17,152 - root - ERROR - There is no available device.
+2022-11-10 17:16:17,163 - root - INFO - Serial Opened.
+2022-11-10 17:17:00,396 - root - INFO - RUN GUI mode.
+2022-11-10 17:17:00,614 - root - INFO - Loaded DB.
+2022-11-10 17:17:00,894 - root - ERROR - There is no available device.
+2022-11-10 17:17:00,898 - root - INFO - Serial Opened.
+2022-11-10 17:18:00,280 - root - INFO - RUN GUI mode.
+2022-11-10 17:18:11,647 - root - INFO - RUN GUI mode.
+2022-11-10 17:18:21,524 - root - INFO - RUN GUI mode.
+2022-11-10 17:18:21,742 - root - INFO - Loaded DB.
+2022-11-10 17:18:22,024 - root - ERROR - There is no available device.
+2022-11-10 17:18:22,028 - root - INFO - Serial Opened.
+2022-11-10 17:19:27,378 - root - INFO - RUN GUI mode.
+2022-11-10 17:19:27,600 - root - INFO - Loaded DB.
+2022-11-10 17:19:27,880 - root - ERROR - There is no available device.
+2022-11-10 17:19:27,891 - root - INFO - Serial Opened.
