@@ -40,8 +40,7 @@ class VisualControl():
         self.sys_msg_list = []
         self.write_sys_msg("안녕하세요.")
         
-        
-        # 쓰레드 통신용
+                # 쓰레드 통신용
         self.stop_signal = True
         self.raw_Q = Queue()
         self.image_Q = Queue()
@@ -52,6 +51,10 @@ class VisualControl():
         self.connection, self.cursor = db.connect_db()
         self.code2name, self.code2cnt = db.load_db(self) # (dict, defaultdict) # 카운트는 오늘 날짜만 가져와서 카운트
         logger.info("Loaded DB.")
+        
+        # 초기정보 적용
+        self.update_gui(None, init=True)
+        self.single_cnt.configure(text='')
         
         # 카메라, 보드 연결
         self.cam = self.get_cam()
@@ -193,7 +196,7 @@ class VisualControl():
             self.image_label.image = imgtk
     
     #######################################################################
-    def update_gui(self, code):
+    def update_gui(self, code, init=False):
         # day_cnt gui
         day_cnt_all = sum(self.code2cnt.values())
         day_cnt_ng = self.code2cnt[None]
@@ -201,6 +204,7 @@ class VisualControl():
         self.day_cnt_all.configure(text=day_cnt_all)
         self.day_cnt_ok.configure(text=day_cnt_ok)
         self.day_cnt_ng.configure(text=day_cnt_ng)
+        if init: return
         
         # single_cnt
         if code is None: name = "인식실패"
