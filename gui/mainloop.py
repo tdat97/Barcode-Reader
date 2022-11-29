@@ -252,7 +252,7 @@ class VisualControl():
             for _ in range(100):
                 if my_serial.read(1) != b'': break
             else:
-                raise "Serial is unresponsive."
+                raise Exception("Serial is unresponsive.")
             logger.info("Serial Opened.")
             return my_serial
         except Exception as e:
