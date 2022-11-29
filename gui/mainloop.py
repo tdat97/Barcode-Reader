@@ -248,8 +248,10 @@ class VisualControl():
         try:
             my_serial = serial.Serial(port, 9600, timeout=0, bytesize=serial.EIGHTBITS, 
                                       stopbits=serial.STOPBITS_ONE, parity=serial.PARITY_ODD)
+            
+            time.sleep(1.2)
             my_serial.write(b'r')
-            time.sleep(0.1)
+            time.sleep(0.05)
             if my_serial.read(1) == b'': 
                 raise Exception("Serial is unresponsive.")
             logger.info("Serial Opened.")
