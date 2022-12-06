@@ -46,6 +46,7 @@ def process(self):
         while True:
             time.sleep(0.01)
             if self.stop_signal: break
+            start_time = time.time()
             
             # get image
             if self.raw_Q.empty(): continue
@@ -83,6 +84,7 @@ def process(self):
                 if not os.path.isdir(path): os.mkdir(path)
                 path = os.path.join(path, f"{time_str}.jpg")
                 cv2.imwrite(path, img)
+                logger.info(f"Processing Time : {time.time()-start_time:.4f}")
             
             self.image_Q.put(img)
             self.data_Q.put(data) #########

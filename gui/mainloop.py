@@ -29,6 +29,7 @@ class VisualControl():
         self.root.state("zoomed")
         self.root.geometry(f"{self.screenwidth//3*2}x{self.screenheight//3*2}")
         self.root.minsize(self.screenwidth//3*2, self.screenheight//3*2)
+        self.fsize_factor = np.linalg.norm((self.screenheight, self.screenwidth)) / np.linalg.norm((1080,1920))
         
         # 디자인
         configure(self)
@@ -40,7 +41,7 @@ class VisualControl():
         self.sys_msg_list = []
         self.write_sys_msg("안녕하세요.")
         
-                # 쓰레드 통신용
+        # 쓰레드 통신용
         self.stop_signal = True
         self.raw_Q = Queue()
         self.image_Q = Queue()

@@ -386,3 +386,7 @@
 2022-11-10 17:19:27,600 - root - INFO - Loaded DB.
 2022-11-10 17:19:27,880 - root - ERROR - There is no available device.
 2022-11-10 17:19:27,891 - root - INFO - Serial Opened.
+2022-12-06 15:48:52,740 - root - INFO - RUN GUI mode.
+2022-12-06 15:48:53,188 - root - INFO - Loaded DB.
+2022-12-06 15:48:53,469 - root - ERROR - There is no available device.
+2022-12-06 15:48:54,740 - root - ERROR - Serial is unresponsive.
